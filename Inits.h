@@ -22,6 +22,8 @@ SDL_Surface *screen;
 int    done;
 SDL_Event event;
 
+
+
 //void initSDLWindow(int screenWidth, int screenHeight) : Init SDL Windows
 void initSDLWindow(int screenWidth, int screenHeight) {
 	/* Initialize the SDL library */
@@ -66,8 +68,8 @@ void initSDLEvents() {
 	
 }
 
-//void initSDLEvents() : Init SDL Quit
-void initSDLQuit() {
+//void initSDLCleanUp() : Init SDL Quit
+void initSDLCleanUp() {
 	SDL_Quit();
 }
 

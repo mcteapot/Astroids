@@ -11,6 +11,9 @@
 		002F3A0009D0884600EBEB88 /* SDL.framework in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = 002F39F909D0881F00EBEB88 /* SDL.framework */; };
 		002F3A2E09D0888800EBEB88 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 002F3A2C09D0888800EBEB88 /* SDLMain.m */; };
 		002F3A3F09D088BA00EBEB88 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */; };
+		47B364A9139201140017BA71 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B364A8139201140017BA71 /* SDL_image.framework */; };
+		47B364AD139201300017BA71 /* SDL_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B364AC139201300017BA71 /* SDL_ttf.framework */; };
+		47B364DE139214150017BA71 /* Loaders.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47B364DD139214150017BA71 /* Loaders.cpp */; };
 		47DE08101391DF0C004C4E26 /* Inits.c in Sources */ = {isa = PBXBuildFile; fileRef = 47DE080F1391DF0C004C4E26 /* Inits.c */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -40,6 +43,10 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* Astroids_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Astroids_Prefix.pch; sourceTree = "<group>"; };
+		47B364A8139201140017BA71 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = /Library/Frameworks/SDL_image.framework; sourceTree = "<absolute>"; };
+		47B364AC139201300017BA71 /* SDL_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_ttf.framework; path = /Library/Frameworks/SDL_ttf.framework; sourceTree = "<absolute>"; };
+		47B364DC139214150017BA71 /* Loaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loaders.h; sourceTree = "<group>"; };
+		47B364DD139214150017BA71 /* Loaders.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Loaders.cpp; sourceTree = "<group>"; };
 		47DE080E1391DF0C004C4E26 /* Inits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inits.h; sourceTree = "<group>"; };
 		47DE080F1391DF0C004C4E26 /* Inits.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Inits.c; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +60,8 @@
 			files = (
 				002F39FA09D0881F00EBEB88 /* SDL.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				47B364A9139201140017BA71 /* SDL_image.framework in Frameworks */,
+				47B364AD139201300017BA71 /* SDL_ttf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +81,8 @@
 			children = (
 				002F39F909D0881F00EBEB88 /* SDL.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				47B364A8139201140017BA71 /* SDL_image.framework */,
+				47B364AC139201300017BA71 /* SDL_ttf.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -112,6 +123,8 @@
 				002F3A3E09D088BA00EBEB88 /* main.cpp */,
 				47DE080E1391DF0C004C4E26 /* Inits.h */,
 				47DE080F1391DF0C004C4E26 /* Inits.c */,
+				47B364DC139214150017BA71 /* Loaders.h */,
+				47B364DD139214150017BA71 /* Loaders.cpp */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -208,6 +221,7 @@
 				002F3A2E09D0888800EBEB88 /* SDLMain.m in Sources */,
 				002F3A3F09D088BA00EBEB88 /* main.cpp in Sources */,
 				47DE08101391DF0C004C4E26 /* Inits.c in Sources */,
+				47B364DE139214150017BA71 /* Loaders.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,12 +243,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Astroids_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/SDL.framework/Headers,
+					"$(HEADER_SEARCH_PATHS)",
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = Astroids;
@@ -276,7 +298,7 @@
 					"$(HEADER_SEARCH_PATHS)",
 				);
 				PREBINDING = NO;
-				SDKROOT = macosx10.4;
+				SDKROOT = macosx;
 				"SDKROOT[arch=x86_64]" = macosx10.6;
 			};
 			name = Debug;

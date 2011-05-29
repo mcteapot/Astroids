@@ -10,7 +10,8 @@
 #include <math.h>
 
 #include "SDL/SDL.h"
-#include "inits.h"
+#include "Inits.h"
+#include "Loaders.h"
 
 //MAIN//
 int main(int argc, char *argv[])
@@ -25,7 +26,7 @@ int main(int argc, char *argv[])
 	}
 	
 	//Init SDL Quit
-	initSDLQuit();
+	initSDLCleanUp();
 	return(0);
 }
 //MAIN END//
