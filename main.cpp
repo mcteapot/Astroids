@@ -1,9 +1,11 @@
+/*
+ *  Astroids
+ *
+ *  Created by arjun prakash on 5/28/11.
+ *  Copyright 2011 bellmonde. All rights reserved.
+ *
+ */
 
-/* Simple program:  Create a blank window, wait for keypress, quit.
-
-   Please see the SDL documentation for details on using the SDL API:
-   /Developer/Documentation/SDL/docs.html
-*/
 //IMPORTS   
 #include <iostream>
 #include <string>
@@ -11,16 +13,17 @@
 
 #include "SDL/SDL.h"
 #include "Inits.h"
-#include "Loaders.h"
+
 
 //MAIN//
 int main(int argc, char *argv[])
 {
 	//Init SDL Window
-	initSDLWindow(500, 375);
-	
+	initSDLWindow(500, 375, 32);
+	//Load Files
+	//loadFiles();
 	//MAIN GAME LOOP
-	while ( !done ) {
+	while ( run ) {
 		//Init SDL events
 		initSDLEvents();
 	}

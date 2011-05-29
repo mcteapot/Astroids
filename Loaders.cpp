@@ -56,3 +56,5 @@ void applySurface( int x, int y, SDL_Surface* source, SDL_Surface* destination, 
     //Blit
     SDL_BlitSurface( source, clip, destination, &offset );
 }
+
+

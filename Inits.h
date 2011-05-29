@@ -16,16 +16,29 @@
 #include <math.h>
 
 #include "SDL/SDL.h"
+#include "SDL_image/SDL_image.h"
+#include "SDL_ttf/SDL_ttf.h"
 
 //Data
 SDL_Surface *screen;
-int    done;
+int    run;
 SDL_Event event;
+//Data Fonts
+TTF_Font *font;
+//Data Images
+SDL_Surface *background;
+SDL_Surface *message;
 
 
+void loadFiles() {
+    //Load images
+    //background = load_image( "Astroids.app/Contents/Resources/background.png" );
+    //Load font
+    font = TTF_OpenFont( "Astroids.app/Contents/Resources/Arial.ttf", 50 );
+}
 
 //void initSDLWindow(int screenWidth, int screenHeight) : Init SDL Windows
-void initSDLWindow(int screenWidth, int screenHeight) {
+void initSDLWindow(int SCREENWIDTH, int SCREENHIGHT, int SCREENBPP) {
 	/* Initialize the SDL library */
 	if ( SDL_Init(SDL_INIT_VIDEO) < 0 ) {
 		fprintf(stderr, "Couldn't initialize SDL: %s\n",
@@ -34,16 +47,22 @@ void initSDLWindow(int screenWidth, int screenHeight) {
 	}
 	
 	//Set 640x480 video mode 
-	screen=SDL_SetVideoMode(screenWidth , screenHeight, 0, SDL_SWSURFACE);
+	screen=SDL_SetVideoMode(SCREENWIDTH , SCREENHIGHT, SCREENBPP, SDL_SWSURFACE);
 	if (screen == NULL) {
 		fprintf(stderr, "Couldn't set %ix%ix%d video mode: %s\n",
-				screenWidth , screenHeight, 0, SDL_GetError());
+				SCREENWIDTH , SCREENHIGHT, SCREENBPP, SDL_GetError());
 		SDL_Quit();
 		exit(2);
 	}
 	
+	//Initialize SDL_ttf
+    if( TTF_Init() == -1 )
+    {
+        exit(3);
+    }
+	//Set Appliction Name
 	SDL_WM_SetCaption( "Astroids", NULL );
-	done = 0;
+	run = 1;
 }
 
 //void initSDLEvents() : Init SDL Events
@@ -59,7 +78,7 @@ void initSDLEvents() {
 			case SDL_KEYDOWN:
 				/* Any keypress quits the app... */
 			case SDL_QUIT:
-				done = 1;
+				run = 0;
 				break;
 			default:
 				break;
@@ -70,7 +89,15 @@ void initSDLEvents() {
 
 //void initSDLCleanUp() : Init SDL Quit
 void initSDLCleanUp() {
-	SDL_Quit();
+	
+	//Close the font
+    TTF_CloseFont( font );
+	
+    //Quit SDL_ttf
+    TTF_Quit();
+	
+    //Quit SDL
+    SDL_Quit();
 }
 
 #endif //INIT_H
