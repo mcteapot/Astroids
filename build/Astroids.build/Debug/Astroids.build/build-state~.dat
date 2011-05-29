@@ -1,0 +1,91 @@
+TAstroids
+v7
+r1
+cCheck dependencies
+
+N/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers/SDL.h
+c0000000047B0D8150000000000000C3D
+t1202771989
+s3133
+
+N/Library/Frameworks/SDL.framework
+c000000004DD240C200000000000000EE
+t1305624770
+s238
+
+N/Users/arjunprakash/Working/Development/CS8/Astroids/Astroids_Prefix.pch
+c000000004DE1A04E00000000000000AF
+t1306632270
+s175
+i"SDL.h"
+i<Cocoa/Cocoa.h>
+
+N/Users/arjunprakash/Working/Development/CS8/Astroids/English.lproj/InfoPlist.strings
+c000000004DE1A04E0000000000000202
+t1306632270
+s514
+
+N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app
+t2
+s0
+
+N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app/Contents/Frameworks/SDL.framework
+t2
+s0
+
+N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app/Contents/Info.plist
+t2
+s0
+
+N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app/Contents/Resources/English.lproj/InfoPlist.strings
+t2
+s0
+
+N/var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-bozhnsyjaigsheagqevabdejlguk/Astroids_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-gqjpzrcoagndoggztdnnchwgxnyx/Astroids_Prefix.pch.gch
+t2
+s0
+
+NInfo.plist
+c000000004DE1A04E000000000000040B
+t1306632270
+s1035
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies328325079#328325079#0(65"[BEROR]error: There is no SDK with the name or path 'macosx10.4'1(4@57"error: There is no SDK with the name or path 'macosx10.4'328325079#18446744073709551615#0#0(1@0"0(0#1#0"7382074289954583552#0"0#
+
+CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/SDLMain.o /Users/arjunprakash/Working/Development/CS8/Astroids/SDLMain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/main.o /Users/arjunprakash/Working/Development/CS8/Astroids/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCopyStringsFile /Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CLd /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroids normal x86_64
+r0
+
+CPBXCp build/Debug/Astroids.app/Contents/Frameworks/SDL.framework /Library/Frameworks/SDL.framework
+r0
+
+CProcessInfoPlistFile /Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app/Contents/Info.plist Info.plist
+r0
+
+CProcessPCH /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-bozhnsyjaigsheagqevabdejlguk/Astroids_Prefix.pch.gch Astroids_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-gqjpzrcoagndoggztdnnchwgxnyx/Astroids_Prefix.pch.gch Astroids_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app
+r0
+
