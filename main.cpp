@@ -1,6 +1,13 @@
 
+/*
+ *  Astroids
+ *
+ *  Created by arjun prakash on 5/30/11.
+ *  Copyright 2011 bellmonde. All rights reserved.
+ *
+ */
 
-//The headers
+//Headers
 #include <string>
 
 #include "SDL/SDL.h"
@@ -16,7 +23,7 @@ const int SCREENWIDTH = 640;
 const int SCREENHEIGHT = 480;
 const int SCREENBPP = 32;
 
-//The frames per second
+//Frames per second
 const int FRAMESPERSECOND = 30;
 
 //MAIN//
