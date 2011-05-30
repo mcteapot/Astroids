@@ -2,7 +2,7 @@
  *  Timer.h
  *  Astroids
  *
- *  Created by arjun prakash on 5/28/11.
+ *  Created by arjun prakash on 5/30/11.
  *  Copyright 2011 bellmonde. All rights reserved.
  *
  */
@@ -10,10 +10,10 @@
 #ifndef TIMER_H
 #define TIMER_H
 
-#include <string>
-#include <math.h>
-
+//The headers
 #include "SDL/SDL.h"
+#include "SDL_image/SDL_image.h"
+#include "SDL_ttf/SDL_ttf.h"
 
 class Timer {
 private:
@@ -38,11 +38,15 @@ public:
     void unpause();
 	
     //Gets the timer's time
-    int getTicks();
+	int getTicks();
 	
     //Checks the status of the timer
-    bool isStarted();
+	bool isStarted();
     bool isPaused();
 };
+
+
+void setTimer( Timer &fps,int FRAMES_PER_SECOND, int &frame, bool cap );
+
 
 #endif //TIMER_H

@@ -1,5 +1,5 @@
 /*
- *  Inits.c
+ *  Loader.c
  *  Astroids
  *
  *  Created by arjun prakash on 5/30/11.
@@ -7,5 +7,5 @@
  *
  */
 
-#include "Inits.h"
+#include "Loader.h"
 

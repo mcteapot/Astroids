@@ -2,14 +2,13 @@
  *  Timer.cpp
  *  Astroids
  *
- *  Created by arjun prakash on 5/28/11.
+ *  Created by arjun prakash on 5/30/11.
  *  Copyright 2011 bellmonde. All rights reserved.
  *
  */
 
 #include "Timer.h"
 
-//INITS
 Timer::Timer()
 {
     //Initialize the variables
@@ -19,7 +18,6 @@ Timer::Timer()
     started = false;
 }
 
-//void start() :
 void Timer::start()
 {
     //Start the timer
@@ -32,7 +30,6 @@ void Timer::start()
     startTicks = SDL_GetTicks();
 }
 
-//void stop() :
 void Timer::stop()
 {
     //Stop the timer
@@ -42,7 +39,6 @@ void Timer::stop()
     paused = false;
 }
 
-//void pause() :
 void Timer::pause()
 {
     //If the timer is running and isn't already paused
@@ -56,7 +52,6 @@ void Timer::pause()
     }
 }
 
-//void unpause() :
 void Timer::unpause()
 {
     //If the timer is paused
@@ -73,7 +68,6 @@ void Timer::unpause()
     }
 }
 
-//void getTicks() :
 int Timer::getTicks()
 {
     //If the timer is running
@@ -96,15 +90,25 @@ int Timer::getTicks()
     return 0;
 }
 
-//bool isStarted() :
 bool Timer::isStarted()
 {
     return started;
 }
 
-//bool isPaused() :
 bool Timer::isPaused()
 {
     return paused;
 }
 
+void setTimer( Timer &fps,int FRAMES_PER_SECOND, int &frame, bool cap ) {
+	//Increment the frame counter
+	frame++;
+	
+	//If we want to cap the frame rate
+	if( ( cap == true ) && ( fps.getTicks() < 1000 / FRAMES_PER_SECOND ) )
+	{
+		//Sleep the remaining frame time
+		SDL_Delay( ( 1000 / FRAMES_PER_SECOND ) - fps.getTicks() );
+	}
+	
+}

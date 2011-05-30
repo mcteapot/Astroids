@@ -19,26 +19,18 @@
 #include "SDL_image/SDL_image.h"
 #include "SDL_ttf/SDL_ttf.h"
 
-//Data
-SDL_Surface *screen;
-int    run;
+//SDL event
 SDL_Event event;
-//Data Fonts
-TTF_Font *font;
-//Data Images
-SDL_Surface *background;
-SDL_Surface *message;
 
+//SDL Surface
+SDL_Surface *screen;
 
-void loadFiles() {
-    //Load images
-    //background = load_image( "Astroids.app/Contents/Resources/background.png" );
-    //Load font
-    font = TTF_OpenFont( "Astroids.app/Contents/Resources/Arial.ttf", 50 );
-}
+//Data
+int run;
+int frame;
 
 //void initSDLWindow(int screenWidth, int screenHeight) : Init SDL Windows
-void initSDLWindow(int SCREENWIDTH, int SCREENHIGHT, int SCREENBPP) {
+void initSDLWindow( int SCREENWIDTH, int SCREENHIGHT, int SCREENBPP ) {
 	/* Initialize the SDL library */
 	if ( SDL_Init(SDL_INIT_VIDEO) < 0 ) {
 		fprintf(stderr, "Couldn't initialize SDL: %s\n",
@@ -47,10 +39,9 @@ void initSDLWindow(int SCREENWIDTH, int SCREENHIGHT, int SCREENBPP) {
 	}
 	
 	//Set 640x480 video mode 
-	screen=SDL_SetVideoMode(SCREENWIDTH , SCREENHIGHT, SCREENBPP, SDL_SWSURFACE);
+	screen=SDL_SetVideoMode( SCREENWIDTH , SCREENHIGHT, SCREENBPP, SDL_SWSURFACE );
 	if (screen == NULL) {
-		fprintf(stderr, "Couldn't set %ix%ix%d video mode: %s\n",
-				SCREENWIDTH , SCREENHIGHT, SCREENBPP, SDL_GetError());
+		fprintf( stderr, "Couldn't set %ix%ix%d video mode: %s\n", SCREENWIDTH , SCREENHIGHT, SCREENBPP, SDL_GetError() );
 		SDL_Quit();
 		exit(2);
 	}
@@ -62,7 +53,9 @@ void initSDLWindow(int SCREENWIDTH, int SCREENHIGHT, int SCREENBPP) {
     }
 	//Set Appliction Name
 	SDL_WM_SetCaption( "Astroids", NULL );
+	//Data Inits
 	run = 1;
+	frame = 0;
 }
 
 //void initSDLEvents() : Init SDL Events
@@ -87,17 +80,53 @@ void initSDLEvents() {
 	
 }
 
-//void initSDLCleanUp() : Init SDL Quit
-void initSDLCleanUp() {
+//SDL_Surface *loadImage( char *filename ) : Load image
+SDL_Surface *loadImage( char *filename,  int alpha ) {
+    //The image that's loaded
+    SDL_Surface* loadedImage = NULL;
 	
-	//Close the font
-    TTF_CloseFont( font );
+    //The optimized surface that will be used
+    SDL_Surface* optimizedImage = NULL;
 	
-    //Quit SDL_ttf
-    TTF_Quit();
+    //Load the image
+    loadedImage = IMG_Load( filename );
 	
-    //Quit SDL
-    SDL_Quit();
+    //If the image loaded
+    if( loadedImage != NULL ) {
+		
+        //Create an optimized surface
+		if (alpha = 0) {
+			optimizedImage = SDL_DisplayFormat( loadedImage );
+		}
+		if (alpha = 1) {
+			optimizedImage = SDL_DisplayFormatAlpha(loadedImage);
+		}
+        //Free the old surface
+        SDL_FreeSurface( loadedImage );
+		
+        //If the surface was optimized
+        if( optimizedImage != NULL ) {
+            //Color key surface
+            SDL_SetColorKey( optimizedImage, SDL_SRCCOLORKEY, SDL_MapRGB( optimizedImage->format, 0, 0xFF, 0xFF ) );
+        }
+    }
+	
+    //Return the optimized surface
+    return optimizedImage;
 }
+
+//void applySurface( int x, int y, SDL_Surface* source, SDL_Surface* destination, SDL_Rect* clip ) : apply surface
+void applySurface( int x, int y, SDL_Surface* source, SDL_Surface* destination, SDL_Rect* clip ) {
+    //Holds offsets
+    SDL_Rect offset;
+	
+    //Get offsets
+    offset.x = x;
+    offset.y = y;
+	
+    //Blit
+    SDL_BlitSurface( source, clip, destination, &offset );
+}
+
 
 #endif //INIT_H
