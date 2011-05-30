@@ -7,18 +7,17 @@
 #include "SDL_image/SDL_image.h"
 #include "SDL_ttf/SDL_ttf.h"
 
-
 #include "Timer.h"
 #include "Inits.h"
 #include "Loader.h"
 
 //Screen attributes
-const int SCREEN_WIDTH = 640;
-const int SCREEN_HEIGHT = 480;
-const int SCREEN_BPP = 32;
+const int SCREENWIDTH = 640;
+const int SCREENHEIGHT = 480;
+const int SCREENBPP = 32;
 
 //The frames per second
-const int FRAMES_PER_SECOND = 20;
+const int FRAMESPERSECOND = 30;
 
 //MAIN//
 int main( int argc, char* args[] ) {
@@ -27,7 +26,7 @@ int main( int argc, char* args[] ) {
     Timer fps;
 	
     //Initialize Window
-    initSDLWindow( SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_BPP );
+    initSDLWindow( SCREENWIDTH, SCREENHEIGHT, SCREENBPP );
 	
     //Load Files
 	loadFiles();
@@ -47,7 +46,7 @@ int main( int argc, char* args[] ) {
         applySurface( 0, 0, background, screen, NULL );
 		
         //Apply the message
-        applySurface( ( SCREEN_WIDTH - message->w ) / 2, ( ( SCREEN_HEIGHT + message->h * 2 ) / FRAMES_PER_SECOND ) * ( frame % FRAMES_PER_SECOND ) - message->h, message, screen, NULL );
+        applySurface( ( SCREENWIDTH - message->w ) / 2, ( ( SCREENHEIGHT + message->h * 2 ) / FRAMESPERSECOND ) * ( frame % FRAMESPERSECOND ) - message->h, message, screen, NULL );
 		
         //Update the screen
         if( SDL_Flip( screen ) == -1 )
@@ -55,7 +54,7 @@ int main( int argc, char* args[] ) {
             return 1;
         }
 		//Set frame rate
-		setTimer( fps, FRAMES_PER_SECOND, frame, true );
+		setTimer( fps, FRAMESPERSECOND, frame, true );
 
     }//END GAME LOOP//
 	
