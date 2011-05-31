@@ -24,7 +24,7 @@ const int SCREENHEIGHT = 480;
 const int SCREENBPP = 32;
 
 //Frames per second
-const int FRAMESPERSECOND = 30;
+const int FRAMESPERSECOND = 120;
 
 //MAIN//
 int main( int argc, char* args[] ) {
