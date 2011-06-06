@@ -28,9 +28,10 @@ TTF_Font *font;
 
 void loadFiles() {
     //Load surfaces
-    background = loadImage( "Astroids.app/Contents/Resources/background.png", 0 );
-	astroidL01 = loadImage( "Astroids.app/Contents/Resources/astroidL01.png", 0 );
-	
+    //background = loadImage( "Astroids.app/Contents/Resources/background.png", 0 );
+	background = loadImage( "Astroids.app/Contents/Resources/backgroundBlack.png", 0 );
+	//astroidL01 = loadImage( "Astroids.app/Contents/Resources/astroidL01.png", 0 );
+	astroidL01 = loadImage( "Astroids.app/Contents/Resources/astroidLA02.png", 1 );
     //Load fonts
     font = TTF_OpenFont( "Astroids.app/Contents/Resources/Arial.ttf", 50 );
 	
@@ -47,7 +48,7 @@ void loadFiles() {
 
 void createText() {
 	//SDL Colors for text
-	SDL_Color textColor = { 0, 0, 0 };
+	SDL_Color textColor = { 255, 255, 255 };
 
     //Generate the message surface
     message = TTF_RenderText_Solid( font, "FUCKING ASTROIDS", textColor );

@@ -38,7 +38,7 @@ int main( int argc, char* args[] ) {
 	
     //Initialize Window
     initSDLWindow( SCREENWIDTH, SCREENHEIGHT, SCREENBPP );
-	
+
     //Load Files
 	loadFiles();
 	//Create Text
@@ -46,8 +46,10 @@ int main( int argc, char* args[] ) {
 	
 	//Init classes
     Timer fps;
-	Sprite astroidLrg01 ( astroidL01, screen, 0, 1, 1, 1);
-	
+	Sprite *astroidLrg01;
+	astroidLrg01 = new Sprite(astroidL01, screen, 0, -60, -60, 1);
+	//Sprite astroidLrg01 ( astroidL01, screen, 0, -60, -60, 1);
+	//Sprite astroidLrg02 ( astroidL01, screen, 0, -60, -60, 1);
 
     //GAME LOOP//
     while( run )
@@ -66,8 +68,8 @@ int main( int argc, char* args[] ) {
 		
 		//Apply the surface
 		//applySurface(0, 0, astroidL01, screen, NULL);
-		astroidLrg01.draw(1,1);
-		
+		astroidLrg01->draw(1,.6);
+		//astroidLrg02.draw(1,.9);
         //Update the screen
         if( SDL_Flip( screen ) == -1 )
         {
