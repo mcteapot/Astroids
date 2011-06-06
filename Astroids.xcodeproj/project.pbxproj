@@ -18,6 +18,7 @@
 		4746444513939E5B0061E921 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4746444413939E5B0061E921 /* Timer.cpp */; };
 		4746445C13939F810061E921 /* Inits.c in Sources */ = {isa = PBXBuildFile; fileRef = 4746445B13939F810061E921 /* Inits.c */; };
 		474645831393ADD10061E921 /* Loader.c in Sources */ = {isa = PBXBuildFile; fileRef = 474645821393ADD10061E921 /* Loader.c */; };
+		479531A11395A8E1009B4826 /* backgroundBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 479531A01395A8E1009B4826 /* backgroundBlack.png */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		4746445B13939F810061E921 /* Inits.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Inits.c; sourceTree = "<group>"; };
 		474645811393ADD10061E921 /* Loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loader.h; sourceTree = "<group>"; };
 		474645821393ADD10061E921 /* Loader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Loader.c; sourceTree = "<group>"; };
+		479531A01395A8E1009B4826 /* backgroundBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundBlack.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Astroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -142,6 +144,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				479531A01395A8E1009B4826 /* backgroundBlack.png */,
 				4746440613939DA00061E921 /* background.png */,
 				4746440713939DA00061E921 /* Arial.ttf */,
 				8D1107310486CEB800E47090 /* Info.plist */,
@@ -213,6 +216,7 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				4746440813939DA00061E921 /* background.png in Resources */,
 				4746440913939DA00061E921 /* Arial.ttf in Resources */,
+				479531A11395A8E1009B4826 /* backgroundBlack.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

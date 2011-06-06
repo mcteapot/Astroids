@@ -14,17 +14,20 @@
 #include "SDL_image/SDL_image.h"
 #include "SDL_ttf/SDL_ttf.h"
 
+//windows
+//#include "SDL/SDL_ttf.h"
+
 #include "Timer.h"
 #include "Inits.h"
 #include "Loader.h"
 
 //Screen attributes
-const int SCREENWIDTH = 640;
-const int SCREENHEIGHT = 480;
+const int SCREENWIDTH = 500;
+const int SCREENHEIGHT = 375;
 const int SCREENBPP = 32;
 
 //Frames per second
-const int FRAMESPERSECOND = 120;
+const int FRAMESPERSECOND = 130;
 
 //MAIN//
 int main( int argc, char* args[] ) {
