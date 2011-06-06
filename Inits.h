@@ -27,11 +27,13 @@ SDL_Surface *screen;
 
 //Data
 int run;
+int menu;
+int game;
 int frame;
 
 //void initSDLWindow(int screenWidth, int screenHeight) : Init SDL Windows
 void initSDLWindow( int SCREENWIDTH, int SCREENHIGHT, int SCREENBPP ) {
-	/* Initialize the SDL library */
+	//Initialize the SDL library
 	if ( SDL_Init(SDL_INIT_VIDEO) < 0 ) {
 		fprintf(stderr, "Couldn't initialize SDL: %s\n",
 				SDL_GetError());
@@ -55,12 +57,15 @@ void initSDLWindow( int SCREENWIDTH, int SCREENHIGHT, int SCREENBPP ) {
 	SDL_WM_SetCaption( "Astroids", NULL );
 	//Data Inits
 	run = 1;
+	menu = 1;
+	game = 0;
 	frame = 0;
 }
 
 //void initSDLEvents() : Init SDL Events
-void initSDLEvents() {
+char initSDLEvents() {
 	/* Check for events */
+	char keyPress = ' ';
 	while ( SDL_PollEvent(&event) ) {
 		switch (event.type) {
 				
@@ -69,6 +74,8 @@ void initSDLEvents() {
 			case SDL_MOUSEBUTTONDOWN:
 				break;
 			case SDL_KEYDOWN:
+				keyPress = 'g';
+				break;
 				/* Any keypress quits the app... */
 			case SDL_QUIT:
 				run = 0;
@@ -77,6 +84,7 @@ void initSDLEvents() {
 				break;
 		}
 	}
+	return keyPress;
 	
 }
 
@@ -114,19 +122,6 @@ SDL_Surface *loadImage( char *filename,  int alpha ) {
     //Return the optimized surface
     return optimizedImage;
 }
-/*
-//void applySurface( int x, int y, SDL_Surface* source, SDL_Surface* destination, SDL_Rect* clip ) : apply surface
-void applySurface( int x, int y, SDL_Surface* source, SDL_Surface* destination, SDL_Rect* clip ) {
-    //Holds offsets
-    SDL_Rect offset;
-	
-    //Get offsets
-    offset.x = x;
-    offset.y = y;
-	
-    //Blit
-    SDL_BlitSurface( source, clip, destination, &offset );
-}
-*/
+
 
 #endif //INIT_H

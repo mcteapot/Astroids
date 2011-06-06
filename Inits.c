@@ -8,4 +8,3 @@
  */
 
 #include "Inits.h"
-

@@ -22,7 +22,6 @@
 #include "Inits.h"
 #include "Loader.h"
 #include "ApplySurface.h"
-
 #include "Sprite.h"
 
 //Screen attributes
@@ -38,7 +37,7 @@ int main( int argc, char* args[] ) {
 	
     //Initialize Window
     initSDLWindow( SCREENWIDTH, SCREENHEIGHT, SCREENBPP );
-
+	
     //Load Files
 	loadFiles();
 	//Create Text
@@ -48,9 +47,8 @@ int main( int argc, char* args[] ) {
     Timer fps;
 	Sprite *astroidLrg01;
 	astroidLrg01 = new Sprite(astroidL01, screen, 0, -60, -60, 1);
-	//Sprite astroidLrg01 ( astroidL01, screen, 0, -60, -60, 1);
-	//Sprite astroidLrg02 ( astroidL01, screen, 0, -60, -60, 1);
 
+	
     //GAME LOOP//
     while( run )
     {
@@ -59,25 +57,36 @@ int main( int argc, char* args[] ) {
 		
 		//Init Events for keyboard 
 		initSDLEvents();
-
+		
         //Apply the background
         applySurface( 0, 0, background, screen, NULL );
-		
-        //Apply the message
-        applySurface( ( SCREENWIDTH - message->w ) / 2, ( ( SCREENHEIGHT + message->h * 2 ) / FRAMESPERSECOND ) * ( frame % FRAMESPERSECOND ) - message->h, message, screen, NULL );
-		
-		//Apply the surface
-		//applySurface(0, 0, astroidL01, screen, NULL);
-		astroidLrg01->draw(1,.6);
-		//astroidLrg02.draw(1,.9);
+		//MENU
+		if (menu) {
+			
+			applySurface( ( SCREENWIDTH ) / 4, ( SCREENHEIGHT - message->h ) / 5, menuTitle, screen, NULL );
+			applySurface( (( SCREENWIDTH ) / 24)*5.5, (( SCREENHEIGHT - message->h ) / 5)*4, menuScreen, screen, NULL );
+			if (initSDLEvents() == 'g') {
+				menu = 0;
+				game = 1;
+			}
+	
+		}//MENU END
+		//GAME
+		if (game) {
+			//Apply the message
+			applySurface( ( SCREENWIDTH - message->w ) / 2, ( ( SCREENHEIGHT + message->h * 2 ) / FRAMESPERSECOND ) * ( frame % FRAMESPERSECOND ) - message->h, message, screen, NULL );
+			
+			//Apply the surface
+			astroidLrg01->draw(1,.6);	
+		}//GAME END
+
         //Update the screen
-        if( SDL_Flip( screen ) == -1 )
-        {
+        if( SDL_Flip( screen ) == -1 ) {
             return 1;
         }
 		//Set frame rate
 		setTimer( fps, FRAMESPERSECOND, frame, true );
-
+		
     }//END GAME LOOP//
 	
     //Clean up
@@ -85,4 +94,3 @@ int main( int argc, char* args[] ) {
 	
     return 0;
 }//END MAIN//
-
