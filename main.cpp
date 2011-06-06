@@ -9,6 +9,7 @@
 
 //Headers
 #include <string>
+#include <iostream>
 
 #include "SDL/SDL.h"
 #include "SDL_image/SDL_image.h"
@@ -20,6 +21,9 @@
 #include "Timer.h"
 #include "Inits.h"
 #include "Loader.h"
+#include "ApplySurface.h"
+
+#include "Sprite.h"
 
 //Screen attributes
 const int SCREENWIDTH = 500;
@@ -27,13 +31,10 @@ const int SCREENHEIGHT = 375;
 const int SCREENBPP = 32;
 
 //Frames per second
-const int FRAMESPERSECOND = 130;
+const int FRAMESPERSECOND = 60;
 
 //MAIN//
 int main( int argc, char* args[] ) {
-	
-    //Init classes
-    Timer fps;
 	
     //Initialize Window
     initSDLWindow( SCREENWIDTH, SCREENHEIGHT, SCREENBPP );
@@ -42,6 +43,11 @@ int main( int argc, char* args[] ) {
 	loadFiles();
 	//Create Text
 	createText();
+	
+	//Init classes
+    Timer fps;
+	Sprite astroidLrg01 ( astroidL01, screen, 0, 1, 1, 1);
+	
 
     //GAME LOOP//
     while( run )
@@ -57,6 +63,10 @@ int main( int argc, char* args[] ) {
 		
         //Apply the message
         applySurface( ( SCREENWIDTH - message->w ) / 2, ( ( SCREENHEIGHT + message->h * 2 ) / FRAMESPERSECOND ) * ( frame % FRAMESPERSECOND ) - message->h, message, screen, NULL );
+		
+		//Apply the surface
+		//applySurface(0, 0, astroidL01, screen, NULL);
+		astroidLrg01.draw(1,1);
 		
         //Update the screen
         if( SDL_Flip( screen ) == -1 )

@@ -114,7 +114,7 @@ SDL_Surface *loadImage( char *filename,  int alpha ) {
     //Return the optimized surface
     return optimizedImage;
 }
-
+/*
 //void applySurface( int x, int y, SDL_Surface* source, SDL_Surface* destination, SDL_Rect* clip ) : apply surface
 void applySurface( int x, int y, SDL_Surface* source, SDL_Surface* destination, SDL_Rect* clip ) {
     //Holds offsets
@@ -127,6 +127,6 @@ void applySurface( int x, int y, SDL_Surface* source, SDL_Surface* destination, 
     //Blit
     SDL_BlitSurface( source, clip, destination, &offset );
 }
-
+*/
 
 #endif //INIT_H

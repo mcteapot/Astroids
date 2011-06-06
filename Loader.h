@@ -19,6 +19,7 @@
 
 //SDL Image Surface
 SDL_Surface *background;
+SDL_Surface *astroidL01;
 //SDL Text Surface
 SDL_Surface *message;
 
@@ -28,6 +29,7 @@ TTF_Font *font;
 void loadFiles() {
     //Load surfaces
     background = loadImage( "Astroids.app/Contents/Resources/background.png", 0 );
+	astroidL01 = loadImage( "Astroids.app/Contents/Resources/astroidL01.png", 0 );
 	
     //Load fonts
     font = TTF_OpenFont( "Astroids.app/Contents/Resources/Arial.ttf", 50 );

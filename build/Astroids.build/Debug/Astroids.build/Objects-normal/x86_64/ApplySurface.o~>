@@ -1,0 +1,2 @@
+/Users/arjunprakash/Working/Development/CS8/Astroids/ApplySurface.c:13: error: redefinition of 'applySurface'
+/Users/arjunprakash/Working/Development/CS8/Astroids/ApplySurface.h:24: error: previous definition of 'applySurface' was here
