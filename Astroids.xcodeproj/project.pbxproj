@@ -12,7 +12,7 @@
 		002F3A2E09D0888800EBEB88 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 002F3A2C09D0888800EBEB88 /* SDLMain.m */; };
 		002F3A3F09D088BA00EBEB88 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */; };
 		47238821139C637E003AFC38 /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47238820139C637E003AFC38 /* Sprite.cpp */; };
-		47238948139C95B1003AFC38 /* ApplySurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47238947139C95B1003AFC38 /* ApplySurface.cpp */; };
+		47238948139C95B1003AFC38 /* Utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47238947139C95B1003AFC38 /* Utilities.cpp */; };
 		47238B39139CC546003AFC38 /* astroidLA01.png in Resources */ = {isa = PBXBuildFile; fileRef = 47238B30139CC546003AFC38 /* astroidLA01.png */; };
 		47238B3A139CC546003AFC38 /* astroidLA02.png in Resources */ = {isa = PBXBuildFile; fileRef = 47238B31139CC546003AFC38 /* astroidLA02.png */; };
 		47238B3B139CC546003AFC38 /* astroidLA03.png in Resources */ = {isa = PBXBuildFile; fileRef = 47238B32139CC546003AFC38 /* astroidLA03.png */; };
@@ -32,6 +32,11 @@
 		4746445C13939F810061E921 /* Inits.c in Sources */ = {isa = PBXBuildFile; fileRef = 4746445B13939F810061E921 /* Inits.c */; };
 		474645831393ADD10061E921 /* Loader.c in Sources */ = {isa = PBXBuildFile; fileRef = 474645821393ADD10061E921 /* Loader.c */; };
 		479531A11395A8E1009B4826 /* backgroundBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 479531A01395A8E1009B4826 /* backgroundBlack.png */; };
+		47A22D72139F09F100A7720B /* SDL_rotozoom.c in Sources */ = {isa = PBXBuildFile; fileRef = 47A22D6D139F09F100A7720B /* SDL_rotozoom.c */; };
+		47A23115139F77A300A7720B /* shipSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A23113139F77A300A7720B /* shipSheet.png */; };
+		47A23116139F77A300A7720B /* shipSheetBooster.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A23114139F77A300A7720B /* shipSheetBooster.png */; };
+		47D3E1DC139E0F1200A993D7 /* Ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */; };
+		47D3E347139E221700A993D7 /* shipDeadth.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D3E346139E221700A993D7 /* shipDeadth.png */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -52,8 +57,8 @@
 
 /* Begin PBXFileReference section */
 		002F39F909D0881F00EBEB88 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = /Library/Frameworks/SDL.framework; sourceTree = "<absolute>"; };
-		002F3A2B09D0888800EBEB88 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = SOURCE_ROOT; };
-		002F3A2C09D0888800EBEB88 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = SOURCE_ROOT; };
+		002F3A2B09D0888800EBEB88 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
+		002F3A2C09D0888800EBEB88 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
 		002F3A3E09D088BA00EBEB88 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -62,8 +67,8 @@
 		32CA4F630368D1EE00C91783 /* Astroids_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Astroids_Prefix.pch; sourceTree = "<group>"; };
 		4723881F139C637E003AFC38 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
 		47238820139C637E003AFC38 /* Sprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sprite.cpp; sourceTree = "<group>"; };
-		47238946139C95B1003AFC38 /* ApplySurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplySurface.h; sourceTree = "<group>"; };
-		47238947139C95B1003AFC38 /* ApplySurface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ApplySurface.cpp; sourceTree = "<group>"; };
+		47238946139C95B1003AFC38 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		47238947139C95B1003AFC38 /* Utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utilities.cpp; sourceTree = "<group>"; };
 		47238B30139CC546003AFC38 /* astroidLA01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astroidLA01.png; sourceTree = "<group>"; };
 		47238B31139CC546003AFC38 /* astroidLA02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astroidLA02.png; sourceTree = "<group>"; };
 		47238B32139CC546003AFC38 /* astroidLA03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astroidLA03.png; sourceTree = "<group>"; };
@@ -86,6 +91,13 @@
 		474645811393ADD10061E921 /* Loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loader.h; sourceTree = "<group>"; };
 		474645821393ADD10061E921 /* Loader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Loader.c; sourceTree = "<group>"; };
 		479531A01395A8E1009B4826 /* backgroundBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundBlack.png; sourceTree = "<group>"; };
+		47A22D6D139F09F100A7720B /* SDL_rotozoom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_rotozoom.c; sourceTree = "<group>"; };
+		47A22D78139F0A2900A7720B /* SDL_rotozoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_rotozoom.h; sourceTree = "<group>"; };
+		47A23113139F77A300A7720B /* shipSheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shipSheet.png; sourceTree = "<group>"; };
+		47A23114139F77A300A7720B /* shipSheetBooster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shipSheetBooster.png; sourceTree = "<group>"; };
+		47D3E1DA139E0F1200A993D7 /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
+		47D3E1DB139E0F1200A993D7 /* Ship.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ship.cpp; sourceTree = "<group>"; };
+		47D3E346139E221700A993D7 /* shipDeadth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shipDeadth.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Astroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -108,18 +120,14 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				002F3A2B09D0888800EBEB88 /* SDLMain.h */,
-				002F3A2C09D0888800EBEB88 /* SDLMain.m */,
+				47A22D63139F09E700A7720B /* GFX */,
+				47D3E349139E22B200A993D7 /* Helpers */,
 				4746444313939E5B0061E921 /* Timer.h */,
 				4746444413939E5B0061E921 /* Timer.cpp */,
-				4746445A13939F810061E921 /* Inits.h */,
-				4746445B13939F810061E921 /* Inits.c */,
-				474645811393ADD10061E921 /* Loader.h */,
-				474645821393ADD10061E921 /* Loader.c */,
 				4723881F139C637E003AFC38 /* Sprite.h */,
 				47238820139C637E003AFC38 /* Sprite.cpp */,
-				47238946139C95B1003AFC38 /* ApplySurface.h */,
-				47238947139C95B1003AFC38 /* ApplySurface.cpp */,
+				47D3E1DA139E0F1200A993D7 /* Ship.h */,
+				47D3E1DB139E0F1200A993D7 /* Ship.cpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -176,8 +184,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				47A23113139F77A300A7720B /* shipSheet.png */,
+				47A23114139F77A300A7720B /* shipSheetBooster.png */,
 				47238B77139CC7D0003AFC38 /* ship.png */,
 				47238B78139CC7D0003AFC38 /* shipBooster.png */,
+				47D3E346139E221700A993D7 /* shipDeadth.png */,
 				47238B30139CC546003AFC38 /* astroidLA01.png */,
 				47238B31139CC546003AFC38 /* astroidLA02.png */,
 				47238B32139CC546003AFC38 /* astroidLA03.png */,
@@ -203,6 +214,30 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47A22D63139F09E700A7720B /* GFX */ = {
+			isa = PBXGroup;
+			children = (
+				47A22D6D139F09F100A7720B /* SDL_rotozoom.c */,
+				47A22D78139F0A2900A7720B /* SDL_rotozoom.h */,
+			);
+			name = GFX;
+			sourceTree = "<group>";
+		};
+		47D3E349139E22B200A993D7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				002F3A2B09D0888800EBEB88 /* SDLMain.h */,
+				002F3A2C09D0888800EBEB88 /* SDLMain.m */,
+				4746445A13939F810061E921 /* Inits.h */,
+				4746445B13939F810061E921 /* Inits.c */,
+				47238946139C95B1003AFC38 /* Utilities.h */,
+				47238947139C95B1003AFC38 /* Utilities.cpp */,
+				474645811393ADD10061E921 /* Loader.h */,
+				474645821393ADD10061E921 /* Loader.c */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +306,9 @@
 				47238B6B139CC71E003AFC38 /* astroidMA03.png in Resources */,
 				47238B79139CC7D0003AFC38 /* ship.png in Resources */,
 				47238B7A139CC7D0003AFC38 /* shipBooster.png in Resources */,
+				47D3E347139E221700A993D7 /* shipDeadth.png in Resources */,
+				47A23115139F77A300A7720B /* shipSheet.png in Resources */,
+				47A23116139F77A300A7720B /* shipSheetBooster.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +325,9 @@
 				4746445C13939F810061E921 /* Inits.c in Sources */,
 				474645831393ADD10061E921 /* Loader.c in Sources */,
 				47238821139C637E003AFC38 /* Sprite.cpp in Sources */,
-				47238948139C95B1003AFC38 /* ApplySurface.cpp in Sources */,
+				47238948139C95B1003AFC38 /* Utilities.cpp in Sources */,
+				47D3E1DC139E0F1200A993D7 /* Ship.cpp in Sources */,
+				47A22D72139F09F100A7720B /* SDL_rotozoom.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,12 +349,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Downloads/SDL_gfx/build/Release\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Astroids_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(HOME)/Library/Frameworks/SDL.framework/Headers",
+					/Library/Frameworks/SDL.framework/Headers,
+					"$(HEADER_SEARCH_PATHS)",
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = Astroids;
@@ -326,6 +377,10 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Downloads/SDL_gfx/build/Release\"",
+				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

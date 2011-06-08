@@ -19,9 +19,6 @@
 #include "SDL_image/SDL_image.h"
 #include "SDL_ttf/SDL_ttf.h"
 
-//SDL event
-SDL_Event event;
-
 //SDL Surface
 SDL_Surface *screen;
 
@@ -62,30 +59,11 @@ void initSDLWindow( int SCREENWIDTH, int SCREENHIGHT, int SCREENBPP ) {
 	frame = 0;
 }
 
-//void initSDLEvents() : Init SDL Events
-char initSDLEvents() {
-	/* Check for events */
-	char keyPress = ' ';
-	while ( SDL_PollEvent(&event) ) {
-		switch (event.type) {
-				
-			case SDL_MOUSEMOTION:
-				break;
-			case SDL_MOUSEBUTTONDOWN:
-				break;
-			case SDL_KEYDOWN:
-				keyPress = 'g';
-				break;
-				/* Any keypress quits the app... */
-			case SDL_QUIT:
-				run = 0;
-				break;
-			default:
-				break;
-		}
+void checkQuit(char q) {
+	if (q == 'q') {
+		run = 0;
 	}
-	return keyPress;
-	
+
 }
 
 //SDL_Surface *loadImage( char *filename ) : Load image

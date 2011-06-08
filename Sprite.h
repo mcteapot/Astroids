@@ -18,10 +18,11 @@
 #include "SDL_image/SDL_image.h"
 #include "SDL_ttf/SDL_ttf.h"
 
-#include "ApplySurface.h"
+#include "Utilities.h"
 
 enum  {
 	SPRITE_CLASSID,
+	SHIP_CLASSID,
 };
 
 struct vect {
@@ -34,7 +35,7 @@ class Sprite {
 	
 
 public:
-	Sprite(SDL_Surface *aSurface, SDL_Surface *aScreen, int aIndex, float x = 1, float y = 1, int lives = 1);
+	Sprite( SDL_Surface *aSurface, SDL_Surface *aScreen, int aIndex, float x = 1, float y = 1, int lives = 1 );
 	~Sprite();
 	
 	vect getPosition();
@@ -42,16 +43,21 @@ public:
 	float getY();
 	float getRotation();
 	
-	virtual void addLives(int num = 1);
+	virtual void addLives( int num = 1 );
 	int getLives();
 	bool isAlive();
 	
-	virtual bool move(float x, float y, float r);
-	void draw(float x, float y, float r = 0);
+	virtual bool move( float x, float y, float r = 0  );
+	void draw( float x = 0, float y = 0, float r = 0 );
 
 protected:
 	SDL_Surface *spriteSurface;
 	SDL_Surface *screen;
+	
+	SDL_Rect *clip[360];
+	
+	Uint8 *keystates;
+	
 	vect positon;
 	int spriteIndex;
 	int numLives;

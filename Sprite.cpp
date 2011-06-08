@@ -17,12 +17,14 @@ Sprite::Sprite(SDL_Surface *aSurface, SDL_Surface *aScreen, int aIndex, float x,
 	
 	positon.x = x;
 	positon.y = y;
-	
+	positon.rotation = 90;
 	spriteIndex = aIndex;
 	
 	numLives = lives;
 	
 	classID = SPRITE_CLASSID;
+	
+	keystates = SDL_GetKeyState( NULL );
 
 }
 //~Sprite();
@@ -72,11 +74,17 @@ bool Sprite::move(float x, float y, float r) {
 	positon.x += x;
 	positon.y += y;
 	positon.rotation += r;
+	if (positon.rotation > 359) {
+		positon.rotation = 0;
+	}
+	if (positon.rotation < 0) {
+		positon.rotation = 359;
+	}
 	return true;
 }
 //void draw(float x, float y, float r = 0);
 void Sprite::draw(float x, float y, float r) {
-	move(x,y,r);
+	//move(x,y,r);
 	//draw sprite
 	applySurface(positon.x, positon.y, spriteSurface, screen, NULL);
 }

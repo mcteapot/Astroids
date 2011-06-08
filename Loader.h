@@ -19,6 +19,11 @@
 
 //SDL Image Surface
 SDL_Surface *background;
+
+SDL_Surface *ship01;
+SDL_Surface *shipBooster01;
+SDL_Surface *shipDeath01;
+
 SDL_Surface *astroidL01;
 SDL_Surface *astroidL02;
 SDL_Surface *astroidL03;
@@ -40,6 +45,11 @@ TTF_Font *fontS;
 void loadFiles() {
     //Load surfaces
 	background = loadImage( "Astroids.app/Contents/Resources/backgroundBlack.png", 0 );
+	
+	ship01 = loadImage( "Astroids.app/Contents/Resources/ship.png", 0 );
+	shipBooster01 = loadImage( "Astroids.app/Contents/Resources/shipBooster.png", 0 );
+	shipDeath01 = loadImage( "Astroids.app/Contents/Resources/shipDeadth.png", 0 );
+	
 	astroidL01 = loadImage( "Astroids.app/Contents/Resources/astroidLA01.png", 1 );
 	astroidL02 = loadImage( "Astroids.app/Contents/Resources/astroidLA02.png", 1 );
 	astroidL03 = loadImage( "Astroids.app/Contents/Resources/astroidLA03.png", 1 );
@@ -52,9 +62,7 @@ void loadFiles() {
 	
     //Load fonts
     fontL = TTF_OpenFont( "Astroids.app/Contents/Resources/Arial.ttf", 50 );
-	fontS = TTF_OpenFont( "Astroids.app/Contents/Resources/Arial.ttf", 30 );
-	//Set Color
-	
+	fontS = TTF_OpenFont( "Astroids.app/Contents/Resources/Arial.ttf", 30 );	
 	
     //If there was a problem in loading the background
     if( background == NULL ) { exit(2); }
@@ -70,17 +78,19 @@ void createText() {
 	SDL_Color textColor = { 255, 255, 255 };
 
     //Generate the message surface
-    message = TTF_RenderText_Solid( fontL, "FUCKING ASTROIDS", textColor );
-	menuTitle = TTF_RenderText_Solid( fontL, "ASTROIDS", textColor );
+    message = TTF_RenderText_Solid( fontL, "FUCKING ASTEROIDS", textColor );
+	menuTitle = TTF_RenderText_Solid( fontL, "ASTEROIDS", textColor );
 	menuScreen = TTF_RenderText_Solid( fontS, "Hit Space Key to Start.", textColor );
 }
 
 void quitSDL() {
     //Free surfaces
     SDL_FreeSurface( background );
-    SDL_FreeSurface( message );
-    SDL_FreeSurface( menuScreen );
-    SDL_FreeSurface( menuTitle );
+	
+    SDL_FreeSurface( ship01 );
+	SDL_FreeSurface( shipBooster01 );
+	SDL_FreeSurface( shipDeath01 );
+	
     SDL_FreeSurface( astroidL01 );
     SDL_FreeSurface( astroidL02 );
     SDL_FreeSurface( astroidL03 );
@@ -90,6 +100,10 @@ void quitSDL() {
     SDL_FreeSurface( astroidS01 );
     SDL_FreeSurface( astroidS02 );
     SDL_FreeSurface( astroidS03 );
+	
+	SDL_FreeSurface( message );
+    SDL_FreeSurface( menuScreen );
+    SDL_FreeSurface( menuTitle );
 	
     //Close font
     TTF_CloseFont( fontL );
