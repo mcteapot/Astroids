@@ -47,14 +47,14 @@ public:
 	int getLives();
 	bool isAlive();
 	
-	virtual bool move( float x, float y, float r = 0  );
+	virtual bool move( float x, float y, float r = 0, SDL_Rect *aClip = NULL  );
 	void draw( float x = 0, float y = 0, float r = 0 );
 
 protected:
 	SDL_Surface *spriteSurface;
 	SDL_Surface *screen;
 	
-	SDL_Rect *clip[360];
+	SDL_Rect *clip;
 	
 	Uint8 *keystates;
 	

@@ -36,6 +36,10 @@ void initSDLWindow( int SCREENWIDTH, int SCREENHIGHT, int SCREENBPP ) {
 				SDL_GetError());
 		exit(1);
 	}
+	if( SDL_Init( SDL_INIT_EVERYTHING ) == -1 )
+    {
+        exit(1);
+    }
 	
 	//Set 640x480 video mode 
 	screen=SDL_SetVideoMode( SCREENWIDTH , SCREENHIGHT, SCREENBPP, SDL_SWSURFACE );

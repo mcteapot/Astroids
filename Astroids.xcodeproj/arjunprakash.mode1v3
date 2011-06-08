@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>47A23140139F7B0A00A7720B</string>
+						<string>47A23359139F9E1100A7720B</string>
 						<key>history</key>
 						<array>
 							<string>47A2305B139F6F6300A7720B</string>
@@ -257,7 +257,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>47A23141139F7B0A00A7720B</string>
+						<string>47A2335A139F9E1100A7720B</string>
 						<key>history</key>
 						<array>
 							<string>47A22E2E139F5E3C00A7720B</string>
@@ -297,7 +297,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>47A23142139F7B0A00A7720B</string>
+						<string>47A2335B139F9E1100A7720B</string>
 						<key>history</key>
 						<array>
 							<string>47A22E23139F5DE500A7720B</string>
@@ -337,7 +337,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>47A23143139F7B0A00A7720B</string>
+						<string>47A2335C139F9E1100A7720B</string>
 						<key>history</key>
 						<array>
 							<string>47A22D34139F080100A7720B</string>
@@ -442,7 +442,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>16</integer>
+									<integer>19</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -467,7 +467,7 @@
 							<real>264</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>759 83 1189 1095 0 0 1920 1178 </string>
+						<string>688 76 1189 1095 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -485,7 +485,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Sprite.h</string>
+								<string>Ship.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -493,47 +493,47 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Sprite.h</string>
+										<string>Ship.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>47A2313F139F7B0A00A7720B</string>
+										<string>47A23358139F9E1100A7720B</string>
 										<key>history</key>
 										<array>
 											<string>474646C11393BA460061E921</string>
 											<string>474646C21393BA460061E921</string>
-											<string>47238BBA139CD364003AFC38</string>
-											<string>47238BBB139CD364003AFC38</string>
 											<string>47238BBC139CD364003AFC38</string>
 											<string>47238BBD139CD364003AFC38</string>
 											<string>47238BBE139CD364003AFC38</string>
 											<string>47238BBF139CD364003AFC38</string>
 											<string>47238BC0139CD364003AFC38</string>
 											<string>47238BC1139CD364003AFC38</string>
-											<string>47D3E177139E08AC00A993D7</string>
 											<string>47D3E31D139E1F3100A993D7</string>
-											<string>47D3E34F139E22D800A993D7</string>
 											<string>47D3E352139E22D800A993D7</string>
-											<string>47D3E4A6139E366C00A993D7</string>
-											<string>47D3E4AE139E374200A993D7</string>
-											<string>47D3E555139E41D400A993D7</string>
 											<string>47D3E5F9139F066600A993D7</string>
 											<string>47D3E5FA139F066600A993D7</string>
 											<string>47A22DE4139F5BC300A7720B</string>
 											<string>47A22DE5139F5BC300A7720B</string>
 											<string>47A22DE7139F5BC300A7720B</string>
-											<string>47A23049139F6ECB00A7720B</string>
 											<string>47A23134139F7B0A00A7720B</string>
-											<string>47A23135139F7B0A00A7720B</string>
-											<string>47A23136139F7B0A00A7720B</string>
 											<string>47A23137139F7B0A00A7720B</string>
-											<string>47A23138139F7B0A00A7720B</string>
-											<string>47A23139139F7B0A00A7720B</string>
-											<string>47A2313A139F7B0A00A7720B</string>
-											<string>47A2313B139F7B0A00A7720B</string>
-											<string>47A2313C139F7B0A00A7720B</string>
-											<string>47A2313D139F7B0A00A7720B</string>
-											<string>47A2313E139F7B0A00A7720B</string>
+											<string>47A23162139F88A900A7720B</string>
+											<string>47A23163139F88A900A7720B</string>
+											<string>47A2317C139F8B1A00A7720B</string>
+											<string>47A23241139F901400A7720B</string>
+											<string>47A232DA139F986A00A7720B</string>
+											<string>47A232F5139F9AEA00A7720B</string>
+											<string>47A232F6139F9AEA00A7720B</string>
+											<string>47A232F7139F9AEA00A7720B</string>
+											<string>47A23325139F9CDA00A7720B</string>
+											<string>47A23326139F9CDA00A7720B</string>
+											<string>47A23327139F9CDA00A7720B</string>
+											<string>47A23329139F9CDA00A7720B</string>
+											<string>47A2332A139F9CDA00A7720B</string>
+											<string>47A2332B139F9CDA00A7720B</string>
+											<string>47A23335139F9D6800A7720B</string>
+											<string>47A23336139F9D6800A7720B</string>
+											<string>47A23337139F9D6800A7720B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -547,7 +547,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {903, 818}}</string>
 								<key>RubberWindowFrame</key>
-								<string>759 83 1189 1095 0 0 1920 1178 </string>
+								<string>688 76 1189 1095 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -567,7 +567,7 @@
 								<key>Frame</key>
 								<string>{{0, 823}, {903, 231}}</string>
 								<key>RubberWindowFrame</key>
-								<string>759 83 1189 1095 0 0 1920 1178 </string>
+								<string>688 76 1189 1095 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -731,7 +731,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>47A23144139F7B0A00A7720B</string>
+		<string>47A2335D139F9E1100A7720B</string>
 		<string>47A22D85139F0A2E00A7720B</string>
 		<string>47A22D86139F0A2E00A7720B</string>
 		<string>1CD10A99069EF8BA00B06720</string>
@@ -744,7 +744,7 @@
 		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
-	<string>759 83 1189 1095 0 0 1920 1178 </string>
+	<string>688 76 1189 1095 0 0 1920 1178 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

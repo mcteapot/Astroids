@@ -51,7 +51,7 @@ int main( int argc, char* args[] ) {
 	astroidLrg01 = new Sprite(astroidL01, screen, 0, -60, -60, 1);
 	
 	Ship *aShip;
-	aShip = new Ship(ship01, shipBooster01, shipDeath01, screen, 1, (( SCREENWIDTH ) / 2), (( SCREENHEIGHT ) / 2), 90, 3);
+	aShip = new Ship(shipSheet01, shipSheetBooster01, shipDeath01, screen, 1, (( SCREENWIDTH ) / 2), (( SCREENHEIGHT ) / 2), 90, 3);
 	
 
 	

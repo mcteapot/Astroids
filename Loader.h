@@ -24,6 +24,9 @@ SDL_Surface *ship01;
 SDL_Surface *shipBooster01;
 SDL_Surface *shipDeath01;
 
+SDL_Surface *shipSheet01;
+SDL_Surface *shipSheetBooster01;
+
 SDL_Surface *astroidL01;
 SDL_Surface *astroidL02;
 SDL_Surface *astroidL03;
@@ -49,6 +52,9 @@ void loadFiles() {
 	ship01 = loadImage( "Astroids.app/Contents/Resources/ship.png", 0 );
 	shipBooster01 = loadImage( "Astroids.app/Contents/Resources/shipBooster.png", 0 );
 	shipDeath01 = loadImage( "Astroids.app/Contents/Resources/shipDeadth.png", 0 );
+	
+	shipSheet01 = loadImage( "Astroids.app/Contents/Resources/shipSheet.png", 0 );
+	shipSheetBooster01 = loadImage( "Astroids.app/Contents/Resources/shipSheetBooster.png", 0 );
 	
 	astroidL01 = loadImage( "Astroids.app/Contents/Resources/astroidLA01.png", 1 );
 	astroidL02 = loadImage( "Astroids.app/Contents/Resources/astroidLA02.png", 1 );
@@ -90,6 +96,9 @@ void quitSDL() {
     SDL_FreeSurface( ship01 );
 	SDL_FreeSurface( shipBooster01 );
 	SDL_FreeSurface( shipDeath01 );
+	
+	SDL_FreeSurface( shipSheet01 );
+	SDL_FreeSurface( shipBooster01 );
 	
     SDL_FreeSurface( astroidL01 );
     SDL_FreeSurface( astroidL02 );

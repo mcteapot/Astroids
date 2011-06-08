@@ -31,11 +31,11 @@ public:
 	void keyPress(char c, int numR);
 protected:
 	SDL_Surface *tempSurface;
+	SDL_Surface *tempSheetSurface;
 	SDL_Surface *spriteBoosterSurface;
 	SDL_Surface *spriteDeathSurface;
-	
-	SDL_Surface *rotateSpriteSurface[360];
-	SDL_Surface *rotateSpriteBoostSurface[360];
+		
+	SDL_Rect *rSurface[360];
 	
 	int rJump;
 	int roat;
