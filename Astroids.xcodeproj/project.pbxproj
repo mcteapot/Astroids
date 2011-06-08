@@ -32,7 +32,6 @@
 		4746445C13939F810061E921 /* Inits.c in Sources */ = {isa = PBXBuildFile; fileRef = 4746445B13939F810061E921 /* Inits.c */; };
 		474645831393ADD10061E921 /* Loader.c in Sources */ = {isa = PBXBuildFile; fileRef = 474645821393ADD10061E921 /* Loader.c */; };
 		479531A11395A8E1009B4826 /* backgroundBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 479531A01395A8E1009B4826 /* backgroundBlack.png */; };
-		47A22D72139F09F100A7720B /* SDL_rotozoom.c in Sources */ = {isa = PBXBuildFile; fileRef = 47A22D6D139F09F100A7720B /* SDL_rotozoom.c */; };
 		47A23115139F77A300A7720B /* shipSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A23113139F77A300A7720B /* shipSheet.png */; };
 		47A23116139F77A300A7720B /* shipSheetBooster.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A23114139F77A300A7720B /* shipSheetBooster.png */; };
 		47D3E1DC139E0F1200A993D7 /* Ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */; };
@@ -91,8 +90,6 @@
 		474645811393ADD10061E921 /* Loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loader.h; sourceTree = "<group>"; };
 		474645821393ADD10061E921 /* Loader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Loader.c; sourceTree = "<group>"; };
 		479531A01395A8E1009B4826 /* backgroundBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundBlack.png; sourceTree = "<group>"; };
-		47A22D6D139F09F100A7720B /* SDL_rotozoom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_rotozoom.c; sourceTree = "<group>"; };
-		47A22D78139F0A2900A7720B /* SDL_rotozoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_rotozoom.h; sourceTree = "<group>"; };
 		47A23113139F77A300A7720B /* shipSheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shipSheet.png; sourceTree = "<group>"; };
 		47A23114139F77A300A7720B /* shipSheetBooster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shipSheetBooster.png; sourceTree = "<group>"; };
 		47D3E1DA139E0F1200A993D7 /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
@@ -120,7 +117,6 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				47A22D63139F09E700A7720B /* GFX */,
 				47D3E349139E22B200A993D7 /* Helpers */,
 				4746444313939E5B0061E921 /* Timer.h */,
 				4746444413939E5B0061E921 /* Timer.cpp */,
@@ -214,15 +210,6 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		47A22D63139F09E700A7720B /* GFX */ = {
-			isa = PBXGroup;
-			children = (
-				47A22D6D139F09F100A7720B /* SDL_rotozoom.c */,
-				47A22D78139F0A2900A7720B /* SDL_rotozoom.h */,
-			);
-			name = GFX;
 			sourceTree = "<group>";
 		};
 		47D3E349139E22B200A993D7 /* Helpers */ = {
@@ -327,7 +314,6 @@
 				47238821139C637E003AFC38 /* Sprite.cpp in Sources */,
 				47238948139C95B1003AFC38 /* Utilities.cpp in Sources */,
 				47D3E1DC139E0F1200A993D7 /* Ship.cpp in Sources */,
-				47A22D72139F09F100A7720B /* SDL_rotozoom.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

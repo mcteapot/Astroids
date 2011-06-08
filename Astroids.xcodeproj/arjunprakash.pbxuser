@@ -1055,9 +1055,9 @@
 	};
 	47238820139C637E003AFC38 /* Sprite.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {902, 1248}}";
-			sepNavSelRange = "{893, 17}";
-			sepNavVisRange = "{0, 1348}";
+			sepNavIntBoundsRect = "{{0, 0}, {902, 1261}}";
+			sepNavSelRange = "{1292, 0}";
+			sepNavVisRange = "{154, 1498}";
 			sepNavWindowFrame = "{{935, 23}, {961, 1149}}";
 		};
 	};
@@ -10190,7 +10190,7 @@
 	};
 	47D3E1DA139E0F1200A993D7 /* Ship.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1328, 1011}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 1034}}";
 			sepNavSelRange = "{776, 0}";
 			sepNavVisRange = "{0, 925}";
 			sepNavWindowFrame = "{{1073, -2}, {812, 1162}}";
@@ -10200,7 +10200,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1216, 1261}}";
 			sepNavSelRange = "{945, 0}";
-			sepNavVisRange = "{244, 1620}";
+			sepNavVisRange = "{244, 1623}";
 			sepNavWindowFrame = "{{1006, 214}, {907, 899}}";
 		};
 	};
