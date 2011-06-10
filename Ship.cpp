@@ -27,10 +27,15 @@ Ship::Ship(SDL_Surface *shipSurface, SDL_Surface *shipBoosterSurface, SDL_Surfac
 		
 		rJump = 5;
 		
-		classID = SHIP_CLASSID;
-		//rotateSpriteBoostSurface = rotozoomSurface(tempSurface, 255.0, 1.0, 1.0);
+		decay = .97;
+		xSpeed = 0;
+		ySpeed = 0;
+		maxSpeed = 17;
+		minSpeed = -17;
 		
-		//rotateSpriteBoostSurface = rotozoomSurface(tempSurface, 225., 1, 1);
+		PI = 4.0*atan(1.0);
+		
+		classID = SHIP_CLASSID;
 
 		for (int i = 0; i < 360; i+=1) {
 			rSurface[i] = new SDL_Rect;
@@ -55,24 +60,20 @@ void Ship::keyPress(char c, int numR) {
 	if (keystates[ SDLK_UP ]) {
 		move(0, -1, 0, rSurface[(int)(positon.rotation)]);
 		spriteSurface = spriteBoosterSurface;
-		//spriteSurface = rotateSpriteBoostSurface[(int)(positon.rotation)];
 	}
 	if (keystates[ SDLK_DOWN ]) {
 		move(0, 1, 0, rSurface[(int)(positon.rotation)]);
 		spriteSurface = spriteBoosterSurface;
-		//spriteSurface = rotateSpriteBoostSurface[(int)(positon.rotation)];
 	}
 	if (keystates[ SDLK_RIGHT ]) {
 		std::cout << ",r: " << positon.rotation << std::endl;
 		move(0, 0, rJump, rSurface[(int)(positon.rotation)]);
 		spriteSurface = tempSurface;
-		//spriteSurface = rotateSpriteBoostSurface[(int)(positon.rotation)];
 	}
 	if (keystates[ SDLK_LEFT ]) {
 		std::cout << ",r: " << positon.rotation << std::endl;
 		move(0, 0, -rJump, rSurface[(int)(positon.rotation)]);
 		spriteSurface = tempSurface;
-		//spriteSurface = rotateSpriteBoostSurface[(int)(positon.rotation)];
 	}
 	if (keystates[ SDLK_SPACE ]) {
 		std::cout << "pew " << std::endl;
@@ -80,10 +81,8 @@ void Ship::keyPress(char c, int numR) {
 	if (!( (keystates[ SDLK_UP ]) || (keystates[ SDLK_DOWN ]) || (keystates[ SDLK_RIGHT ]) || (keystates[ SDLK_LEFT ]) )) {
 		move(0, 0, 0,rSurface[(int)(positon.rotation)]);
 		spriteSurface = tempSurface;
-		//spriteSurface = rotateSpriteSurface[(int)(positon.rotation)];
-		//spriteSurface = tempSheetSurface;
-		//clip = rSurface[(int)(positon.rotation)];
 
 	}
 
 }
+

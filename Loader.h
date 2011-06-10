@@ -53,8 +53,8 @@ void loadFiles() {
 	shipBooster01 = loadImage( "Astroids.app/Contents/Resources/shipBooster.png", 0 );
 	shipDeath01 = loadImage( "Astroids.app/Contents/Resources/shipDeadth.png", 0 );
 	
-	shipSheet01 = loadImage( "Astroids.app/Contents/Resources/shipSheet.png", 0 );
-	shipSheetBooster01 = loadImage( "Astroids.app/Contents/Resources/shipSheetBooster.png", 0 );
+	shipSheet01 = loadImage( "Astroids.app/Contents/Resources/shipSheetA.png", 0 );
+	shipSheetBooster01 = loadImage( "Astroids.app/Contents/Resources/shipSheetBoosterA.png", 0 );
 	
 	astroidL01 = loadImage( "Astroids.app/Contents/Resources/astroidLA01.png", 1 );
 	astroidL02 = loadImage( "Astroids.app/Contents/Resources/astroidLA02.png", 1 );

@@ -1,0 +1,11 @@
+/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp: In member function 'void Ship::keyPress(char, int)':
+/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp:61: error: no matching function for call to 'Ship::move(int, int, int, SDL_Rect*&)'
+/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.h:31: note: candidates are: bool Ship::move(float, float, float)
+/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp:65: error: no matching function for call to 'Ship::move(int, int, int, SDL_Rect*&)'
+/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.h:31: note: candidates are: bool Ship::move(float, float, float)
+/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp:70: error: no matching function for call to 'Ship::move(int, int, int&, SDL_Rect*&)'
+/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.h:31: note: candidates are: bool Ship::move(float, float, float)
+/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp:75: error: no matching function for call to 'Ship::move(int, int, int, SDL_Rect*&)'
+/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.h:31: note: candidates are: bool Ship::move(float, float, float)
+/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp:82: error: no matching function for call to 'Ship::move(int, int, int, SDL_Rect*&)'
+/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.h:31: note: candidates are: bool Ship::move(float, float, float)
