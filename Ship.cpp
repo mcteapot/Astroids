@@ -10,7 +10,7 @@
 #include "Ship.h"
 
 //Ship(SDL_Surface *aSurface, SDL_Surface *aScreen, int aIndex, float x, float y, int lives);
-Ship::Ship(SDL_Surface *shipSurface, SDL_Surface *shipBoosterSurface, SDL_Surface *shipDeathSurface, SDL_Surface *aScreen, int aIndex, float x, float y, float r, int lives)
+Ship::Ship(SDL_Surface *shipSurface, SDL_Surface *shipBoosterSurface, SDL_Surface *shipDeathSurface, SDL_Surface *aScreen, int aIndex, float x, float y, float r, int lives, int wWin, int hWin)
 	: Sprite( shipSurface, aScreen, aIndex, x, y, lives ) {
 		//tempSheetSurface = shipSheetSurface;
 		tempSurface = shipSurface;
@@ -33,6 +33,9 @@ Ship::Ship(SDL_Surface *shipSurface, SDL_Surface *shipBoosterSurface, SDL_Surfac
 		ySpeed = 0;
 		maxSpeed = 17;
 		minSpeed = -17;
+		
+		wWindow = wWin;
+		hWindow = hWin;
 		
 
 		classID = SHIP_CLASSID;
@@ -61,7 +64,7 @@ Ship::~Ship() {
 
 
 
-//keyPress(char c); 
+//void keyPress(char c, int numR) 
 void Ship::keyPress(char c, int numR) {
 	
 	float rads = PI / 180;
@@ -135,6 +138,18 @@ bool Ship::move(float r, SDL_Rect *aClip) {
 //void draw(float x, float y, float r = 0);
 void Ship::draw() {
 	//draw sprite
+	if (positon.x < 0-rSurface[(int)(positon.rotation)]->w) {
+		positon.x = wWindow;
+	}
+	if (positon.x > wWindow) {
+		positon.x = 0-rSurface[(int)(positon.rotation)]->w;
+	}
+	if (positon.y > hWindow) {
+		positon.y = 0-rSurface[(int)(positon.rotation)]->h;
+	}
+	if (positon.y < 0-rSurface[(int)(positon.rotation)]->h) {
+		positon.y = hWindow;
+	}
 	applySurface(positon.x, positon.y, spriteSurface, screen, clip);
 }
 
