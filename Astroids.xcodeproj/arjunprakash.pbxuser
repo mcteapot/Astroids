@@ -111,6 +111,8 @@
 			4779BEB713A21D4E00B9DEF3 /* PBXTextBookmark */ = 4779BEB713A21D4E00B9DEF3 /* PBXTextBookmark */;
 			4779BEC013A21D5300B9DEF3 /* XCBuildMessageTextBookmark */ = 4779BEC013A21D5300B9DEF3 /* XCBuildMessageTextBookmark */;
 			4779BEC113A21D5300B9DEF3 /* PBXTextBookmark */ = 4779BEC113A21D5300B9DEF3 /* PBXTextBookmark */;
+			4779BECA13A21EDF00B9DEF3 /* PBXTextBookmark */ = 4779BECA13A21EDF00B9DEF3 /* PBXTextBookmark */;
+			4779BECC13A21F8F00B9DEF3 /* PBXTextBookmark */ = 4779BECC13A21F8F00B9DEF3 /* PBXTextBookmark */;
 			47A23137139F7B0A00A7720B = 47A23137139F7B0A00A7720B /* PBXTextBookmark */;
 			47A23162139F88A900A7720B = 47A23162139F88A900A7720B /* PBXBookmark */;
 			47A23163139F88A900A7720B = 47A23163139F88A900A7720B /* PBXBookmark */;
@@ -381,7 +383,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 151";
 		rLen = 0;
-		rLoc = 3347;
+		rLoc = 3399;
 		rType = 0;
 		vrLen = 1188;
 		vrLoc = 1977;
@@ -410,7 +412,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 151";
 		rLen = 0;
-		rLoc = 3347;
+		rLoc = 3399;
 		rType = 0;
 		vrLen = 520;
 		vrLoc = 2901;
@@ -429,10 +431,30 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 141";
 		rLen = 0;
-		rLoc = 3067;
+		rLoc = 3119;
 		rType = 0;
 		vrLen = 1139;
 		vrLoc = 2282;
+	};
+	4779BECA13A21EDF00B9DEF3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
+		name = "Ship.cpp: 75";
+		rLen = 0;
+		rLoc = 1588;
+		rType = 0;
+		vrLen = 1003;
+		vrLoc = 1293;
+	};
+	4779BECC13A21F8F00B9DEF3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
+		name = "Ship.cpp: 117";
+		rLen = 5;
+		rLoc = 2653;
+		rType = 0;
+		vrLen = 1071;
+		vrLoc = 2402;
 	};
 	47A23113139F77A300A7720B /* shipSheet.png */ = {
 		uiCtxt = {
@@ -567,9 +589,9 @@
 	};
 	47D3E1DB139E0F1200A993D7 /* Ship.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {873, 2145}}";
-			sepNavSelRange = "{3067, 0}";
-			sepNavVisRange = "{2282, 1139}";
+			sepNavIntBoundsRect = "{{0, 0}, {873, 2197}}";
+			sepNavSelRange = "{2653, 5}";
+			sepNavVisRange = "{2402, 1071}";
 			sepNavWindowFrame = "{{628, 4}, {812, 874}}";
 		};
 	};

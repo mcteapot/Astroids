@@ -312,8 +312,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -331,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>4779BEC113A21D5300B9DEF3</string>
+										<string>4779BECC13A21F8F00B9DEF3</string>
 										<key>history</key>
 										<array>
 											<string>474646C11393BA460061E921</string>

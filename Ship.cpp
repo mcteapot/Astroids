@@ -72,10 +72,10 @@ void Ship::keyPress(char c, int numR) {
 	float vy = cos((positon.rotation+90) * rads);
 	
 	if (keystates[ SDLK_UP ]) {
-		if (xSpeed != minSpeed) {
+		if ((xSpeed != minSpeed) || (xSpeed != maxSpeed)) {
 			xSpeed += vx/3;
 		}
-		if (ySpeed != minSpeed) {
+		if ((ySpeed != minSpeed) || (ySpeed != maxSpeed)) {
 			ySpeed += vy/3;
 		}
 		
