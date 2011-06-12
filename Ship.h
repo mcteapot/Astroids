@@ -10,7 +10,7 @@
 #ifndef SHIP_H
 #define SHIP_H
 
-#define PI 3.14159265
+#define PI 3.14159265358979323846264
 
 //Headers
 #include <string>

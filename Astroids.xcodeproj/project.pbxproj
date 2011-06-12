@@ -11,6 +11,7 @@
 		002F3A0009D0884600EBEB88 /* SDL.framework in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = 002F39F909D0881F00EBEB88 /* SDL.framework */; };
 		002F3A2E09D0888800EBEB88 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 002F3A2C09D0888800EBEB88 /* SDLMain.m */; };
 		002F3A3F09D088BA00EBEB88 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */; };
+		470A773A13A4A1B9007316E8 /* Astroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */; };
 		47238821139C637E003AFC38 /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47238820139C637E003AFC38 /* Sprite.cpp */; };
 		47238948139C95B1003AFC38 /* Utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47238947139C95B1003AFC38 /* Utilities.cpp */; };
 		47238B39139CC546003AFC38 /* astroidLA01.png in Resources */ = {isa = PBXBuildFile; fileRef = 47238B30139CC546003AFC38 /* astroidLA01.png */; };
@@ -66,6 +67,8 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* Astroids_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Astroids_Prefix.pch; sourceTree = "<group>"; };
+		470A773813A4A1B9007316E8 /* Astroid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Astroid.h; sourceTree = "<group>"; };
+		470A773913A4A1B9007316E8 /* Astroid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Astroid.cpp; sourceTree = "<group>"; };
 		4723881F139C637E003AFC38 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
 		47238820139C637E003AFC38 /* Sprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sprite.cpp; sourceTree = "<group>"; };
 		47238946139C95B1003AFC38 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
@@ -128,6 +131,8 @@
 				47238820139C637E003AFC38 /* Sprite.cpp */,
 				47D3E1DA139E0F1200A993D7 /* Ship.h */,
 				47D3E1DB139E0F1200A993D7 /* Ship.cpp */,
+				470A773813A4A1B9007316E8 /* Astroid.h */,
+				470A773913A4A1B9007316E8 /* Astroid.cpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -322,6 +327,7 @@
 				47238821139C637E003AFC38 /* Sprite.cpp in Sources */,
 				47238948139C95B1003AFC38 /* Utilities.cpp in Sources */,
 				47D3E1DC139E0F1200A993D7 /* Ship.cpp in Sources */,
+				470A773A13A4A1B9007316E8 /* Astroid.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

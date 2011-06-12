@@ -73,37 +73,49 @@ void Ship::keyPress(char c, int numR) {
 	
 	if (keystates[ SDLK_UP ]) {
 		if ((xSpeed != minSpeed) || (xSpeed != maxSpeed)) {
-			xSpeed += vx/3;
+			xSpeed += vx/6;
 		}
 		if ((ySpeed != minSpeed) || (ySpeed != maxSpeed)) {
-			ySpeed += vy/3;
+			ySpeed += vy/6;
 		}
 		
 		move( 0, rSurface[(int)(positon.rotation)]);
 		spriteSurface = spriteBoosterSurface;
 	}
 	if (keystates[ SDLK_DOWN ]) {
+		move( 0, rSurface[(int)(positon.rotation)]);
 
 	}
 	if (keystates[ SDLK_RIGHT ]) {
-		std::cout << ",r: " << positon.rotation << std::endl;
+		//std::cout << ",r: " << positon.rotation << std::endl;
 		rTempJump += rJump;
 		if (rTempJump == 15) {
 			move( rTempJump, rSurface[(int)(positon.rotation)]);
 			rTempJump = 0;
 
 		}
-		spriteSurface = tempSurface;
+		move( 0, rSurface[(int)(positon.rotation)]);
+		if (keystates[ SDLK_UP ]) {
+			spriteSurface = spriteBoosterSurface;
+		} else {
+			spriteSurface = tempSurface;
+		}
+
 	}
 	if (keystates[ SDLK_LEFT ]) {
-		std::cout << ",r: " << positon.rotation << std::endl;
+		//std::cout << ",r: " << positon.rotation << std::endl;
 		rTempJump += rJump;
 		if (rTempJump == 15) {
 			move( -rTempJump, rSurface[(int)(positon.rotation)]);
 			rTempJump = 0;
 
 		}
-		spriteSurface = tempSurface;
+		move( 0, rSurface[(int)(positon.rotation)]);
+		if (keystates[ SDLK_UP ]) {
+			spriteSurface = spriteBoosterSurface;
+		} else {
+			spriteSurface = tempSurface;
+		}
 	}
 	if (keystates[ SDLK_SPACE ]) {
 		std::cout << "pew " << std::endl;
@@ -122,6 +134,7 @@ void Ship::keyPress(char c, int numR) {
 
 //bool move(float r, SDL_Rect *aClip);
 bool Ship::move(float r, SDL_Rect *aClip) {
+	std::cout << xSpeed << ", " << ySpeed << std::endl;
 	positon.x += xSpeed;
 	positon.y += ySpeed;
 	positon.rotation += r;
@@ -150,6 +163,7 @@ void Ship::draw() {
 	if (positon.y < 0-rSurface[(int)(positon.rotation)]->h) {
 		positon.y = hWindow;
 	}
+	//applySurface(positon.x, positon.y, spriteSurface, screen, clip);
 	applySurface(positon.x, positon.y, spriteSurface, screen, clip);
 }
 
