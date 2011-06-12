@@ -52,11 +52,11 @@ int main( int argc, char* args[] ) {
 	aSpriteL01 = new Sprite(astroidL01, screen, 0, -60, -60, 1);
 	
 	Ship *aShip;
-	aShip = new Ship(shipSheet01, shipSheetBooster01, shipDeath01, screen, 1, (( SCREENWIDTH - 32 ) / 2), (( SCREENHEIGHT + 32 ) / 2), 90, 3);
+	aShip = new Ship(shipSheet01, shipSheetBooster01, shipDeath01, screen, 1, (( SCREENWIDTH - 32 ) / 2), (( SCREENHEIGHT-32) / 2), 90, 3);
 	
 	Astroid *aAstroidL01;
-	
-	aAstroidL01 = new Astroid(astroidSheetL01, astroidDeathL01, screen , 2, 3, (( SCREENWIDTH ) / 2), (( SCREENHEIGHT ) / 2));
+	aAstroidL01 = new Astroid(astroidSheetL01, astroidDeathL01, screen , 2, 3);
+	//aAstroidL01 = new Astroid(astroidSheetL01, astroidDeathL01, screen , 2, 3, (( SCREENWIDTH ) / 2), (( SCREENHEIGHT ) / 2));
 
 	
     //GAME LOOP//
@@ -84,14 +84,14 @@ int main( int argc, char* args[] ) {
 			//std::cout << frame << std::endl;
 			
 			//Apply the message
-			applySurface( ( SCREENWIDTH - message->w ) / 2, ( ( SCREENHEIGHT + message->h * 2 ) / FRAMESPERSECOND ) * ( frame % FRAMESPERSECOND ) - message->h, message, screen, NULL );
+			//applySurface( ( SCREENWIDTH - message->w ) / 2, ( ( SCREENHEIGHT + message->h * 2 ) / FRAMESPERSECOND ) * ( frame % FRAMESPERSECOND ) - message->h, message, screen, NULL );
 			
 			//Apply the surface
 			aShip->keyPress(initSDLEvents(), 1);
 			aShip->draw();
 			
-			aSpriteL01->move(1,.6);
-			aSpriteL01->draw();
+			//aSpriteL01->move(1,.6);
+			//aSpriteL01->draw();
 			
 			aAstroidL01->draw();
 		}//GAME END

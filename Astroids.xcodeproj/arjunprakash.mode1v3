@@ -202,25 +202,25 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>470A77C313A4CAFF007316E8</string>
+				<string>470A795213A4DF05007316E8</string>
 				<key>PBXProjectModuleLabel</key>
-				<string>Astroid.cpp</string>
+				<string>Utilities.cpp</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
-						<string>470A77C413A4CAFF007316E8</string>
+						<string>470A795313A4DF05007316E8</string>
 						<key>PBXProjectModuleLabel</key>
-						<string>Astroid.cpp</string>
+						<string>Utilities.cpp</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>470A780513A4CCEE007316E8</string>
+						<string>470A799613A4E3E4007316E8</string>
 						<key>history</key>
 						<array>
-							<string>470A77C513A4CAFF007316E8</string>
-							<string>470A77DE13A4CBB9007316E8</string>
+							<string>470A795413A4DF05007316E8</string>
+							<string>470A795513A4DF05007316E8</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -236,7 +236,7 @@
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>1123 284 753 894 0 0 1920 1178 </string>
+				<string>1158 167 753 894 0 0 1920 1178 </string>
 			</dict>
 		</dict>
 	</array>
@@ -318,13 +318,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>18</integer>
+									<integer>16</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {229, 1038}}</string>
+							<string>{{0, 0}, {229, 1001}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -336,14 +336,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {246, 1056}}</string>
+						<string>{{0, 0}, {246, 1019}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>229</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>23 81 1087 1097 0 0 1920 1178 </string>
+						<string>23 118 1350 1060 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -361,7 +361,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Astroid.cpp</string>
+								<string>Ship.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -369,11 +369,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Astroid.cpp</string>
+										<string>Ship.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>470A780413A4CCEE007316E8</string>
+										<string>470A799513A4E3E4007316E8</string>
 										<key>history</key>
 										<array>
 											<string>474646C11393BA460061E921</string>
@@ -406,19 +406,19 @@
 											<string>470A77A913A4CAFF007316E8</string>
 											<string>470A77AA13A4CAFF007316E8</string>
 											<string>470A77AB13A4CAFF007316E8</string>
-											<string>470A77AC13A4CAFF007316E8</string>
 											<string>470A77AD13A4CAFF007316E8</string>
 											<string>470A77AE13A4CAFF007316E8</string>
 											<string>470A77AF13A4CAFF007316E8</string>
-											<string>470A77B013A4CAFF007316E8</string>
-											<string>470A77B113A4CAFF007316E8</string>
-											<string>470A77B213A4CAFF007316E8</string>
 											<string>470A77B313A4CAFF007316E8</string>
-											<string>470A77B513A4CAFF007316E8</string>
-											<string>470A77B613A4CAFF007316E8</string>
-											<string>470A77B713A4CAFF007316E8</string>
-											<string>470A77B813A4CAFF007316E8</string>
-											<string>470A77B913A4CAFF007316E8</string>
+											<string>470A784113A4CFC8007316E8</string>
+											<string>470A78B413A4D80D007316E8</string>
+											<string>470A794E13A4DF05007316E8</string>
+											<string>470A796613A4E097007316E8</string>
+											<string>470A798613A4E335007316E8</string>
+											<string>470A798713A4E335007316E8</string>
+											<string>470A798813A4E335007316E8</string>
+											<string>470A798913A4E335007316E8</string>
+											<string>470A798A13A4E335007316E8</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -430,14 +430,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {836, 746}}</string>
+								<string>{{0, 0}, {1099, 713}}</string>
 								<key>RubberWindowFrame</key>
-								<string>23 81 1087 1097 0 0 1920 1178 </string>
+								<string>23 118 1350 1060 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>746pt</string>
+							<string>713pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -450,18 +450,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 751}, {836, 305}}</string>
+								<string>{{0, 718}, {1099, 301}}</string>
 								<key>RubberWindowFrame</key>
-								<string>23 81 1087 1097 0 0 1920 1178 </string>
+								<string>23 118 1350 1060 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>305pt</string>
+							<string>301pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>836pt</string>
+					<string>1099pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -616,17 +616,16 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>470A780613A4CCEE007316E8</string>
 		<string>470A773513A4A10E007316E8</string>
 		<string>470A773613A4A10E007316E8</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>474643DF13939CBD0061E921</string>
-		<string>470A77C313A4CAFF007316E8</string>
-		<string>/Users/arjunprakash/Working/Development/CS8/Astroids/Astroids.xcodeproj</string>
+		<string>470A795213A4DF05007316E8</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/arjunprakash/Working/Development/CS8/Astroids/Astroids.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>23 81 1087 1097 0 0 1920 1178 </string>
+	<string>23 118 1350 1060 0 0 1920 1178 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

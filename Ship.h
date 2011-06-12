@@ -57,6 +57,7 @@ protected:
 	float ySpeed;
 	float maxSpeed;
 	float minSpeed;
+	bool shoot;
 	
 	int wWindow;
 	int hWindow;

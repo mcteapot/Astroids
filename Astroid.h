@@ -27,7 +27,7 @@
 
 class Astroid : public Sprite {
 public:	
-	Astroid(SDL_Surface *astroidSurface, SDL_Surface *astroidDeathSurface, SDL_Surface *aScreen, int aIndex,  int siz = 3, float x = 1, float y = 1, float r = 90, int lives = 1, int wWin = 500, int hWin = 375);
+	Astroid(SDL_Surface *astroidSurface, SDL_Surface *astroidDeathSurface, SDL_Surface *aScreen, int aIndex,  int aSize = 3, bool create = false, float x = 1, float y = 1, float r = 90, int lives = 1, int wWin = 500, int hWin = 375);
 	~Astroid();
 	
 	void draw(); 

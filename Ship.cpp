@@ -34,6 +34,7 @@ Ship::Ship(SDL_Surface *shipSurface, SDL_Surface *shipBoosterSurface, SDL_Surfac
 		ySpeed = 0;
 		maxSpeed = 17;
 		minSpeed = -17;
+		shoot = true;
 		
 		wWindow = wWin;
 		hWindow = hWin;
@@ -121,7 +122,15 @@ void Ship::keyPress(char c, int numR) {
 		}
 	}
 	if (keystates[ SDLK_SPACE ]) {
-		std::cout << "pew " << std::endl;
+		if (shoot) {
+			std::cout << "pew " << std::endl;
+			shoot = false;
+		}
+		if (keystates[ SDLK_UP ]) {
+			spriteSurface = spriteBoosterSurface;
+		} else {
+			spriteSurface = tempSurface;
+		}
 	}
 	if (!( (keystates[ SDLK_UP ]) || (keystates[ SDLK_DOWN ]) || (keystates[ SDLK_RIGHT ]) || (keystates[ SDLK_LEFT ]) )) {
 		move( 0,rSurface[(int)(positon.rotation)]);
@@ -131,6 +140,10 @@ void Ship::keyPress(char c, int numR) {
 	if (!(keystates[ SDLK_UP ])) {
 		xSpeed *= decay;
 		ySpeed *= decay;
+	}
+	if (!(keystates[ SDLK_SPACE ])) {
+		shoot = true;
+		
 	}
 
 }
