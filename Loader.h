@@ -36,6 +36,14 @@ SDL_Surface *astroidM03;
 SDL_Surface *astroidS01;
 SDL_Surface *astroidS02;
 SDL_Surface *astroidS03;
+
+SDL_Surface *astroidSheetL01;
+SDL_Surface *astroidSheetM01;
+SDL_Surface *astroidSheetS01;
+
+SDL_Surface *astroidDeathL01;
+SDL_Surface *astroidDeathM01;
+SDL_Surface *astroidDeathS01;
 //SDL Text Surface
 SDL_Surface *message;
 SDL_Surface *menuScreen;
@@ -51,10 +59,10 @@ void loadFiles() {
 	
 	ship01 = loadImage( "Astroids.app/Contents/Resources/ship.png", 0 );
 	shipBooster01 = loadImage( "Astroids.app/Contents/Resources/shipBooster.png", 0 );
-	shipDeath01 = loadImage( "Astroids.app/Contents/Resources/shipDeadth.png", 0 );
+	shipDeath01 = loadImage( "Astroids.app/Contents/Resources/shipDeadth.png", 1 );
 	
-	shipSheet01 = loadImage( "Astroids.app/Contents/Resources/shipSheetA.png", 0 );
-	shipSheetBooster01 = loadImage( "Astroids.app/Contents/Resources/shipSheetBoosterA.png", 0 );
+	shipSheet01 = loadImage( "Astroids.app/Contents/Resources/shipSheetA.png", 1 );
+	shipSheetBooster01 = loadImage( "Astroids.app/Contents/Resources/shipSheetBoosterA.png", 1 );
 	
 	astroidL01 = loadImage( "Astroids.app/Contents/Resources/astroidLA01.png", 1 );
 	astroidL02 = loadImage( "Astroids.app/Contents/Resources/astroidLA02.png", 1 );
@@ -65,6 +73,15 @@ void loadFiles() {
 	astroidS01 = loadImage( "Astroids.app/Contents/Resources/astroidSA01.png", 1 );
 	astroidS02 = loadImage( "Astroids.app/Contents/Resources/astroidSA02.png", 1 );
 	astroidS03 = loadImage( "Astroids.app/Contents/Resources/astroidSA03.png", 1 );
+	
+	astroidSheetL01 = loadImage( "Astroids.app/Contents/Resources/astroidsSheetLA.png", 1 );
+	astroidSheetM01 = loadImage( "Astroids.app/Contents/Resources/astroidsSheetMA.png", 1 );
+	astroidSheetS01 = loadImage( "Astroids.app/Contents/Resources/astroidsSheetSA.png", 1 );
+	
+	astroidDeathL01 = loadImage( "Astroids.app/Contents/Resources/astroidDeathLA.png", 1 );
+	astroidDeathM01 = loadImage( "Astroids.app/Contents/Resources/astroidDeathMA.png", 1 );
+	astroidDeathS01 = loadImage( "Astroids.app/Contents/Resources/astroidDeathSA.png", 1 );
+	
 	
     //Load fonts
     fontL = TTF_OpenFont( "Astroids.app/Contents/Resources/Arial.ttf", 50 );
@@ -109,6 +126,14 @@ void quitSDL() {
     SDL_FreeSurface( astroidS01 );
     SDL_FreeSurface( astroidS02 );
     SDL_FreeSurface( astroidS03 );
+	
+	SDL_FreeSurface( astroidSheetL01 );
+	SDL_FreeSurface( astroidSheetM01 );
+	SDL_FreeSurface( astroidSheetS01 );
+	
+	SDL_FreeSurface( astroidDeathL01 );
+	SDL_FreeSurface( astroidDeathM01 );
+	SDL_FreeSurface( astroidDeathS01 );
 	
 	SDL_FreeSurface( message );
     SDL_FreeSurface( menuScreen );

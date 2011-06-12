@@ -12,6 +12,7 @@
 //Ship(SDL_Surface *aSurface, SDL_Surface *aScreen, int aIndex, float x, float y, int lives);
 Ship::Ship(SDL_Surface *shipSurface, SDL_Surface *shipBoosterSurface, SDL_Surface *shipDeathSurface, SDL_Surface *aScreen, int aIndex, float x, float y, float r, int lives, int wWin, int hWin)
 	: Sprite( shipSurface, aScreen, aIndex, x, y, lives ) {
+		
 		//tempSheetSurface = shipSheetSurface;
 		tempSurface = shipSurface;
 		spriteBoosterSurface = shipBoosterSurface;
@@ -54,11 +55,13 @@ Ship::Ship(SDL_Surface *shipSurface, SDL_Surface *shipBoosterSurface, SDL_Surfac
 				rSurface[i]->h = 32;
 			}
 		}
+		
+		
 }
 
 //~Ship();
 Ship::~Ship() {
-
+	//erase the dying spire
 }
 
 
@@ -134,7 +137,8 @@ void Ship::keyPress(char c, int numR) {
 
 //bool move(float r, SDL_Rect *aClip);
 bool Ship::move(float r, SDL_Rect *aClip) {
-	std::cout << xSpeed << ", " << ySpeed << std::endl;
+	
+	//std::cout << xSpeed << ", " << ySpeed << std::endl;
 	positon.x += xSpeed;
 	positon.y += ySpeed;
 	positon.rotation += r;
@@ -148,8 +152,9 @@ bool Ship::move(float r, SDL_Rect *aClip) {
 	return true;
 }
 
-//void draw(float x, float y, float r = 0);
+//void draw();
 void Ship::draw() {
+	
 	//draw sprite
 	if (positon.x < 0-rSurface[(int)(positon.rotation)]->w) {
 		positon.x = wWindow;

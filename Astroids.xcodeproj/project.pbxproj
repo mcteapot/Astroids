@@ -12,6 +12,12 @@
 		002F3A2E09D0888800EBEB88 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 002F3A2C09D0888800EBEB88 /* SDLMain.m */; };
 		002F3A3F09D088BA00EBEB88 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */; };
 		470A773A13A4A1B9007316E8 /* Astroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */; };
+		470A774813A4B216007316E8 /* astroidsSheetLA.png in Resources */ = {isa = PBXBuildFile; fileRef = 470A774513A4B216007316E8 /* astroidsSheetLA.png */; };
+		470A774913A4B216007316E8 /* astroidsSheetMA.png in Resources */ = {isa = PBXBuildFile; fileRef = 470A774613A4B216007316E8 /* astroidsSheetMA.png */; };
+		470A774A13A4B216007316E8 /* astroidsSheetSA.png in Resources */ = {isa = PBXBuildFile; fileRef = 470A774713A4B216007316E8 /* astroidsSheetSA.png */; };
+		470A775013A4B681007316E8 /* astroidDeathLA.png in Resources */ = {isa = PBXBuildFile; fileRef = 470A774D13A4B681007316E8 /* astroidDeathLA.png */; };
+		470A775113A4B681007316E8 /* astroidDeathMA.png in Resources */ = {isa = PBXBuildFile; fileRef = 470A774E13A4B681007316E8 /* astroidDeathMA.png */; };
+		470A775213A4B681007316E8 /* astroidDeathSA.png in Resources */ = {isa = PBXBuildFile; fileRef = 470A774F13A4B681007316E8 /* astroidDeathSA.png */; };
 		47238821139C637E003AFC38 /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47238820139C637E003AFC38 /* Sprite.cpp */; };
 		47238948139C95B1003AFC38 /* Utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47238947139C95B1003AFC38 /* Utilities.cpp */; };
 		47238B39139CC546003AFC38 /* astroidLA01.png in Resources */ = {isa = PBXBuildFile; fileRef = 47238B30139CC546003AFC38 /* astroidLA01.png */; };
@@ -69,6 +75,12 @@
 		32CA4F630368D1EE00C91783 /* Astroids_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Astroids_Prefix.pch; sourceTree = "<group>"; };
 		470A773813A4A1B9007316E8 /* Astroid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Astroid.h; sourceTree = "<group>"; };
 		470A773913A4A1B9007316E8 /* Astroid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Astroid.cpp; sourceTree = "<group>"; };
+		470A774513A4B216007316E8 /* astroidsSheetLA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astroidsSheetLA.png; sourceTree = "<group>"; };
+		470A774613A4B216007316E8 /* astroidsSheetMA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astroidsSheetMA.png; sourceTree = "<group>"; };
+		470A774713A4B216007316E8 /* astroidsSheetSA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astroidsSheetSA.png; sourceTree = "<group>"; };
+		470A774D13A4B681007316E8 /* astroidDeathLA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astroidDeathLA.png; sourceTree = "<group>"; };
+		470A774E13A4B681007316E8 /* astroidDeathMA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astroidDeathMA.png; sourceTree = "<group>"; };
+		470A774F13A4B681007316E8 /* astroidDeathSA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astroidDeathSA.png; sourceTree = "<group>"; };
 		4723881F139C637E003AFC38 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
 		47238820139C637E003AFC38 /* Sprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sprite.cpp; sourceTree = "<group>"; };
 		47238946139C95B1003AFC38 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
@@ -205,6 +217,12 @@
 				47238B36139CC546003AFC38 /* astroidSA01.png */,
 				47238B37139CC546003AFC38 /* astroidSA02.png */,
 				47238B38139CC546003AFC38 /* astroidSA03.png */,
+				470A774513A4B216007316E8 /* astroidsSheetLA.png */,
+				470A774613A4B216007316E8 /* astroidsSheetMA.png */,
+				470A774713A4B216007316E8 /* astroidsSheetSA.png */,
+				470A774D13A4B681007316E8 /* astroidDeathLA.png */,
+				470A774E13A4B681007316E8 /* astroidDeathMA.png */,
+				470A774F13A4B681007316E8 /* astroidDeathSA.png */,
 				479531A01395A8E1009B4826 /* backgroundBlack.png */,
 				4746440613939DA00061E921 /* background.png */,
 				4746440713939DA00061E921 /* Arial.ttf */,
@@ -309,6 +327,12 @@
 				47A23116139F77A300A7720B /* shipSheetBooster.png in Resources */,
 				47A23373139FA08200A7720B /* shipSheetA.png in Resources */,
 				47A23374139FA08200A7720B /* shipSheetBoosterA.png in Resources */,
+				470A774813A4B216007316E8 /* astroidsSheetLA.png in Resources */,
+				470A774913A4B216007316E8 /* astroidsSheetMA.png in Resources */,
+				470A774A13A4B216007316E8 /* astroidsSheetSA.png in Resources */,
+				470A775013A4B681007316E8 /* astroidDeathLA.png in Resources */,
+				470A775113A4B681007316E8 /* astroidDeathMA.png in Resources */,
+				470A775213A4B681007316E8 /* astroidDeathSA.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

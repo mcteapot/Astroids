@@ -29,6 +29,7 @@ class Ship : public Sprite {
 public:
 	Ship(SDL_Surface *shipSurface, SDL_Surface *shipBoosterSurface, SDL_Surface *shipDeathSurface, SDL_Surface *aScreen, int aIndex, float x = 1, float y = 1, float r = 90, int lives = 3, int wWin = 500, int hWin = 375);
 	~Ship();
+
 	void keyPress(char c, int numR);
 	bool move(float r, SDL_Rect *aClip); 
 	void draw(); 

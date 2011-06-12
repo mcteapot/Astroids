@@ -25,6 +25,7 @@
 #include "Utilities.h"
 #include "Sprite.h"
 #include "Ship.h"
+#include "Astroid.h"
 
 //Screen attributes
 const int SCREENWIDTH = 500;
@@ -47,12 +48,15 @@ int main( int argc, char* args[] ) {
 	
 	//Init classes
     Timer fps;
-	Sprite *astroidLrg01;
-	astroidLrg01 = new Sprite(astroidL01, screen, 0, -60, -60, 1);
+	Sprite *aSpriteL01;
+	aSpriteL01 = new Sprite(astroidL01, screen, 0, -60, -60, 1);
 	
 	Ship *aShip;
-	aShip = new Ship(shipSheet01, shipSheetBooster01, shipDeath01, screen, 1, (( SCREENWIDTH ) / 2), (( SCREENHEIGHT ) / 2), 90, 3);
+	aShip = new Ship(shipSheet01, shipSheetBooster01, shipDeath01, screen, 1, (( SCREENWIDTH - 32 ) / 2), (( SCREENHEIGHT + 32 ) / 2), 90, 3);
 	
+	Astroid *aAstroidL01;
+	
+	aAstroidL01 = new Astroid(astroidSheetL01, astroidDeathL01, screen , 2, 3, (( SCREENWIDTH ) / 2), (( SCREENHEIGHT ) / 2));
 
 	
     //GAME LOOP//
@@ -86,8 +90,10 @@ int main( int argc, char* args[] ) {
 			aShip->keyPress(initSDLEvents(), 1);
 			aShip->draw();
 			
-			astroidLrg01->move(1,.6);
-			astroidLrg01->draw();
+			aSpriteL01->move(1,.6);
+			aSpriteL01->draw();
+			
+			aAstroidL01->draw();
 		}//GAME END
 
         //Update the screen
