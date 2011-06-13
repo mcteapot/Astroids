@@ -14,6 +14,7 @@ Sprite::Sprite(SDL_Surface *aSurface, SDL_Surface *aScreen, int aIndex, float x,
 
 	spriteSurface = aSurface;
 	screen = aScreen;
+	deadSurface =  NULL;
 	clip = NULL;
 	positon.x = x;
 	positon.y = y;
@@ -87,7 +88,12 @@ bool Sprite::move(float x, float y, float r, SDL_Rect *aClip) {
 void Sprite::draw(float x, float y, float r) {
 	//move(x,y,r);
 	//draw sprite
-	applySurface(positon.x, positon.y, spriteSurface, screen, clip);
+	if (numLives) {
+		applySurface(positon.x, positon.y, spriteSurface, screen, clip);
+	}else {
+		applySurface(positon.x, positon.y, deadSurface, screen, clip);
+	}
+
 }
 
 

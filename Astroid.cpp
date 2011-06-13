@@ -19,10 +19,10 @@ Astroid::Astroid(SDL_Surface *astroidSurface, SDL_Surface *astroidDeathSurface, 
 		hWindow = hWin;
 		
 		float rads = PI / 180;
-		int Speed = 0;
+		float Speed = .75;
 		
 		//initialize random seed
-		srand ( time(NULL) );
+		//srand ( time(0) );
 		
 		type = rand() % 3;
 		if (create) {
@@ -31,8 +31,8 @@ Astroid::Astroid(SDL_Surface *astroidSurface, SDL_Surface *astroidDeathSurface, 
 			positon.rotation = roat = (((rand() % 360) / 15) * 15);
 		}
 		
-		xSpeed = (sin((positon.rotation+90) * rads)) + Speed;
-		ySpeed = (cos((positon.rotation+90) * rads)) + Speed;
+		xSpeed = (sin((positon.rotation+90) * rads)) * Speed;
+		ySpeed = (cos((positon.rotation+90) * rads)) * Speed;
 		
 		size = aSize;
 		if (size == 3) {
@@ -65,7 +65,7 @@ Astroid::Astroid(SDL_Surface *astroidSurface, SDL_Surface *astroidDeathSurface, 
 		}
 		clip = rSurface[type];
 		int location = rand() % 4;
-		//std::cout << "Locating: " << location << std::endl;
+		std::cout << "Locating: " << location << std::endl;
 		int randX = rand() % wWindow;
 		int randY = rand() % hWindow;
 		int clamp = clip->w;
@@ -87,7 +87,7 @@ Astroid::Astroid(SDL_Surface *astroidSurface, SDL_Surface *astroidDeathSurface, 
 				positon.x = (rand() % (wWindow-clamp) + clamp);
 				positon.y = hWindow+10;
 			}
-		//std::cout << "X: " << positon.x << " Y: " << positon.y << std::endl;
+		std::cout <<"Type: " << type << " X: " << positon.x << " Y: " << positon.y << std::endl;
 		}
 		
 }

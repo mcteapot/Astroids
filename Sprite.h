@@ -56,6 +56,7 @@ public:
 protected:
 	SDL_Surface *spriteSurface;
 	SDL_Surface *screen;
+	SDL_Surface *deadSurface;
 	
 	SDL_Rect *clip;
 	

@@ -18,6 +18,7 @@
 		470A775013A4B681007316E8 /* astroidDeathLA.png in Resources */ = {isa = PBXBuildFile; fileRef = 470A774D13A4B681007316E8 /* astroidDeathLA.png */; };
 		470A775113A4B681007316E8 /* astroidDeathMA.png in Resources */ = {isa = PBXBuildFile; fileRef = 470A774E13A4B681007316E8 /* astroidDeathMA.png */; };
 		470A775213A4B681007316E8 /* astroidDeathSA.png in Resources */ = {isa = PBXBuildFile; fileRef = 470A774F13A4B681007316E8 /* astroidDeathSA.png */; };
+		470A7AC013A5CECF007316E8 /* Level.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 470A7ABF13A5CECF007316E8 /* Level.cpp */; };
 		47238821139C637E003AFC38 /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47238820139C637E003AFC38 /* Sprite.cpp */; };
 		47238948139C95B1003AFC38 /* Utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47238947139C95B1003AFC38 /* Utilities.cpp */; };
 		47238B39139CC546003AFC38 /* astroidLA01.png in Resources */ = {isa = PBXBuildFile; fileRef = 47238B30139CC546003AFC38 /* astroidLA01.png */; };
@@ -29,7 +30,7 @@
 		47238B69139CC71E003AFC38 /* astroidMA01.png in Resources */ = {isa = PBXBuildFile; fileRef = 47238B66139CC71E003AFC38 /* astroidMA01.png */; };
 		47238B6A139CC71E003AFC38 /* astroidMA02.png in Resources */ = {isa = PBXBuildFile; fileRef = 47238B67139CC71E003AFC38 /* astroidMA02.png */; };
 		47238B6B139CC71E003AFC38 /* astroidMA03.png in Resources */ = {isa = PBXBuildFile; fileRef = 47238B68139CC71E003AFC38 /* astroidMA03.png */; };
-		47238B79139CC7D0003AFC38 /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 47238B77139CC7D0003AFC38 /* ship.png */; };
+		47238B79139CC7D0003AFC38 /* shipLife.png in Resources */ = {isa = PBXBuildFile; fileRef = 47238B77139CC7D0003AFC38 /* shipLife.png */; };
 		47238B7A139CC7D0003AFC38 /* shipBooster.png in Resources */ = {isa = PBXBuildFile; fileRef = 47238B78139CC7D0003AFC38 /* shipBooster.png */; };
 		474643DA13939C950061E921 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474643D913939C950061E921 /* SDL_image.framework */; };
 		474643DC13939CA20061E921 /* SDL_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474643DB13939CA20061E921 /* SDL_ttf.framework */; };
@@ -45,6 +46,7 @@
 		47A23374139FA08200A7720B /* shipSheetBoosterA.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A23372139FA08200A7720B /* shipSheetBoosterA.png */; };
 		47D3E1DC139E0F1200A993D7 /* Ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */; };
 		47D3E347139E221700A993D7 /* shipDeadth.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D3E346139E221700A993D7 /* shipDeadth.png */; };
+		47DE41A213A5F62A0050ACB5 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DE41A113A5F62A0050ACB5 /* bullet.png */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -81,6 +83,8 @@
 		470A774D13A4B681007316E8 /* astroidDeathLA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astroidDeathLA.png; sourceTree = "<group>"; };
 		470A774E13A4B681007316E8 /* astroidDeathMA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astroidDeathMA.png; sourceTree = "<group>"; };
 		470A774F13A4B681007316E8 /* astroidDeathSA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astroidDeathSA.png; sourceTree = "<group>"; };
+		470A7ABE13A5CECF007316E8 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		470A7ABF13A5CECF007316E8 /* Level.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Level.cpp; sourceTree = "<group>"; };
 		4723881F139C637E003AFC38 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
 		47238820139C637E003AFC38 /* Sprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sprite.cpp; sourceTree = "<group>"; };
 		47238946139C95B1003AFC38 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
@@ -94,7 +98,7 @@
 		47238B66139CC71E003AFC38 /* astroidMA01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astroidMA01.png; sourceTree = "<group>"; };
 		47238B67139CC71E003AFC38 /* astroidMA02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astroidMA02.png; sourceTree = "<group>"; };
 		47238B68139CC71E003AFC38 /* astroidMA03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astroidMA03.png; sourceTree = "<group>"; };
-		47238B77139CC7D0003AFC38 /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship.png; sourceTree = "<group>"; };
+		47238B77139CC7D0003AFC38 /* shipLife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shipLife.png; sourceTree = "<group>"; };
 		47238B78139CC7D0003AFC38 /* shipBooster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shipBooster.png; sourceTree = "<group>"; };
 		474643D913939C950061E921 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = /Library/Frameworks/SDL_image.framework; sourceTree = "<absolute>"; };
 		474643DB13939CA20061E921 /* SDL_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_ttf.framework; path = /Library/Frameworks/SDL_ttf.framework; sourceTree = "<absolute>"; };
@@ -114,6 +118,7 @@
 		47D3E1DA139E0F1200A993D7 /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
 		47D3E1DB139E0F1200A993D7 /* Ship.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ship.cpp; sourceTree = "<group>"; };
 		47D3E346139E221700A993D7 /* shipDeadth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shipDeadth.png; sourceTree = "<group>"; };
+		47DE41A113A5F62A0050ACB5 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Astroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -145,6 +150,8 @@
 				47D3E1DB139E0F1200A993D7 /* Ship.cpp */,
 				470A773813A4A1B9007316E8 /* Astroid.h */,
 				470A773913A4A1B9007316E8 /* Astroid.cpp */,
+				470A7ABE13A5CECF007316E8 /* Level.h */,
+				470A7ABF13A5CECF007316E8 /* Level.cpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -201,11 +208,12 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				47DE41A113A5F62A0050ACB5 /* bullet.png */,
 				47A23371139FA08200A7720B /* shipSheetA.png */,
 				47A23372139FA08200A7720B /* shipSheetBoosterA.png */,
 				47A23113139F77A300A7720B /* shipSheet.png */,
 				47A23114139F77A300A7720B /* shipSheetBooster.png */,
-				47238B77139CC7D0003AFC38 /* ship.png */,
+				47238B77139CC7D0003AFC38 /* shipLife.png */,
 				47238B78139CC7D0003AFC38 /* shipBooster.png */,
 				47D3E346139E221700A993D7 /* shipDeadth.png */,
 				47238B30139CC546003AFC38 /* astroidLA01.png */,
@@ -320,7 +328,7 @@
 				47238B69139CC71E003AFC38 /* astroidMA01.png in Resources */,
 				47238B6A139CC71E003AFC38 /* astroidMA02.png in Resources */,
 				47238B6B139CC71E003AFC38 /* astroidMA03.png in Resources */,
-				47238B79139CC7D0003AFC38 /* ship.png in Resources */,
+				47238B79139CC7D0003AFC38 /* shipLife.png in Resources */,
 				47238B7A139CC7D0003AFC38 /* shipBooster.png in Resources */,
 				47D3E347139E221700A993D7 /* shipDeadth.png in Resources */,
 				47A23115139F77A300A7720B /* shipSheet.png in Resources */,
@@ -333,6 +341,7 @@
 				470A775013A4B681007316E8 /* astroidDeathLA.png in Resources */,
 				470A775113A4B681007316E8 /* astroidDeathMA.png in Resources */,
 				470A775213A4B681007316E8 /* astroidDeathSA.png in Resources */,
+				47DE41A213A5F62A0050ACB5 /* bullet.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +361,7 @@
 				47238948139C95B1003AFC38 /* Utilities.cpp in Sources */,
 				47D3E1DC139E0F1200A993D7 /* Ship.cpp in Sources */,
 				470A773A13A4A1B9007316E8 /* Astroid.cpp in Sources */,
+				470A7AC013A5CECF007316E8 /* Level.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -99,7 +99,7 @@ void loadFiles() {
 void createText() {
 	//SDL Colors for text
 	SDL_Color textColor = { 255, 255, 255 };
-
+	
     //Generate the message surface
     message = TTF_RenderText_Solid( fontL, "FUCKING ASTEROIDS", textColor );
 	menuTitle = TTF_RenderText_Solid( fontL, "ASTEROIDS", textColor );

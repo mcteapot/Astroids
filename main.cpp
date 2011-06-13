@@ -10,6 +10,8 @@
 //Headers
 #include <string>
 #include <iostream>
+#include <stdlib.h>
+#include <ctime>
 
 #include "SDL/SDL.h"
 #include "SDL_image/SDL_image.h"
@@ -26,6 +28,7 @@
 #include "Sprite.h"
 #include "Ship.h"
 #include "Astroid.h"
+#include "Level.h"
 
 //Screen attributes
 const int SCREENWIDTH = 500;
@@ -37,7 +40,8 @@ const int FRAMESPERSECOND = 60;
 
 //MAIN//
 int main( int argc, char* args[] ) {
-	
+	//Init Rand to clock
+	srand ( time(0) );	
     //Initialize Window
     initSDLWindow( SCREENWIDTH, SCREENHEIGHT, SCREENBPP );
 	
@@ -48,14 +52,23 @@ int main( int argc, char* args[] ) {
 	
 	//Init classes
     Timer fps;
-	Sprite *aSpriteL01;
-	aSpriteL01 = new Sprite(astroidL01, screen, 0, -60, -60, 1);
-	
+	Level *theLevel;
+	theLevel = new Level(screen, SCREENWIDTH, SCREENHEIGHT);
+	//Sprite *aSpriteL01;
+	//aSpriteL01 = new Sprite(astroidL01, screen, 0, -60, -60, 1);
+	/*
 	Ship *aShip;
 	aShip = new Ship(shipSheet01, shipSheetBooster01, shipDeath01, screen, 1, (( SCREENWIDTH - 32 ) / 2), (( SCREENHEIGHT-32) / 2), 90, 3);
 	
 	Astroid *aAstroidL01;
 	aAstroidL01 = new Astroid(astroidSheetL01, astroidDeathL01, screen , 2, 3);
+	Astroid *aAstroidL02;
+	aAstroidL02 = new Astroid(astroidSheetL01, astroidDeathL01, screen , 3, 3);
+	Astroid *aAstroidL03;
+	aAstroidL03 = new Astroid(astroidSheetL01, astroidDeathL01, screen , 3, 3);
+	Astroid *aAstroidL04;
+	aAstroidL04 = new Astroid(astroidSheetL01, astroidDeathL01, screen , 3, 3);
+	 */
 	//aAstroidL01 = new Astroid(astroidSheetL01, astroidDeathL01, screen , 2, 3, (( SCREENWIDTH ) / 2), (( SCREENHEIGHT ) / 2));
 
 	
@@ -81,19 +94,28 @@ int main( int argc, char* args[] ) {
 		}//MENU END
 		//GAME
 		if ( game ) {
+			
+			if ((theLevel->play()) == true) {
+				menu = 1;
+				game = 0;
+			}
+			
 			//std::cout << frame << std::endl;
 			
 			//Apply the message
 			//applySurface( ( SCREENWIDTH - message->w ) / 2, ( ( SCREENHEIGHT + message->h * 2 ) / FRAMESPERSECOND ) * ( frame % FRAMESPERSECOND ) - message->h, message, screen, NULL );
 			
 			//Apply the surface
-			aShip->keyPress(initSDLEvents(), 1);
-			aShip->draw();
+			//aShip->keyPress(initSDLEvents(), 1);
+			//aShip->draw();
 			
 			//aSpriteL01->move(1,.6);
 			//aSpriteL01->draw();
 			
-			aAstroidL01->draw();
+			//aAstroidL01->draw();
+			//aAstroidL02->draw();
+			//aAstroidL03->draw();
+			//aAstroidL04->draw();
 		}//GAME END
 
         //Update the screen
