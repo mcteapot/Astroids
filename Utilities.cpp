@@ -49,6 +49,7 @@ char initSDLEvents() {
 					case SDLK_RIGHT: keyPress = 'r'; break;
 					case SDLK_SPACE: keyPress = 's'; break;
 					case SDLK_ESCAPE: keyPress = 'q'; break;
+					case SDLK_RETURN: keyPress = 'e'; break;
 				}
 				break;
 			default:

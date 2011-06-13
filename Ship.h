@@ -32,7 +32,9 @@ public:
 
 	void keyPress(char c, int numR);
 	bool move(float r, SDL_Rect *aClip); 
-	void draw(); 
+	void draw();
+	void destroy();
+	void reSet();
 protected:
 	SDL_Surface *tempSurface;
 	SDL_Surface *tempSheetSurface;
@@ -41,9 +43,14 @@ protected:
 		
 	SDL_Rect *rSurface[361];
 	
+	bool alive;
+	
 	int rJump;
 	int rTempJump;
 	int roat;
+	
+	float xInit;
+	float yInit;
 	
 	char upKey; 
 	char downKey;

@@ -24,10 +24,15 @@ Ship::Ship(SDL_Surface *shipSurface, SDL_Surface *shipBoosterSurface, SDL_Surfac
 		leftKey = 'l';
 		spaceKey = 's';
 		
+		alive = true;
+		
 		roat = positon.rotation = r;
 		
 		rJump = 5;
 		rTempJump = 0;
+		
+		xInit = x;
+		yInit = y;
 		
 		decay = .99;
 		xSpeed = 0;
@@ -74,77 +79,86 @@ void Ship::keyPress(char c, int numR) {
 	float rads = PI / 180;
 	float vx = sin((positon.rotation+90) * rads);
 	float vy = cos((positon.rotation+90) * rads);
-	
-	if (keystates[ SDLK_UP ]) {
-		if ((xSpeed != minSpeed) || (xSpeed != maxSpeed)) {
-			xSpeed += vx/6;
-		}
-		if ((ySpeed != minSpeed) || (ySpeed != maxSpeed)) {
-			ySpeed += vy/6;
-		}
-		
-		move( 0, rSurface[(int)(positon.rotation)]);
-		spriteSurface = spriteBoosterSurface;
-	}
-	if (keystates[ SDLK_DOWN ]) {
-		move( 0, rSurface[(int)(positon.rotation)]);
-
-	}
-	if (keystates[ SDLK_RIGHT ]) {
-		//std::cout << ",r: " << positon.rotation << std::endl;
-		rTempJump += rJump;
-		if (rTempJump == 15) {
-			move( rTempJump, rSurface[(int)(positon.rotation)]);
-			rTempJump = 0;
-
-		}
-		move( 0, rSurface[(int)(positon.rotation)]);
+	if (alive) {
 		if (keystates[ SDLK_UP ]) {
+			if ((xSpeed != minSpeed) || (xSpeed != maxSpeed)) {
+				xSpeed += vx/6;
+			}
+			if ((ySpeed != minSpeed) || (ySpeed != maxSpeed)) {
+				ySpeed += vy/6;
+			}
+			
+			move( 0, rSurface[(int)(positon.rotation)]);
 			spriteSurface = spriteBoosterSurface;
-		} else {
+		}
+		if (keystates[ SDLK_DOWN ]) {
+			move( 0, rSurface[(int)(positon.rotation)]);
+			//debug
+			//destroy();
+		}
+		if (keystates[ SDLK_RIGHT ]) {
+			//std::cout << ",r: " << positon.rotation << std::endl;
+			rTempJump += rJump;
+			if (rTempJump == 15) {
+				move( rTempJump, rSurface[(int)(positon.rotation)]);
+				rTempJump = 0;
+				
+			}
+			move( 0, rSurface[(int)(positon.rotation)]);
+			if (keystates[ SDLK_UP ]) {
+				spriteSurface = spriteBoosterSurface;
+			} else {
+				spriteSurface = tempSurface;
+			}
+			
+		}
+		if (keystates[ SDLK_LEFT ]) {
+			//std::cout << ",r: " << positon.rotation << std::endl;
+			rTempJump += rJump;
+			if (rTempJump == 15) {
+				move( -rTempJump, rSurface[(int)(positon.rotation)]);
+				rTempJump = 0;
+				
+			}
+			move( 0, rSurface[(int)(positon.rotation)]);
+			if (keystates[ SDLK_UP ]) {
+				spriteSurface = spriteBoosterSurface;
+			} else {
+				spriteSurface = tempSurface;
+			}
+		}
+		if (keystates[ SDLK_SPACE ]) {
+			if (shoot) {
+				std::cout << "pew " << std::endl;
+				shoot = false;
+			}
+			if (keystates[ SDLK_UP ]) {
+				spriteSurface = spriteBoosterSurface;
+			} else {
+				spriteSurface = tempSurface;
+			}
+		}
+		if (!( (keystates[ SDLK_UP ]) || (keystates[ SDLK_DOWN ]) || (keystates[ SDLK_RIGHT ]) || (keystates[ SDLK_LEFT ]) )) {
+			move( 0,rSurface[(int)(positon.rotation)]);
 			spriteSurface = tempSurface;
+			
 		}
-
-	}
-	if (keystates[ SDLK_LEFT ]) {
-		//std::cout << ",r: " << positon.rotation << std::endl;
-		rTempJump += rJump;
-		if (rTempJump == 15) {
-			move( -rTempJump, rSurface[(int)(positon.rotation)]);
-			rTempJump = 0;
-
+		if (!(keystates[ SDLK_UP ])) {
+			xSpeed *= decay;
+			ySpeed *= decay;
 		}
-		move( 0, rSurface[(int)(positon.rotation)]);
+		if (!(keystates[ SDLK_SPACE ])) {
+			shoot = true;
+			
+		}
+	} else {
 		if (keystates[ SDLK_UP ]) {
-			spriteSurface = spriteBoosterSurface;
-		} else {
-			spriteSurface = tempSurface;
+			//debug
+			//reSet();
 		}
 	}
-	if (keystates[ SDLK_SPACE ]) {
-		if (shoot) {
-			std::cout << "pew " << std::endl;
-			shoot = false;
-		}
-		if (keystates[ SDLK_UP ]) {
-			spriteSurface = spriteBoosterSurface;
-		} else {
-			spriteSurface = tempSurface;
-		}
-	}
-	if (!( (keystates[ SDLK_UP ]) || (keystates[ SDLK_DOWN ]) || (keystates[ SDLK_RIGHT ]) || (keystates[ SDLK_LEFT ]) )) {
-		move( 0,rSurface[(int)(positon.rotation)]);
-		spriteSurface = tempSurface;
-		
-	}
-	if (!(keystates[ SDLK_UP ])) {
-		xSpeed *= decay;
-		ySpeed *= decay;
-	}
-	if (!(keystates[ SDLK_SPACE ])) {
-		shoot = true;
-		
-	}
+
+
 
 }
 
@@ -181,7 +195,25 @@ void Ship::draw() {
 	if (positon.y < 0-rSurface[(int)(positon.rotation)]->h) {
 		positon.y = hWindow;
 	}
-	//applySurface(positon.x, positon.y, spriteSurface, screen, clip);
-	applySurface(positon.x, positon.y, spriteSurface, screen, clip);
-}
+	if (alive) {
+		//applySurface(positon.x, positon.y, spriteSurface, screen, clip);
+		applySurface(positon.x, positon.y, spriteSurface, screen, clip);
+	}else {
+		//applySurface(positon.x, positon.y, spriteSurface, screen, clip);
+		applySurface(positon.x, positon.y, spriteDeathSurface, screen, NULL);
+	}
 
+}
+//void destroy();
+void Ship::destroy() {
+	alive = false;
+	xSpeed = 0;
+	ySpeed = 0;
+}
+//void reSet();
+void Ship::reSet() {
+	positon.rotation = 90;
+	positon.x = xInit;
+	positon.y = yInit;
+	alive = true;
+}

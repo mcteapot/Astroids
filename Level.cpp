@@ -14,13 +14,12 @@ Level::Level(SDL_Surface *aScreen, int w, int h) {
 	screen = aScreen;
 	wWindow = w;
 	hWindow = h;
-	intScore = 0000;
+	intScore = 0;
 	theLevel = 1;
 	scoreToText(intScore);
 	gameOver = false;
 	//set color
-	SDL_Color whiteColor = { 255, 255, 255 };
-	textColor = whiteColor;
+
 	//set Methods
 	initAssets();
 	loadLevel();
@@ -34,9 +33,16 @@ Level::~Level() {
 bool Level::play() {
 	//Apply the surface
 	displyUI(aShip->getLives());
-	aShip->keyPress(initSDLEvents(), 1);
-	aShip->draw();
-	return false;
+	if (aShip->getLives() != 0) {
+		aShip->keyPress(initSDLEvents(), 1);
+		aShip->draw();
+	} else {
+		endGame();
+	}
+
+	
+	//returns gameover state
+	return gameOver;
 
 }
 //void displyUI(int lives);
@@ -44,7 +50,7 @@ void Level::displyUI(int lives) {
 	for (int i = 0; i < lives; i++) {
 		aShipLives[i]->draw();
 	}
-
+	applySurface( (wWindow-80), 10, textScore, screen, NULL );
 }
 //void scoreToText(int i);
 void Level::scoreToText(int i) {
@@ -53,13 +59,19 @@ void Level::scoreToText(int i) {
 	stringScore = out.str();
 
 }
+
+//void endGame();
+void Level::endGame() {
+	applySurface( ( wWindow - textGameOver->w )/2, ( hWindow - textGameOver->h)/2, textGameOver, screen, NULL );
+
+}
+
 //void createText();
 void Level::createText() {
-	
+	SDL_Color whiteColor = { 255, 255, 255 };
     //Generate the message surface
-    textScore = TTF_RenderText_Solid( fontS, stringScore.c_str(), textColor );
-	textGameOver = TTF_RenderText_Solid( fontL, "GAME OVER", textColor );
-	
+    textScore = TTF_RenderText_Solid( fontS, stringScore.c_str(), whiteColor );
+	textGameOver = TTF_RenderText_Solid( fontL, "GAME OVER", whiteColor );
 }
 //void loadLevel();
 void Level::loadLevel() {
@@ -68,12 +80,14 @@ void Level::loadLevel() {
 	for (int i = 0; i < aShip->getLives(); i++) {
 		aShipLives[i] = new Sprite(shipLife01, screen, 1, 10+(32*i), 10);
 	}
+
 }
 
 //void initAssets();
 void Level::initAssets() {
 	shipLife01 = loadImage( (char *)"Astroids.app/Contents/Resources/shipLife.png", 1 );
 	shipDeath01 = loadImage( (char *)"Astroids.app/Contents/Resources/shipDeadth.png", 1 );
+	
 	shipSheet01 = loadImage( (char *)"Astroids.app/Contents/Resources/shipSheetA.png", 1 );
 	shipSheetBooster01 = loadImage( (char *)"Astroids.app/Contents/Resources/shipSheetBoosterA.png", 1 );
 	
@@ -94,10 +108,13 @@ void Level::initAssets() {
 }
 //void unloadLevel();
 void Level::unloadLevel() {
+	SDL_FreeSurface( shipLife01 );
 	SDL_FreeSurface( shipDeath01 );
 	
 	SDL_FreeSurface( shipSheet01 );
 	SDL_FreeSurface( shipSheetBooster01 );
+	
+	SDL_FreeSurface( bullet01 );
 	
 	SDL_FreeSurface( astroidSheetL01 );
 	SDL_FreeSurface( astroidSheetM01 );

@@ -19,7 +19,7 @@
 
 //SDL Image Surface
 SDL_Surface *background;
-
+/*
 SDL_Surface *ship01;
 SDL_Surface *shipBooster01;
 SDL_Surface *shipDeath01;
@@ -46,6 +46,8 @@ SDL_Surface *astroidDeathM01;
 SDL_Surface *astroidDeathS01;
 //SDL Text Surface
 SDL_Surface *message;
+ */
+//SDL Text Surface
 SDL_Surface *menuScreen;
 SDL_Surface *menuTitle;
 
@@ -57,6 +59,7 @@ void loadFiles() {
     //Load surfaces
 	background = loadImage( "Astroids.app/Contents/Resources/backgroundBlack.png", 0 );
 	
+	/*
 	ship01 = loadImage( "Astroids.app/Contents/Resources/ship.png", 0 );
 	shipBooster01 = loadImage( "Astroids.app/Contents/Resources/shipBooster.png", 0 );
 	shipDeath01 = loadImage( "Astroids.app/Contents/Resources/shipDeadth.png", 1 );
@@ -81,7 +84,7 @@ void loadFiles() {
 	astroidDeathL01 = loadImage( "Astroids.app/Contents/Resources/astroidDeathLA.png", 1 );
 	astroidDeathM01 = loadImage( "Astroids.app/Contents/Resources/astroidDeathMA.png", 1 );
 	astroidDeathS01 = loadImage( "Astroids.app/Contents/Resources/astroidDeathSA.png", 1 );
-	
+	*/
 	
     //Load fonts
     fontL = TTF_OpenFont( "Astroids.app/Contents/Resources/Arial.ttf", 50 );
@@ -101,15 +104,15 @@ void createText() {
 	SDL_Color textColor = { 255, 255, 255 };
 	
     //Generate the message surface
-    message = TTF_RenderText_Solid( fontL, "FUCKING ASTEROIDS", textColor );
+    //message = TTF_RenderText_Solid( fontL, "FUCKING ASTEROIDS", textColor );
 	menuTitle = TTF_RenderText_Solid( fontL, "ASTEROIDS", textColor );
-	menuScreen = TTF_RenderText_Solid( fontS, "Hit Space Key to Start.", textColor );
+	menuScreen = TTF_RenderText_Solid( fontS, "Hit Enter Key to Start.", textColor );
 }
 
 void quitSDL() {
     //Free surfaces
     SDL_FreeSurface( background );
-	
+	/*
     SDL_FreeSurface( ship01 );
 	SDL_FreeSurface( shipBooster01 );
 	SDL_FreeSurface( shipDeath01 );
@@ -136,6 +139,7 @@ void quitSDL() {
 	SDL_FreeSurface( astroidDeathS01 );
 	
 	SDL_FreeSurface( message );
+	 */
     SDL_FreeSurface( menuScreen );
     SDL_FreeSurface( menuTitle );
 	

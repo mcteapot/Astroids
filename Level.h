@@ -36,6 +36,7 @@ protected:
 	//methods game
 	void displyUI(int lives);
 	void scoreToText(int i);
+	void endGame();
 	
 	//methods loaders
 	void createText();

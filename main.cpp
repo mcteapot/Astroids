@@ -86,7 +86,7 @@ int main( int argc, char* args[] ) {
 		if ( menu ) {
 			applySurface( ( SCREENWIDTH - menuTitle->w ) / 2, (SCREENHEIGHT / 5), menuTitle, screen, NULL );
 			applySurface( ( SCREENWIDTH - menuScreen->w ) / 2, (SCREENHEIGHT / 6)*4, menuScreen, screen, NULL );
-			if (initSDLEvents() == 's') {
+			if (initSDLEvents() == 'e') {
 				menu = 0;
 				game = 1;
 			}
@@ -103,8 +103,8 @@ int main( int argc, char* args[] ) {
 			//std::cout << frame << std::endl;
 			
 			//Apply the message
-			//applySurface( ( SCREENWIDTH - message->w ) / 2, ( ( SCREENHEIGHT + message->h * 2 ) / FRAMESPERSECOND ) * ( frame % FRAMESPERSECOND ) - message->h, message, screen, NULL );
 			
+			//applySurface( ( SCREENWIDTH - message->w ) / 2, ( ( SCREENHEIGHT + message->h * 2 ) / FRAMESPERSECOND ) * ( frame % FRAMESPERSECOND ) - message->h, message, screen, NULL );
 			//Apply the surface
 			//aShip->keyPress(initSDLEvents(), 1);
 			//aShip->draw();

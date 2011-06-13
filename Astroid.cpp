@@ -64,11 +64,11 @@ Astroid::Astroid(SDL_Surface *astroidSurface, SDL_Surface *astroidDeathSurface, 
 			}
 		}
 		clip = rSurface[type];
-		int location = rand() % 4;
+		int location = rand() % 5;
 		std::cout << "Locating: " << location << std::endl;
 		int randX = rand() % wWindow;
 		int randY = rand() % hWindow;
-		int clamp = clip->w;
+		int clamp = (clip->w)+30;
 		if (!create) {
 			if (location == 0) {
 				//start left
@@ -86,6 +86,9 @@ Astroid::Astroid(SDL_Surface *astroidSurface, SDL_Surface *astroidDeathSurface, 
 				//start bottom
 				positon.x = (rand() % (wWindow-clamp) + clamp);
 				positon.y = hWindow+10;
+			} else if (location == 4) {
+				positon.x = randX;
+				positon.y = randY;
 			}
 		std::cout <<"Type: " << type << " X: " << positon.x << " Y: " << positon.y << std::endl;
 		}
