@@ -48,7 +48,7 @@ Ship::Ship(SDL_Surface *shipSurface, SDL_Surface *shipBoosterSurface, SDL_Surfac
 		wWindow = wWin;
 		hWindow = hWin;
 		
-		maxBulletCount = 10;
+		maxBulletCount = 15;
 
 		classID = SHIP_CLASSID;
 
@@ -99,7 +99,7 @@ void Ship::keyPress(char c, int numR) {
 		if (keystates[ SDLK_DOWN ]) {
 			move( 0, rSurface[(int)(positon.rotation)]);
 			//debug
-			//destroy();
+			destroy();
 		}
 		if (keystates[ SDLK_RIGHT ]) {
 			//std::cout << ",r: " << positon.rotation << std::endl;
@@ -160,7 +160,7 @@ void Ship::keyPress(char c, int numR) {
 	} else {
 		if (keystates[ SDLK_UP ]) {
 			//debug
-			//reSet();
+			reSet();
 		}
 	}
 
@@ -203,6 +203,7 @@ void Ship::draw() {
 	}
 	if (alive) {
 		//applySurface(positon.x, positon.y, spriteSurface, screen, clip);
+		//std::cout << "working" << std::endl;
 		applySurface(positon.x, positon.y, spriteSurface, screen, clip);
 	}else {
 		//applySurface(positon.x, positon.y, spriteSurface, screen, clip);
@@ -212,6 +213,7 @@ void Ship::draw() {
 }
 //void destroy();
 void Ship::destroy() {
+	addLives(-1);
 	alive = false;
 	xSpeed = 0;
 	ySpeed = 0;
@@ -226,11 +228,12 @@ void Ship::reSet() {
 
 //void createBullet();
 void Ship::createBullet() {
-	std::cout << bulletVector->size() << std::endl;
+	//debug
+	//std::cout << bulletVector->size() << std::endl;
 	if (bulletVector->size() < maxBulletCount ) {
 		int newBulletCount = bulletVector->size()+1;
-		bulletVector->push_back(Bullet(bulletSurface, screen, newBulletCount, true, (positon.x)+(rSurface[(int)(positon.rotation)]->w/2 ), (positon.y)+(rSurface[(int)(positon.rotation)]->h/2), xSpeed, ySpeed, positon.rotation));
-		std::cout << "pew " << std::endl;
+		bulletVector->push_back(Bullet(bulletSurface, screen, newBulletCount, true, (positon.x)+(rSurface[(int)(positon.rotation)]->w/2 )-1, (positon.y)+(rSurface[(int)(positon.rotation)]->h/2)-1, xSpeed, ySpeed, positon.rotation));
+		//std::cout << "pew " << std::endl;
 	}
 	//bulletVector->push_back
 	

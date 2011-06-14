@@ -26,12 +26,14 @@
 #include "Astroid.h"
 #include "Bullet.h"
 
+
+
 class Level {
 public:
 	Level(SDL_Surface *aScreen, int w, int h);
 	~Level();
 	
-	bool play();
+	bool play(int frame);
 	
 protected:
 	//methods game
@@ -39,10 +41,13 @@ protected:
 	void scoreToText(int i);
 	void drawBullets();
 	void boundBullets();
+	void drawAstroids();
+	void checkCollision();
 	void endGame();
 	
 	//methods loaders
 	void createText();
+	void createAstroids();
 	void loadLevel();
 	void initAssets();
 	void unloadLevel();
@@ -50,7 +55,8 @@ protected:
 	
 	
 	//onject store
-	std::vector< Bullet> bulletVector;
+	std::vector<Bullet> bulletVector;
+	std::vector<Astroid> astroidVector;
 	
 	//data
 	int intScore;
@@ -60,12 +66,18 @@ protected:
 	int wWindow;
 	int hWindow;
 	int theLevel;
+	int astroidNumber;
+	
+	int currentFrame;
+	int tempFrame;
 	
 	//Gameonjects
 	Ship *aShip;
-	Sprite *aShipLives[2];
-	//SDL color
-	SDL_Color textColor;
+	Sprite *aShipLives[3];
+	
+	//Astroid *aAstroidL01;
+	
+	
 	//main screen
 	SDL_Surface *screen;
 	

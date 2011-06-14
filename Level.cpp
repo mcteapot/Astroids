@@ -16,35 +16,42 @@ Level::Level(SDL_Surface *aScreen, int w, int h) {
 	hWindow = h;
 	intScore = 0;
 	theLevel = 1;
+	astroidNumber = 4;
 	scoreToText(intScore);
 	gameOver = false;
 	//set color
-
+	currentFrame = 0;
+	tempFrame = 0;
+	
 	//set Methods
 	initAssets();
 	loadLevel();
 	createText();
+	createAstroids();
 }
 
 Level::~Level() {
 	unloadLevel();
 }
 //bool play()
-bool Level::play() {
+bool Level::play(int frame) {
+	currentFrame = frame;
 	//Apply the surface
 	displyUI(aShip->getLives());
 	if (aShip->getLives() != 0) {
 		aShip->keyPress(initSDLEvents(), 1);
 		aShip->draw();
 		drawBullets();
+		drawAstroids();
 	} else {
 		endGame();
 	}
 
 	
+	
 	//returns gameover state
 	return gameOver;
-
+	
 }
 //void displyUI(int lives);
 void Level::displyUI(int lives) {
@@ -58,7 +65,7 @@ void Level::scoreToText(int i) {
 	std::stringstream out;
 	out << intScore;
 	stringScore = out.str();
-
+	
 }
 //void drawBullets() 
 void Level::drawBullets() {
@@ -69,42 +76,60 @@ void Level::drawBullets() {
 		}
 		boundBullets();
 	}
+	
+}
 
+//void drawAstroids();
+void Level::drawAstroids() {
+	for (int i = 0; i < astroidNumber; i++) { astroidVector[i].draw(); }
+	//aAstroidL01->draw();
 }
 //void boundBullets()
 void Level::boundBullets() {
-	std::cout << "Bullet Count" << bulletVector.size() << std::endl;
+	//debug
+	//std::cout << "Bullet Count" << bulletVector.size() << std::endl;
 	if (bulletVector.size() != 0) {
 		//int maxSize = bulletVector.size()-1;
 		for (int i = 0; i < bulletVector.size(); i++) {
 			if (bulletVector[i].getX() < (0-bullet01->w)) {
-				std::cout << "removed: " << i << std::endl;
+				//std::cout << "removed: " << i << std::endl;
 				bulletVector.erase (bulletVector.begin()+i);
 				break;
 			}
 			if (bulletVector[i].getX() > wWindow) {
-				std::cout << "removed: " << i << std::endl;
+				//std::cout << "removed: " << i << std::endl;
 				bulletVector.erase (bulletVector.begin()+i);
 				break;
 			}
 			if (bulletVector[i].getY() > hWindow) {
-				std::cout << "removed: " << i << std::endl;
+				//std::cout << "removed: " << i << std::endl;
 				bulletVector.erase (bulletVector.begin()+i);
 				break;
 			}
 			if (bulletVector[i].getY() < 0-bullet01->h) {
-				std::cout << "removed: " << i << std::endl;
+				//std::cout << "removed: " << i << std::endl;
 				bulletVector.erase (bulletVector.begin()+i);
 				break;
 			}
 		}
-
+		
 	}
+}
+//void checkCollision();
+void Level::checkCollision() {
+
+	
 }
 //void endGame();
 void Level::endGame() {
+	if (tempFrame == 0) {
+		tempFrame = currentFrame;
+	}
 	applySurface( ( wWindow - textGameOver->w )/2, ( hWindow - textGameOver->h)/2, textGameOver, screen, NULL );
-
+	if ((tempFrame+120) == currentFrame) {
+		gameOver = true;
+	}
+	
 }
 
 //void createText();
@@ -114,6 +139,12 @@ void Level::createText() {
     textScore = TTF_RenderText_Solid( fontS, stringScore.c_str(), whiteColor );
 	textGameOver = TTF_RenderText_Solid( fontL, "GAME OVER", whiteColor );
 }
+
+//void createAstroids();
+void Level::createAstroids() {
+	for (int i = 0; i < astroidNumber; i++) { astroidVector.push_back(Astroid(astroidSheetL01, astroidDeathL01, screen , 10, 3)); }
+	//aAstroidL01 = new Astroid(astroidSheetL01, astroidDeathL01, screen , 6, 3);
+}
 //void loadLevel();
 void Level::loadLevel() {
 	
@@ -121,7 +152,7 @@ void Level::loadLevel() {
 	for (int i = 0; i < aShip->getLives(); i++) {
 		aShipLives[i] = new Sprite(shipLife01, screen, 1, 10+(32*i), 10);
 	}
-
+	
 }
 
 //void initAssets();
@@ -145,7 +176,7 @@ void Level::initAssets() {
 	//Load fonts
     fontL = TTF_OpenFont( "Astroids.app/Contents/Resources/Arial.ttf", 50 );
 	fontS = TTF_OpenFont( "Astroids.app/Contents/Resources/Arial.ttf", 30 );	
-
+	
 }
 //void unloadLevel();
 void Level::unloadLevel() {

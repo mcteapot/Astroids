@@ -53,6 +53,11 @@ public:
 	
 	virtual bool move( float x, float y, float r = 0, SDL_Rect *aClip = NULL  );
 	void draw( float x = 0, float y = 0, float r = 0 );
+	
+	//ADD-ONS
+	SDL_Surface* getSpriteSurface();
+	bool operator<(const Sprite &rhs);
+	bool operator>(const Sprite &rhs);
 
 protected:
 	SDL_Surface *spriteSurface;

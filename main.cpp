@@ -56,25 +56,8 @@ int main( int argc, char* args[] ) {
 	//Init classes
     Timer fps;
 	Level *theLevel;
-	theLevel = new Level(screen, SCREENWIDTH, SCREENHEIGHT);
-	//Sprite *aSpriteL01;
-	//aSpriteL01 = new Sprite(astroidL01, screen, 0, -60, -60, 1);
-	/*
-	Ship *aShip;
-	aShip = new Ship(shipSheet01, shipSheetBooster01, shipDeath01, screen, 1, (( SCREENWIDTH - 32 ) / 2), (( SCREENHEIGHT-32) / 2), 90, 3);
-	
-	Astroid *aAstroidL01;
-	aAstroidL01 = new Astroid(astroidSheetL01, astroidDeathL01, screen , 2, 3);
-	Astroid *aAstroidL02;
-	aAstroidL02 = new Astroid(astroidSheetL01, astroidDeathL01, screen , 3, 3);
-	Astroid *aAstroidL03;
-	aAstroidL03 = new Astroid(astroidSheetL01, astroidDeathL01, screen , 3, 3);
-	Astroid *aAstroidL04;
-	aAstroidL04 = new Astroid(astroidSheetL01, astroidDeathL01, screen , 3, 3);
-	 */
-	//aAstroidL01 = new Astroid(astroidSheetL01, astroidDeathL01, screen , 2, 3, (( SCREENWIDTH ) / 2), (( SCREENHEIGHT ) / 2));
 
-	
+
     //GAME LOOP//
     while( run ) {
         //Start the frame timer
@@ -92,15 +75,17 @@ int main( int argc, char* args[] ) {
 			if (initSDLEvents() == 'e') {
 				menu = 0;
 				game = 1;
+				theLevel = new Level(screen, SCREENWIDTH, SCREENHEIGHT);
 			}
 	
 		}//MENU END
 		//GAME
 		if ( game ) {
 			
-			if ((theLevel->play()) == true) {
+			if ((theLevel->play(frame)) == true) {
 				menu = 1;
 				game = 0;
+				delete theLevel;
 			}
 			
 			//std::cout << frame << std::endl;
