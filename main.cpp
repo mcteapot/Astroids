@@ -12,6 +12,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <ctime>
+#include <vector>
 
 #include "SDL/SDL.h"
 #include "SDL_image/SDL_image.h"
@@ -38,9 +39,11 @@ const int SCREENBPP = 32;
 //Frames per second
 const int FRAMESPERSECOND = 60;
 
+
+
 //MAIN//
 int main( int argc, char* args[] ) {
-	//Init Rand to clock
+	//Init Rand to clock 
 	srand ( time(0) );	
     //Initialize Window
     initSDLWindow( SCREENWIDTH, SCREENHEIGHT, SCREENBPP );

@@ -24,6 +24,7 @@
 #include "Sprite.h"
 #include "Ship.h"
 #include "Astroid.h"
+#include "Bullet.h"
 
 class Level {
 public:
@@ -36,6 +37,8 @@ protected:
 	//methods game
 	void displyUI(int lives);
 	void scoreToText(int i);
+	void drawBullets();
+	void boundBullets();
 	void endGame();
 	
 	//methods loaders
@@ -45,6 +48,9 @@ protected:
 	void unloadLevel();
 	SDL_Surface *loadImage( char *filename,  int alpha );
 	
+	
+	//onject store
+	std::vector< Bullet> bulletVector;
 	
 	//data
 	int intScore;

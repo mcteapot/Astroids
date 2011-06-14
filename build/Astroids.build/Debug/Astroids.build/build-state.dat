@@ -1,7 +1,7 @@
 TAstroids
 v7
 r0
-t329653647.742141
+t329724281.617554
 cCheck dependencies
 cProcessInfoPlistFile /Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app/Contents/Info.plist Info.plist
 cCopyStringsFile /Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -50,6 +50,7 @@ cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Utilit
 cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Ship.o /Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
 cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroid.o /Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
 cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Level.o /Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Bullet.o /Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
 cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/SDLMain.o /Users/arjunprakash/Working/Development/CS8/Astroids/SDLMain.m normal i386 objective-c com.apple.compilers.gcc.4_0
 cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/main.o /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp normal i386 c++ com.apple.compilers.gcc.4_0
 cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Timer.o /Users/arjunprakash/Working/Development/CS8/Astroids/Timer.cpp normal i386 c++ com.apple.compilers.gcc.4_0
@@ -60,6 +61,7 @@ cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Utilitie
 cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Ship.o /Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp normal i386 c++ com.apple.compilers.gcc.4_0
 cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroid.o /Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp normal i386 c++ com.apple.compilers.gcc.4_0
 cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Level.o /Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Bullet.o /Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp normal i386 c++ com.apple.compilers.gcc.4_0
 cLd /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroids normal i386
 cLd /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroids normal x86_64
 cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/SDLMain.o /Users/arjunprakash/Working/Development/CS8/Astroids/SDLMain.m normal ppc objective-c com.apple.compilers.gcc.4_0
@@ -72,6 +74,7 @@ cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Utilities
 cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Ship.o /Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp normal ppc c++ com.apple.compilers.gcc.4_0
 cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroid.o /Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp normal ppc c++ com.apple.compilers.gcc.4_0
 cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Level.o /Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp normal ppc c++ com.apple.compilers.gcc.4_0
+cCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Bullet.o /Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp normal ppc c++ com.apple.compilers.gcc.4_0
 cLd /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroids normal ppc
 cCreateUniversalBinary /Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app/Contents/MacOS/Astroids normal "x86_64 i386 ppc"
 cPBXCp build/Debug/Astroids.app/Contents/Frameworks/SDL.framework /Library/Frameworks/SDL.framework
@@ -481,6 +484,24 @@ s175
 i"SDL.h"
 i<Cocoa/Cocoa.h>
 
+N/Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp
+c000000004DF6F9F70000000000000710
+t1308031479
+s1808
+i"Bullet.h"
+
+N/Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.h
+c000000004DF6D4A400000000000003A7
+t1308021924
+s935
+i<string>
+i<iostream>
+i<math.h>
+i"SDL/SDL.h"
+i"SDL_image/SDL_image.h"
+i"SDL_ttf/SDL_ttf.h"
+i"Sprite.h"
+
 N/Users/arjunprakash/Working/Development/CS8/Astroids/English.lproj/InfoPlist.strings
 c000000004DE364D60000000000000202
 t1306748118
@@ -526,15 +547,15 @@ i"SDL_image/SDL_image.h"
 i"SDL_ttf/SDL_ttf.h"
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp
-c000000004DF5DF5A0000000000001199
-t1307959130
-s4505
+c000000004DF6F90B0000000000001639
+t1308031243
+s5689
 i"Level.h"
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/Level.h
-c000000004DF5DDB800000000000005E1
-t1307958712
-s1505
+c000000004DF6EAF70000000000000656
+t1308027639
+s1622
 i<string>
 i<iostream>
 i<sstream>
@@ -546,6 +567,7 @@ i"Utilities.h"
 i"Sprite.h"
 i"Ship.h"
 i"Astroid.h"
+i"Bullet.h"
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c
 c000000004DE376510000000000000099
@@ -560,8 +582,8 @@ s153
 i"Loader.h"
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h
-c000000004DF5E60D000000000000122D
-t1307960845
+c000000004DF6D8F9000000000000122D
+t1308023033
 s4653
 i<stdio.h>
 i<stdlib.h>
@@ -669,22 +691,24 @@ i<math.h>
 i"SDL.h"
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp
-c000000004DF5E4B0000000000000129A
-t1307960496
-s4762
+c000000004DF6F3F90000000000001521
+t1308029945
+s5409
 i"Ship.h"
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.h
-c000000004DF5E20E00000000000004ED
-t1307959822
-s1261
+c000000004DF6DBDF00000000000006AA
+t1308023775
+s1706
 i<string>
 i<iostream>
 i<math.h>
+i<vector>
 i"SDL/SDL.h"
 i"SDL_image/SDL_image.h"
 i"SDL_ttf/SDL_ttf.h"
 i"Sprite.h"
+i"Bullet.h"
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp
 c000000004DF5CF7A00000000000006F1
@@ -693,9 +717,9 @@ s1777
 i"Sprite.h"
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.h
-c000000004DF5D122000000000000046C
-t1307955490
-s1132
+c000000004DF6DCA9000000000000047D
+t1308023977
+s1149
 i<string>
 i<iostream>
 i"SDL/SDL.h"
@@ -860,17 +884,21 @@ t1307436575
 s12744
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroid.o
-t1307958537
+t1308024136
 s29736
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroids
-t1307960847
-s63140
+t1308031481
+s89516
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroids.LinkFileList
-c000000004DF59AEE00000000000004D6
-t1307941614
-s1238
+c000000004DF5F01B0000000000000552
+t1307963419
+s1362
+
+N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Bullet.o
+t1308031480
+s25480
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Game.o
 t2
@@ -881,11 +909,11 @@ t1307955664
 s8624
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Level.o
-t1307960084
-s49200
+t1308031337
+s84228
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Loader.o
-t1307960847
+t1308023308
 s7352
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/SDLMain.o
@@ -913,11 +941,11 @@ t1307497133
 s41528
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Ship.o
-t1307960498
-s30244
+t1308029947
+s72492
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Sprite.o
-t1307955574
+t1308024136
 s24692
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Timer.o
@@ -929,25 +957,29 @@ t1307960644
 s14116
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/main.o
-t1307960847
-s43512
+t1308028130
+s48744
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/ApplySurface.o
 t1307436575
 s13304
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroid.o
-t1307958538
+t1308024138
 s35512
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroids
-t1307960847
-s67204
+t1308031481
+s98364
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroids.LinkFileList
-c000000004DF59AEE00000000000004CC
-t1307941614
-s1228
+c000000004DF5F01B0000000000000547
+t1307963419
+s1351
+
+N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Bullet.o
+t1308031481
+s27712
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Game.o
 t2
@@ -958,11 +990,11 @@ t1307955664
 s10208
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Level.o
-t1307960085
-s53648
+t1308031338
+s95912
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Loader.o
-t1307960847
+t1308023309
 s8548
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/SDLMain.o
@@ -990,11 +1022,11 @@ t1307497133
 s45028
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Ship.o
-t1307960498
-s34212
+t1308029948
+s83812
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Sprite.o
-t1307955575
+t1308024137
 s26716
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Timer.o
@@ -1006,25 +1038,29 @@ t1307960644
 s14920
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/main.o
-t1307960847
-s48020
+t1308028131
+s53248
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/ApplySurface.o
 t1307436575
 s13268
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroid.o
-t1307958537
+t1308024135
 s79956
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroids
-t1307960847
-s67856
+t1308031481
+s96960
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroids.LinkFileList
-c000000004DF59AEE00000000000004EA
-t1307941614
-s1258
+c000000004DF5F01B0000000000000568
+t1307963419
+s1384
+
+N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Bullet.o
+t1308031480
+s57096
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Game.o
 t2
@@ -1035,11 +1071,11 @@ t1307955663
 s8832
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Level.o
-t1307960084
-s90848
+t1308031337
+s127684
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Loader.o
-t1307960846
+t1308023307
 s7760
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/SDLMain.o
@@ -1067,12 +1103,12 @@ t1307497132
 s35844
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Ship.o
-t1307960498
-s83920
+t1308029947
+s120472
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Sprite.o
-t1307955572
-s56732
+t1308024134
+s56700
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Timer.o
 t1307496769
@@ -1083,11 +1119,11 @@ t1307960643
 s15308
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/main.o
-t1307960847
-s60412
+t1308028130
+s66892
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app
-t1307960847
+t1308031481
 s102
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app/Contents/Frameworks/SDL.framework
@@ -1099,8 +1135,8 @@ t1306748232
 s970
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app/Contents/MacOS/Astroids
-t1307960847
-s206468
+t1308031481
+s290876
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app/Contents/PkgInfo
 t1306748232
@@ -1256,13 +1292,14 @@ t1307950648
 s1000
 
 N/Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp
-c000000004DF5E5430000000000000CC2
-t1307960643
-s3266
+c000000004DF6CBDF0000000000000CD7
+t1308019679
+s3287
 i<string>
 i<iostream>
 i<stdlib.h>
 i<ctime>
+i<vector>
 i"SDL/SDL.h"
 i"SDL_image/SDL_image.h"
 i"SDL_ttf/SDL_ttf.h"
@@ -1471,7 +1508,7 @@ s1035
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies329653646#329653646#0(0"0(0#1#0"8598542368#0"0#
+lSLF07#2@18"Check dependencies329724280#329724280#0(0"0(0#1#0"8633593824#0"0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/ApplySurface.o /Users/arjunprakash/Working/Development/CS8/Astroids/ApplySurface.c normal i386 c com.apple.compilers.gcc.4_0
 s329044227.772178
@@ -1500,8 +1537,8 @@ xcom.apple.compilers.gcc.4_0
 lSLF07#2@77"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/ApplySurface.cpp329129375#329129375#0(0"0(0#0#69"/Users/arjunprakash/Working/Development/CS8/Astroids/ApplySurface.cpp8627132032#1476"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/i386 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-fbzcnuxzprzshagkrdxmgiabwcwg/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/ApplySurface.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/ApplySurface.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroid.o /Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp normal i386 c++ com.apple.compilers.gcc.4_0
-s329651337.395110
-e329651337.780012
+s329716936.479525
+e329716936.826460
 r1
 xCompileC
 xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroid.o
@@ -1510,7 +1547,20 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_0
-lSLF07#2@72"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp329651337#329651337#0(0"0(0#0#64"/Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp8627392800#1818"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/i386 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-hidhjxiljfrburhhepzzsyarvtam/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroid.o0#
+lSLF07#2@72"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp329716936#329716936#0(0"0(0#0#64"/Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp8618591648#1818"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/i386 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-hidhjxiljfrburhhepzzsyarvtam/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroid.o0#
+
+CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Bullet.o /Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s329724280.501241
+e329724280.927278
+r1
+xCompileC
+xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Bullet.o
+x/Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@71"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp329724280#329724280#0(0"0(0#0#63"/Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp8632804480#1816"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/i386 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-hidhjxiljfrburhhepzzsyarvtam/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Bullet.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Game.o /Users/arjunprakash/Working/Development/CS8/Astroids/Game.cpp normal i386 c++ com.apple.compilers.gcc.4_0
 s329044662.339954
@@ -1567,8 +1617,8 @@ xcom.apple.compilers.gcc.4_0
 lSLF07#2@68"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Inits.c329648464#329648464#0(0"0(0#0#60"/Users/arjunprakash/Working/Development/CS8/Astroids/Inits.c8631832992#1782"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/i386 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-bipvnuvvvmpgcbgzgdulkmjmmpdb/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Inits.c -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Inits.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Level.o /Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp normal i386 c++ com.apple.compilers.gcc.4_0
-s329652884.555013
-e329652884.975196
+s329724137.234470
+e329724137.801111
 r1
 xCompileC
 xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Level.o
@@ -1577,7 +1627,9 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_0
-lSLF07#2@70"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp329652884#329652885#0(0"0(0#0#62"/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp8623168352#1814"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/i386 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-hidhjxiljfrburhhepzzsyarvtam/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Level.o0#
+o/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp: In member function 'void Level::boundBullets()':
+o/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp:78: warning: unused variable 'maxSize'
+lSLF07#2@70"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp329724137#329724137#0(215"/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp: In member function 'void Level::boundBullets()':/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp:78: warning: unused variable 'maxSize'1(22@25"Unused variable 'maxSize'329724137#113#102#0(6@62"/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp329724043#78#0#78#0#19"unused variable '*'0(0#0#62"/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp8621291552#1814"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/i386 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-hidhjxiljfrburhhepzzsyarvtam/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Level.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Loader.o /Users/arjunprakash/Desktop/Astroids/Loader.c normal i386 c com.apple.compilers.gcc.4_0
 s328447562.797779
@@ -1596,8 +1648,8 @@ o/Users/arjunprakash/Desktop/Astroids/Loader.h:29: warning: assignment makes poi
 lSLF07#2@53"Compile /Users/arjunprakash/Desktop/Astroids/Loader.c328447562#328447562#0(256"In file included from /Users/arjunprakash/Desktop/Astroids/Loader.c:10:/Users/arjunprakash/Desktop/Astroids/Loader.h: In function 'loadFiles':/Users/arjunprakash/Desktop/Astroids/Loader.h:29: warning: assignment makes pointer from integer without a cast1(22@52"Assignment makes pointer from integer without a cast328447562#144#112#2(7@67"In file included from /Users/arjunprakash/Desktop/Astroids/Loader.c328447562#18446744073709551615#0#0(6@45"/Users/arjunprakash/Desktop/Astroids/Loader.c328445393#10#0#10#0#0"0(13@101"Assignment makes pointer from integer without a cast in /Users/arjunprakash/Desktop/Astroids/Loader.h328447562#18446744073709551615#0#0(6@45"/Users/arjunprakash/Desktop/Astroids/Loader.h328447538#29#0#29#0#0"0(6@45"/Users/arjunprakash/Desktop/Astroids/Loader.h328447538#29#0#29#0#0"0(0#0#45"/Users/arjunprakash/Desktop/Astroids/Loader.c8622891296#1304"    cd /Users/arjunprakash/Desktop/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Desktop/Astroids/build/Debug -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Desktop/Astroids/build/Debug/include -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/i386 -I/Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-gwnygvcwggugxddakwgsswvhlroc/Astroids_Prefix.pch -c /Users/arjunprakash/Desktop/Astroids/Loader.c -o /Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Loader.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Loader.o /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c normal i386 c com.apple.compilers.gcc.4_0
-s329653647.056965
-e329653647.105174
+s329716108.209446
+e329716108.407343
 r1
 xCompileC
 xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Loader.o
@@ -1609,7 +1661,7 @@ xcom.apple.compilers.gcc.4_0
 oIn file included from /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c:10:
 o/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h: In function 'loadFiles':
 o/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h:60: warning: assignment makes pointer from integer without a cast
-lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c329653647#329653647#0(304"In file included from /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c:10:/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h: In function 'loadFiles':/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h:60: warning: assignment makes pointer from integer without a cast1(22@52"Assignment makes pointer from integer without a cast329653647#176#128#2(7@83"In file included from /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c329653647#18446744073709551615#0#0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c328445393#10#0#10#0#0"0(13@117"Assignment makes pointer from integer without a cast in /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329653647#18446744073709551615#0#0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329653645#60#0#60#0#0"0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329653645#60#0#60#0#0"0(0#0#61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c8619629728#1784"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/i386 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-bipvnuvvvmpgcbgzgdulkmjmmpdb/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Loader.o0#
+lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c329716108#329716108#0(304"In file included from /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c:10:/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h: In function 'loadFiles':/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h:60: warning: assignment makes pointer from integer without a cast1(22@52"Assignment makes pointer from integer without a cast329716108#176#128#2(7@83"In file included from /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c329716108#18446744073709551615#0#0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c328445393#10#0#10#0#0"0(13@117"Assignment makes pointer from integer without a cast in /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329716108#18446744073709551615#0#0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329715833#60#0#60#0#0"0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329715833#60#0#60#0#0"0(0#0#61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c8627874848#1784"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/i386 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-bipvnuvvvmpgcbgzgdulkmjmmpdb/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Loader.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Loader.o /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.cpp normal i386 c++ com.apple.compilers.gcc.4_0
 s329635015.243138
@@ -1727,8 +1779,8 @@ xcom.apple.compilers.gcc.4_0
 lSLF07#2@75"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/SDL_rotozoom.c329189932#329189933#0(0"0(0#0#67"/Users/arjunprakash/Working/Development/CS8/Astroids/SDL_rotozoom.c8613982240#1796"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/i386 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-bipvnuvvvmpgcbgzgdulkmjmmpdb/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/SDL_rotozoom.c -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/SDL_rotozoom.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Ship.o /Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp normal i386 c++ com.apple.compilers.gcc.4_0
-s329653297.798992
-e329653298.152463
+s329722747.301737
+e329722747.852369
 r1
 xCompileC
 xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Ship.o
@@ -1737,11 +1789,11 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_0
-lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp329653297#329653298#0(0"0(0#0#61"/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp8622644192#1812"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/i386 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-hidhjxiljfrburhhepzzsyarvtam/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Ship.o0#
+lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp329722747#329722747#0(0"0(0#0#61"/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp8598926240#1812"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/i386 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-hidhjxiljfrburhhepzzsyarvtam/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Ship.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Sprite.o /Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp normal i386 c++ com.apple.compilers.gcc.4_0
-s329648373.939175
-e329648374.333718
+s329716936.076816
+e329716936.477670
 r1
 xCompileC
 xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Sprite.o
@@ -1750,7 +1802,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_0
-lSLF07#2@71"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp329648373#329648374#0(0"0(0#0#63"/Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp8631690912#1816"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/i386 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-hidhjxiljfrburhhepzzsyarvtam/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Sprite.o0#
+lSLF07#2@71"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp329716936#329716936#0(0"0(0#0#63"/Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp8613294432#1816"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/i386 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-hidhjxiljfrburhhepzzsyarvtam/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Sprite.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Timer.o /Users/arjunprakash/Desktop/Astroids/Timer.cpp normal i386 c++ com.apple.compilers.gcc.4_0
 s328447740.066764
@@ -1897,8 +1949,8 @@ xcom.apple.compilers.gcc.4_0
 lSLF07#2@53"Compile /Users/arjunprakash/Desktop/Astroids/main.cpp328447739#328447740#0(0"0(0#0#45"/Users/arjunprakash/Desktop/Astroids/main.cpp8621377792#1332"    cd /Users/arjunprakash/Desktop/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Desktop/Astroids/build/Debug -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Desktop/Astroids/build/Debug/include -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/i386 -I/Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-gxphfhlbluralvapmnwqwetztase/Astroids_Prefix.pch -c /Users/arjunprakash/Desktop/Astroids/main.cpp -o /Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/main.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/main.o /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp normal i386 c++ com.apple.compilers.gcc.4_0
-s329653646.709917
-e329653647.056676
+s329720930.518398
+e329720930.917065
 r1
 xCompileC
 xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/i386/main.o
@@ -1907,7 +1959,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_0
-lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp329653646#329653647#0(0"0(0#0#61"/Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp8620496416#1812"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/i386 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-hidhjxiljfrburhhepzzsyarvtam/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/main.o0#
+lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp329720930#329720930#0(0"0(0#0#61"/Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp8632351232#1812"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/i386 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-hidhjxiljfrburhhepzzsyarvtam/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/main.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/ApplySurface.o /Users/arjunprakash/Working/Development/CS8/Astroids/ApplySurface.c normal ppc c com.apple.compilers.gcc.4_0
 s329044228.555388
@@ -1936,8 +1988,8 @@ xcom.apple.compilers.gcc.4_0
 lSLF07#2@77"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/ApplySurface.cpp329129375#329129375#0(0"0(0#0#69"/Users/arjunprakash/Working/Development/CS8/Astroids/ApplySurface.cpp8600946624#1483"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/ppc -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-dbcodytnhayegqcqnmqgvorsuvjw/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/ApplySurface.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/ApplySurface.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroid.o /Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp normal ppc c++ com.apple.compilers.gcc.4_0
-s329651337.841106
-e329651338.243173
+s329716937.781499
+e329716938.171694
 r1
 xCompileC
 xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroid.o
@@ -1946,7 +1998,20 @@ xnormal
 xppc
 xc++
 xcom.apple.compilers.gcc.4_0
-lSLF07#2@72"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp329651337#329651338#0(0"0(0#0#64"/Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp8627205312#1825"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/ppc -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-giwhjodpxshervfcpwwapbsvjezi/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroid.o0#
+lSLF07#2@72"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp329716937#329716938#0(0"0(0#0#64"/Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp8628298528#1825"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/ppc -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-giwhjodpxshervfcpwwapbsvjezi/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroid.o0#
+
+CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Bullet.o /Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp normal ppc c++ com.apple.compilers.gcc.4_0
+s329724281.243515
+e329724281.564796
+r1
+xCompileC
+xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Bullet.o
+x/Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@71"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp329724281#329724281#0(0"0(0#0#63"/Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp8623961472#1823"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/ppc -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-giwhjodpxshervfcpwwapbsvjezi/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Bullet.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Game.o /Users/arjunprakash/Working/Development/CS8/Astroids/Game.cpp normal ppc c++ com.apple.compilers.gcc.4_0
 s329044662.846404
@@ -2003,8 +2068,8 @@ xcom.apple.compilers.gcc.4_0
 lSLF07#2@68"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Inits.c329648464#329648464#0(0"0(0#0#60"/Users/arjunprakash/Working/Development/CS8/Astroids/Inits.c8602822048#1789"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/ppc -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-efayfbwkjcqupsbrnhskhfjwcmhd/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Inits.c -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Inits.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Level.o /Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp normal ppc c++ com.apple.compilers.gcc.4_0
-s329652885.121704
-e329652885.520698
+s329724137.805432
+e329724138.367281
 r1
 xCompileC
 xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Level.o
@@ -2013,7 +2078,9 @@ xnormal
 xppc
 xc++
 xcom.apple.compilers.gcc.4_0
-lSLF07#2@70"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp329652885#329652885#0(0"0(0#0#62"/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp8626191488#1821"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/ppc -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-giwhjodpxshervfcpwwapbsvjezi/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Level.o0#
+o/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp: In member function 'void Level::boundBullets()':
+o/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp:78: warning: unused variable 'maxSize'
+lSLF07#2@70"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp329724137#329724138#0(215"/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp: In member function 'void Level::boundBullets()':/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp:78: warning: unused variable 'maxSize'1(22@25"Unused variable 'maxSize'329724138#113#102#0(6@62"/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp329724043#78#0#78#0#19"unused variable '*'0(0#0#62"/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp8621129664#1821"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/ppc -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-giwhjodpxshervfcpwwapbsvjezi/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Level.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Loader.o /Users/arjunprakash/Desktop/Astroids/Loader.c normal ppc c com.apple.compilers.gcc.4_0
 s328447562.986453
@@ -2032,8 +2099,8 @@ o/Users/arjunprakash/Desktop/Astroids/Loader.h:29: warning: assignment makes poi
 lSLF07#2@53"Compile /Users/arjunprakash/Desktop/Astroids/Loader.c328447562#328447563#0(256"In file included from /Users/arjunprakash/Desktop/Astroids/Loader.c:10:/Users/arjunprakash/Desktop/Astroids/Loader.h: In function 'loadFiles':/Users/arjunprakash/Desktop/Astroids/Loader.h:29: warning: assignment makes pointer from integer without a cast1(22@52"Assignment makes pointer from integer without a cast328447563#144#112#2(7@67"In file included from /Users/arjunprakash/Desktop/Astroids/Loader.c328447563#18446744073709551615#0#0(6@45"/Users/arjunprakash/Desktop/Astroids/Loader.c328445393#10#0#10#0#0"0(13@101"Assignment makes pointer from integer without a cast in /Users/arjunprakash/Desktop/Astroids/Loader.h328447563#18446744073709551615#0#0(6@45"/Users/arjunprakash/Desktop/Astroids/Loader.h328447538#29#0#29#0#0"0(6@45"/Users/arjunprakash/Desktop/Astroids/Loader.h328447538#29#0#29#0#0"0(0#0#45"/Users/arjunprakash/Desktop/Astroids/Loader.c8618627616#1311"    cd /Users/arjunprakash/Desktop/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Desktop/Astroids/build/Debug -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Desktop/Astroids/build/Debug/include -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/ppc -I/Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-cmmeifhfalfgnwatmdywhqixjwrf/Astroids_Prefix.pch -c /Users/arjunprakash/Desktop/Astroids/Loader.c -o /Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Loader.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Loader.o /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c normal ppc c com.apple.compilers.gcc.4_0
-s329653647.420403
-e329653647.469967
+s329716109.211483
+e329716109.324284
 r1
 xCompileC
 xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Loader.o
@@ -2045,7 +2112,7 @@ xcom.apple.compilers.gcc.4_0
 oIn file included from /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c:10:
 o/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h: In function 'loadFiles':
 o/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h:60: warning: assignment makes pointer from integer without a cast
-lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c329653647#329653647#0(304"In file included from /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c:10:/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h: In function 'loadFiles':/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h:60: warning: assignment makes pointer from integer without a cast1(22@52"Assignment makes pointer from integer without a cast329653647#176#128#2(7@83"In file included from /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c329653647#18446744073709551615#0#0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c328445393#10#0#10#0#0"0(13@117"Assignment makes pointer from integer without a cast in /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329653647#18446744073709551615#0#0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329653645#60#0#60#0#0"0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329653645#60#0#60#0#0"0(0#0#61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c8627890752#1791"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/ppc -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-efayfbwkjcqupsbrnhskhfjwcmhd/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Loader.o0#
+lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c329716109#329716109#0(304"In file included from /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c:10:/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h: In function 'loadFiles':/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h:60: warning: assignment makes pointer from integer without a cast1(22@52"Assignment makes pointer from integer without a cast329716109#176#128#2(7@83"In file included from /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c329716109#18446744073709551615#0#0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c328445393#10#0#10#0#0"0(13@117"Assignment makes pointer from integer without a cast in /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329716109#18446744073709551615#0#0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329715833#60#0#60#0#0"0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329715833#60#0#60#0#0"0(0#0#61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c8611877600#1791"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/ppc -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-efayfbwkjcqupsbrnhskhfjwcmhd/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Loader.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Loader.o /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.cpp normal ppc c++ com.apple.compilers.gcc.4_0
 s329635015.440253
@@ -2163,8 +2230,8 @@ xcom.apple.compilers.gcc.4_0
 lSLF07#2@75"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/SDL_rotozoom.c329189933#329189933#0(0"0(0#0#67"/Users/arjunprakash/Working/Development/CS8/Astroids/SDL_rotozoom.c8612921120#1803"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/ppc -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-efayfbwkjcqupsbrnhskhfjwcmhd/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/SDL_rotozoom.c -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/SDL_rotozoom.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Ship.o /Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp normal ppc c++ com.apple.compilers.gcc.4_0
-s329653298.208207
-e329653298.557824
+s329722747.853379
+e329722748.443287
 r1
 xCompileC
 xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Ship.o
@@ -2173,11 +2240,11 @@ xnormal
 xppc
 xc++
 xcom.apple.compilers.gcc.4_0
-lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp329653298#329653298#0(0"0(0#0#61"/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp8610708512#1819"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/ppc -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-giwhjodpxshervfcpwwapbsvjezi/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Ship.o0#
+lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp329722747#329722748#0(0"0(0#0#61"/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp8620189728#1819"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/ppc -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-giwhjodpxshervfcpwwapbsvjezi/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Ship.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Sprite.o /Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp normal ppc c++ com.apple.compilers.gcc.4_0
-s329648375.036694
-e329648375.363686
+s329716937.391430
+e329716937.781394
 r1
 xCompileC
 xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Sprite.o
@@ -2186,7 +2253,7 @@ xnormal
 xppc
 xc++
 xcom.apple.compilers.gcc.4_0
-lSLF07#2@71"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp329648375#329648375#0(0"0(0#0#63"/Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp8630959104#1823"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/ppc -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-giwhjodpxshervfcpwwapbsvjezi/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Sprite.o0#
+lSLF07#2@71"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp329716937#329716937#0(0"0(0#0#63"/Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp8630953536#1823"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/ppc -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-giwhjodpxshervfcpwwapbsvjezi/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Sprite.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Timer.o /Users/arjunprakash/Desktop/Astroids/Timer.cpp normal ppc c++ com.apple.compilers.gcc.4_0
 s328447740.213135
@@ -2333,8 +2400,8 @@ xcom.apple.compilers.gcc.4_0
 lSLF07#2@53"Compile /Users/arjunprakash/Desktop/Astroids/main.cpp328447740#328447740#0(0"0(0#0#45"/Users/arjunprakash/Desktop/Astroids/main.cpp8618333952#1339"    cd /Users/arjunprakash/Desktop/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Desktop/Astroids/build/Debug -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Desktop/Astroids/build/Debug/include -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/ppc -I/Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-ctxxixyzujzfzjgrmaywmlojdgaj/Astroids_Prefix.pch -c /Users/arjunprakash/Desktop/Astroids/main.cpp -o /Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/main.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/main.o /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp normal ppc c++ com.apple.compilers.gcc.4_0
-s329653647.374951
-e329653647.693268
+s329720931.388396
+e329720931.823097
 r1
 xCompileC
 xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/main.o
@@ -2343,7 +2410,7 @@ xnormal
 xppc
 xc++
 xcom.apple.compilers.gcc.4_0
-lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp329653647#329653647#0(0"0(0#0#61"/Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp8630899392#1819"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/ppc -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-giwhjodpxshervfcpwwapbsvjezi/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/main.o0#
+lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp329720931#329720931#0(0"0(0#0#61"/Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp8633072064#1819"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.0 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mtune=G5 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/ppc -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-giwhjodpxshervfcpwwapbsvjezi/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/main.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/ApplySurface.o /Users/arjunprakash/Working/Development/CS8/Astroids/ApplySurface.c normal x86_64 c com.apple.compilers.gcc.4_2
 s329044227.323997
@@ -2372,8 +2439,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@77"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/ApplySurface.cpp329129375#329129375#0(0"0(0#0#69"/Users/arjunprakash/Working/Development/CS8/Astroids/ApplySurface.cpp8617731392#1482"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-ctmucanyqhadiwggrkzghomgjlsf/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/ApplySurface.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/ApplySurface.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroid.o /Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s329651337.365280
-e329651337.944105
+s329716934.870036
+e329716935.354227
 r1
 xCompileC
 xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroid.o
@@ -2382,7 +2449,20 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp329651337#329651338#0(0"0(0#0#64"/Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp8620089120#1824"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-adrfmzylpgyfnzhavrkepbuezxmt/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroid.o0#
+lSLF07#2@72"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp329716934#329716935#0(0"0(0#0#64"/Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp8633121792#1824"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-adrfmzylpgyfnzhavrkepbuezxmt/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Astroid.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroid.o0#
+
+CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Bullet.o /Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s329724280.460419
+e329724280.987776
+r1
+xCompileC
+xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Bullet.o
+x/Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp329724280#329724280#0(0"0(0#0#63"/Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp8627284448#1822"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-adrfmzylpgyfnzhavrkepbuezxmt/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Bullet.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Bullet.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Game.o /Users/arjunprakash/Working/Development/CS8/Astroids/Game.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
 s329044661.763072
@@ -2441,8 +2521,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@68"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Inits.c329648463#329648463#0(0"0(0#0#60"/Users/arjunprakash/Working/Development/CS8/Astroids/Inits.c8611899264#1788"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-gunshyupqkzzhzfptevyvtffuhwm/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Inits.c -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Inits.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Level.o /Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s329652883.944503
-e329652884.474688
+s329724136.643062
+e329724137.381511
 r1
 xCompileC
 xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Level.o
@@ -2451,7 +2531,9 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp329652883#329652884#0(0"0(0#0#62"/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp8615687904#1820"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-adrfmzylpgyfnzhavrkepbuezxmt/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Level.o0#
+o/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp: In member function 'void Level::boundBullets()':
+o/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp:78: warning: unused variable 'maxSize'
+lSLF07#2@70"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp329724136#329724137#0(215"/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp: In member function 'void Level::boundBullets()':/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp:78: warning: unused variable 'maxSize'1(22@25"Unused variable 'maxSize'329724137#113#102#0(6@62"/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp329724043#78#0#78#0#19"unused variable '*'0(0#0#62"/Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp8624339104#1820"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-adrfmzylpgyfnzhavrkepbuezxmt/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Level.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Level.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Loader.o /Users/arjunprakash/Desktop/Astroids/Loader.c normal x86_64 c com.apple.compilers.gcc.4_2
 s328447562.451198
@@ -2470,8 +2552,8 @@ o/Users/arjunprakash/Desktop/Astroids/Loader.h:29: warning: assignment makes poi
 lSLF07#2@53"Compile /Users/arjunprakash/Desktop/Astroids/Loader.c328447562#328447562#0(256"In file included from /Users/arjunprakash/Desktop/Astroids/Loader.c:10:/Users/arjunprakash/Desktop/Astroids/Loader.h: In function 'loadFiles':/Users/arjunprakash/Desktop/Astroids/Loader.h:29: warning: assignment makes pointer from integer without a cast1(22@52"Assignment makes pointer from integer without a cast328447562#144#112#2(7@67"In file included from /Users/arjunprakash/Desktop/Astroids/Loader.c328447562#18446744073709551615#0#0(6@45"/Users/arjunprakash/Desktop/Astroids/Loader.c328445393#10#0#10#0#0"0(13@101"Assignment makes pointer from integer without a cast in /Users/arjunprakash/Desktop/Astroids/Loader.h328447562#18446744073709551615#0#0(6@45"/Users/arjunprakash/Desktop/Astroids/Loader.h328447538#29#0#29#0#0"0(6@45"/Users/arjunprakash/Desktop/Astroids/Loader.h328447538#29#0#29#0#0"0(0#0#45"/Users/arjunprakash/Desktop/Astroids/Loader.c8618968512#1310"    cd /Users/arjunprakash/Desktop/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Desktop/Astroids/build/Debug -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Desktop/Astroids/build/Debug/include -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/x86_64 -I/Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-cxqmdbrngajsxlbxzrskjxygzlfi/Astroids_Prefix.pch -c /Users/arjunprakash/Desktop/Astroids/Loader.c -o /Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Loader.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Loader.o /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c normal x86_64 c com.apple.compilers.gcc.4_2
-s329653646.645072
-e329653646.709339
+s329716106.936418
+e329716107.074353
 r1
 xCompileC
 xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Loader.o
@@ -2483,7 +2565,7 @@ xcom.apple.compilers.gcc.4_2
 oIn file included from /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c:10:
 o/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h: In function 'loadFiles':
 o/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h:60: warning: assignment makes pointer from integer without a cast
-lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c329653646#329653646#0(304"In file included from /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c:10:/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h: In function 'loadFiles':/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h:60: warning: assignment makes pointer from integer without a cast1(22@52"Assignment makes pointer from integer without a cast329653646#176#128#2(7@83"In file included from /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c329653646#18446744073709551615#0#0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c328445393#10#0#10#0#0"0(13@117"Assignment makes pointer from integer without a cast in /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329653646#18446744073709551615#0#0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329653645#60#0#60#0#0"0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329653645#60#0#60#0#0"0(0#0#61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c8621754368#1790"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-gunshyupqkzzhzfptevyvtffuhwm/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Loader.o0#
+lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c329716106#329716107#0(304"In file included from /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c:10:/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h: In function 'loadFiles':/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h:60: warning: assignment makes pointer from integer without a cast1(22@52"Assignment makes pointer from integer without a cast329716107#176#128#2(7@83"In file included from /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c329716107#18446744073709551615#0#0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c328445393#10#0#10#0#0"0(13@117"Assignment makes pointer from integer without a cast in /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329716107#18446744073709551615#0#0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329715833#60#0#60#0#0"0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329715833#60#0#60#0#0"0(0#0#61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c8631245184#1790"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-gunshyupqkzzhzfptevyvtffuhwm/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.c -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Loader.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Loader.o /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
 s329635014.805695
@@ -2602,8 +2684,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@75"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/SDL_rotozoom.c329189931#329189932#0(0"0(0#0#67"/Users/arjunprakash/Working/Development/CS8/Astroids/SDL_rotozoom.c8610969792#1802"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-gunshyupqkzzhzfptevyvtffuhwm/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/SDL_rotozoom.c -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/SDL_rotozoom.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Ship.o /Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s329653297.749246
-e329653298.312744
+s329722746.532451
+e329722747.510646
 r1
 xCompileC
 xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Ship.o
@@ -2612,11 +2694,11 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp329653297#329653298#0(0"0(0#0#61"/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp8603106720#1818"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-adrfmzylpgyfnzhavrkepbuezxmt/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Ship.o0#
+lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp329722746#329722747#0(0"0(0#0#61"/Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp8620303264#1818"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-adrfmzylpgyfnzhavrkepbuezxmt/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Ship.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Ship.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Sprite.o /Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s329648372.477101
-e329648372.932988
+s329716934.289703
+e329716934.750572
 r1
 xCompileC
 xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Sprite.o
@@ -2625,7 +2707,7 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp329648372#329648372#0(0"0(0#0#63"/Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp8623667616#1822"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-adrfmzylpgyfnzhavrkepbuezxmt/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Sprite.o0#
+lSLF07#2@71"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp329716934#329716934#0(0"0(0#0#63"/Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp8613830560#1822"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-adrfmzylpgyfnzhavrkepbuezxmt/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/Sprite.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Sprite.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Timer.o /Users/arjunprakash/Desktop/Astroids/Timer.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
 s328447739.746095
@@ -2723,8 +2805,8 @@ o/Users/arjunprakash/Desktop/Astroids/Loader.h:29: warning: deprecated conversio
 lSLF07#2@53"Compile /Users/arjunprakash/Desktop/Astroids/main.cpp328447739#328447740#0(264"In file included from /Users/arjunprakash/Desktop/Astroids/main.cpp:13:/Users/arjunprakash/Desktop/Astroids/Loader.h: In function 'void loadFiles()':/Users/arjunprakash/Desktop/Astroids/Loader.h:29: warning: deprecated conversion from string constant to 'char*'1(22@53"Deprecated conversion from string constant to 'char*'328447740#151#113#2(7@67"In file included from /Users/arjunprakash/Desktop/Astroids/main.cpp328447740#18446744073709551615#0#0(6@45"/Users/arjunprakash/Desktop/Astroids/main.cpp328447613#13#0#13#0#0"0(13@102"Deprecated conversion from string constant to 'char*' in /Users/arjunprakash/Desktop/Astroids/Loader.h328447740#18446744073709551615#0#0(6@45"/Users/arjunprakash/Desktop/Astroids/Loader.h328447538#29#0#29#0#0"0(6@45"/Users/arjunprakash/Desktop/Astroids/Loader.h328447538#29#0#29#0#49"deprecated conversion from string constant to '*'0(0#0#45"/Users/arjunprakash/Desktop/Astroids/main.cpp8614329216#1338"    cd /Users/arjunprakash/Desktop/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Desktop/Astroids/build/Debug -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Desktop/Astroids/build/Debug/include -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/x86_64 -I/Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-edqmpxismefdtmfouosyekgzsqqd/Astroids_Prefix.pch -c /Users/arjunprakash/Desktop/Astroids/main.cpp -o /Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/main.o0#
 
 CCompileC build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/main.o /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s329653646.643279
-e329653647.350065
+s329720929.835752
+e329720930.416995
 r1
 xCompileC
 xbuild/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/main.o
@@ -2733,10 +2815,10 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp:26:
+oIn file included from /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp:27:
 o/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h: In function 'void loadFiles()':
 o/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h:60: warning: deprecated conversion from string constant to 'char*'
-lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp329653646#329653647#0(312"In file included from /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp:26:/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h: In function 'void loadFiles()':/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h:60: warning: deprecated conversion from string constant to 'char*'1(22@53"Deprecated conversion from string constant to 'char*'329653647#183#129#2(7@83"In file included from /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp329653647#18446744073709551615#0#0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp329653443#26#0#26#0#0"0(13@118"Deprecated conversion from string constant to 'char*' in /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329653647#18446744073709551615#0#0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329653645#60#0#60#0#0"0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329653645#60#0#60#0#49"deprecated conversion from string constant to '*'0(0#0#61"/Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp8622026752#1818"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-adrfmzylpgyfnzhavrkepbuezxmt/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/main.o0#
+lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp329720929#329720930#0(312"In file included from /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp:27:/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h: In function 'void loadFiles()':/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h:60: warning: deprecated conversion from string constant to 'char*'1(22@53"Deprecated conversion from string constant to 'char*'329720930#183#129#2(7@83"In file included from /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp329720930#18446744073709551615#0#0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp329712479#27#0#27#0#0"0(13@118"Deprecated conversion from string constant to 'char*' in /Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329720930#18446744073709551615#0#0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329715833#60#0#60#0#0"0(6@61"/Users/arjunprakash/Working/Development/CS8/Astroids/Loader.h329715833#60#0#60#0#49"deprecated conversion from string constant to '*'0(0#0#61"/Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp8629458624#1818"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Astroids.hmap -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/include -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Library/Frameworks/SDL.framework/Headers -I/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Astroids_Prefix-adrfmzylpgyfnzhavrkepbuezxmt/Astroids_Prefix.pch -c /Users/arjunprakash/Working/Development/CS8/Astroids/main.cpp -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/main.o0#
 
 CCopyStringsFile /Users/arjunprakash/Desktop/Astroids/build/Debug/Astroids.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
 s328441032.530487
@@ -3058,14 +3140,14 @@ xx86_64 i386 ppc
 lSLF07#2@95"CreateUniversalBinary build/Debug/Astroids.app/Contents/MacOS/Astroids normal "x86_64 i386 ppc"328447740#328447740#0(0"0(0#0#52"/Users/arjunprakash/Desktop/Astroids/x86_64 i386 ppc8619094144#489"    cd /Users/arjunprakash/Desktop/Astroids    /usr/bin/lipo -create /Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroids /Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroids /Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroids -output /Users/arjunprakash/Desktop/Astroids/build/Debug/Astroids.app/Contents/MacOS/Astroids0#
 
 CCreateUniversalBinary /Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app/Contents/MacOS/Astroids normal "x86_64 i386 ppc"
-s329653647.733334
-e329653647.737381
+s329724281.610005
+e329724281.613925
 r1
 xCreateUniversalBinary
 x/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app/Contents/MacOS/Astroids
 xnormal
 xx86_64 i386 ppc
-lSLF07#2@95"CreateUniversalBinary build/Debug/Astroids.app/Contents/MacOS/Astroids normal "x86_64 i386 ppc"329653647#329653647#0(0"0(0#0#68"/Users/arjunprakash/Working/Development/CS8/Astroids/x86_64 i386 ppc8612702144#569"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    /usr/bin/lipo -create /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroids /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroids /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroids -output /Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app/Contents/MacOS/Astroids0#
+lSLF07#2@95"CreateUniversalBinary build/Debug/Astroids.app/Contents/MacOS/Astroids normal "x86_64 i386 ppc"329724281#329724281#0(0"0(0#0#68"/Users/arjunprakash/Working/Development/CS8/Astroids/x86_64 i386 ppc8625755232#569"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    /usr/bin/lipo -create /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroids /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroids /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroids -output /Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app/Contents/MacOS/Astroids0#
 
 CLd /Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroids normal i386
 s328447740.140230
@@ -3101,8 +3183,8 @@ old: warning: directory '/Users/arjunprakash/Library/Frameworks' following -F no
 lSLF07#2@114"Link /Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroids328447740#328447740#0(87"ld: warning: directory '/Users/arjunprakash/Library/Frameworks' following -F not found1(22@73"Directory '/Users/arjunprakash/Library/Frameworks' following -F not found328447740#0#87#0(6@0"328447740#0#0#0#0#0"0(0#0#0"8618622752#721"    cd /Users/arjunprakash/Desktop/Astroids    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer-old/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -L/Users/arjunprakash/Desktop/Astroids/build/Debug -F/Users/arjunprakash/Desktop/Astroids/build/Debug -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -filelist /Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroids.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework Cocoa -framework SDL_image -framework SDL_ttf -o /Users/arjunprakash/Desktop/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroids0#
 
 CLd /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroids normal i386
-s329653647.105710
-e329653647.374751
+s329724280.927376
+e329724281.241891
 r1
 xLd
 x/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroids
@@ -3110,11 +3192,11 @@ xnormal
 xi386
 old: warning: directory '/Users/arjunprakash/Library/Frameworks' following -F not found
 old: warning: directory '/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release' following -F not found
-lSLF07#2@128"Link /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroids329653647#329653647#0(232"ld: warning: directory '/Users/arjunprakash/Library/Frameworks' following -F not foundld: warning: directory '/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release' following -F not found2(22@73"Directory '/Users/arjunprakash/Library/Frameworks' following -F not found329653647#0#87#0(6@0"329653647#0#0#0#0#0"0(22@131"Directory '/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release' following -F not found329653647#87#145#0(6@0"329653647#0#0#0#0#0"0(0#0#0"8613703552#950"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer-old/usr/bin/g++-4.0 -arch i386 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -L/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -filelist /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroids.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework Cocoa -framework SDL_image -framework SDL_ttf -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroids0#
+lSLF07#2@128"Link /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroids329724280#329724281#0(232"ld: warning: directory '/Users/arjunprakash/Library/Frameworks' following -F not foundld: warning: directory '/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release' following -F not found2(22@73"Directory '/Users/arjunprakash/Library/Frameworks' following -F not found329724281#0#87#0(6@0"329724281#0#0#0#0#0"0(22@131"Directory '/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release' following -F not found329724281#87#145#0(6@0"329724281#0#0#0#0#0"0(0#0#0"8623401056#950"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer-old/usr/bin/g++-4.0 -arch i386 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -L/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -filelist /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroids.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework Cocoa -framework SDL_image -framework SDL_ttf -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/i386/Astroids0#
 
 CLd /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroids normal ppc
-s329653647.693371
-e329653647.733233
+s329724281.564883
+e329724281.609889
 r1
 xLd
 x/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroids
@@ -3122,11 +3204,11 @@ xnormal
 xppc
 old: warning: directory '/Users/arjunprakash/Library/Frameworks' following -F not found
 old: warning: directory '/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release' following -F not found
-lSLF07#2@127"Link /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroids329653647#329653647#0(232"ld: warning: directory '/Users/arjunprakash/Library/Frameworks' following -F not foundld: warning: directory '/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release' following -F not found2(22@73"Directory '/Users/arjunprakash/Library/Frameworks' following -F not found329653647#0#87#0(6@0"329653647#0#0#0#0#0"0(22@131"Directory '/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release' following -F not found329653647#87#145#0(6@0"329653647#0#0#0#0#0"0(0#0#0"8620688384#947"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer-old/usr/bin/g++-4.0 -arch ppc -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -L/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -filelist /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroids.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework Cocoa -framework SDL_image -framework SDL_ttf -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroids0#
+lSLF07#2@127"Link /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroids329724281#329724281#0(232"ld: warning: directory '/Users/arjunprakash/Library/Frameworks' following -F not foundld: warning: directory '/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release' following -F not found2(22@73"Directory '/Users/arjunprakash/Library/Frameworks' following -F not found329724281#0#87#0(6@0"329724281#0#0#0#0#0"0(22@131"Directory '/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release' following -F not found329724281#87#145#0(6@0"329724281#0#0#0#0#0"0(0#0#0"8627437952#947"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer-old/usr/bin/g++-4.0 -arch ppc -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -L/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -filelist /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroids.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework Cocoa -framework SDL_image -framework SDL_ttf -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/ppc/Astroids0#
 
 CLd /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroids normal x86_64
-s329653647.350160
-e329653647.420093
+s329724280.989388
+e329724281.293502
 r1
 xLd
 x/Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroids
@@ -3134,7 +3216,7 @@ xnormal
 xx86_64
 old: warning: directory '/Users/arjunprakash/Library/Frameworks' following -F not found
 old: warning: directory '/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release' following -F not found
-lSLF07#2@130"Link /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroids329653647#329653647#0(232"ld: warning: directory '/Users/arjunprakash/Library/Frameworks' following -F not foundld: warning: directory '/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release' following -F not found2(22@73"Directory '/Users/arjunprakash/Library/Frameworks' following -F not found329653647#0#87#0(6@0"329653647#0#0#0#0#0"0(22@131"Directory '/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release' following -F not found329653647#87#145#0(6@0"329653647#0#0#0#0#0"0(0#0#0"8623719072#956"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer-old/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -L/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -filelist /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroids.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework Cocoa -framework SDL_image -framework SDL_ttf -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroids0#
+lSLF07#2@130"Link /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroids329724280#329724281#0(232"ld: warning: directory '/Users/arjunprakash/Library/Frameworks' following -F not foundld: warning: directory '/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release' following -F not found2(22@73"Directory '/Users/arjunprakash/Library/Frameworks' following -F not found329724281#0#87#0(6@0"329724281#0#0#0#0#0"0(22@131"Directory '/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release' following -F not found329724281#87#145#0(6@0"329724281#0#0#0#0#0"0(0#0#0"8622058176#956"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer-old/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -L/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Library/Frameworks -F/Developer-old/SDKs/MacOSX10.6.sdk/Library/Frameworks -F/Users/arjunprakash/Working/Development/CS8/Astroids/../../../../Downloads/SDL_gfx/build/Release -filelist /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroids.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework Cocoa -framework SDL_image -framework SDL_ttf -o /Users/arjunprakash/Working/Development/CS8/Astroids/build/Astroids.build/Debug/Astroids.build/Objects-normal/x86_64/Astroids0#
 
 CPBXCp build/Debug/Astroids.app/Contents/Frameworks/SDL.framework /Library/Frameworks/SDL.framework
 s328441039.544003
@@ -3634,10 +3716,10 @@ x/Users/arjunprakash/Desktop/Astroids/build/Debug/Astroids.app
 lSLF07#2@67"Touch /Users/arjunprakash/Desktop/Astroids/build/Debug/Astroids.app328447740#328447740#0(0"0(0#0#0"8618841600#128"    cd /Users/arjunprakash/Desktop/Astroids    /usr/bin/touch -c /Users/arjunprakash/Desktop/Astroids/build/Debug/Astroids.app0#
 
 CTouch /Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app
-s329653647.737526
-e329653647.742096
+s329724281.614074
+e329724281.617515
 r1
 xTouch
 x/Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app
-lSLF07#2@83"Touch /Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app329653647#329653647#0(0"0(0#0#0"8599325600#160"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    /usr/bin/touch -c /Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app0#
+lSLF07#2@83"Touch /Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app329724281#329724281#0(0"0(0#0#0"8613270048#160"    cd /Users/arjunprakash/Working/Development/CS8/Astroids    /usr/bin/touch -c /Users/arjunprakash/Working/Development/CS8/Astroids/build/Debug/Astroids.app0#
 

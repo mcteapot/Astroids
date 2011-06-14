@@ -36,6 +36,7 @@ bool Level::play() {
 	if (aShip->getLives() != 0) {
 		aShip->keyPress(initSDLEvents(), 1);
 		aShip->draw();
+		drawBullets();
 	} else {
 		endGame();
 	}
@@ -59,7 +60,47 @@ void Level::scoreToText(int i) {
 	stringScore = out.str();
 
 }
+//void drawBullets() 
+void Level::drawBullets() {
+	//std::cout << "Bullet Count" << bulletVector.size() << std::endl;
+	if (bulletVector.size() != 0) {
+		for (int i = 0; i < bulletVector.size(); i++) {
+			bulletVector[i].draw();
+		}
+		boundBullets();
+	}
 
+}
+//void boundBullets()
+void Level::boundBullets() {
+	std::cout << "Bullet Count" << bulletVector.size() << std::endl;
+	if (bulletVector.size() != 0) {
+		//int maxSize = bulletVector.size()-1;
+		for (int i = 0; i < bulletVector.size(); i++) {
+			if (bulletVector[i].getX() < (0-bullet01->w)) {
+				std::cout << "removed: " << i << std::endl;
+				bulletVector.erase (bulletVector.begin()+i);
+				break;
+			}
+			if (bulletVector[i].getX() > wWindow) {
+				std::cout << "removed: " << i << std::endl;
+				bulletVector.erase (bulletVector.begin()+i);
+				break;
+			}
+			if (bulletVector[i].getY() > hWindow) {
+				std::cout << "removed: " << i << std::endl;
+				bulletVector.erase (bulletVector.begin()+i);
+				break;
+			}
+			if (bulletVector[i].getY() < 0-bullet01->h) {
+				std::cout << "removed: " << i << std::endl;
+				bulletVector.erase (bulletVector.begin()+i);
+				break;
+			}
+		}
+
+	}
+}
 //void endGame();
 void Level::endGame() {
 	applySurface( ( wWindow - textGameOver->w )/2, ( hWindow - textGameOver->h)/2, textGameOver, screen, NULL );
@@ -76,7 +117,7 @@ void Level::createText() {
 //void loadLevel();
 void Level::loadLevel() {
 	
-	aShip = new Ship(shipSheet01, shipSheetBooster01, shipDeath01, screen, 1, (( wWindow - 32 ) / 2), (( hWindow-32) / 2), 90, 3);
+	aShip = new Ship(shipSheet01, shipSheetBooster01, shipDeath01, bullet01, screen, 1, &bulletVector, (( wWindow - 32 ) / 2), (( hWindow-32) / 2), 90, 3);
 	for (int i = 0; i < aShip->getLives(); i++) {
 		aShipLives[i] = new Sprite(shipLife01, screen, 1, 10+(32*i), 10);
 	}
