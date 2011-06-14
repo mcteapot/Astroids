@@ -97,18 +97,18 @@ void Sprite::draw(float x, float y, float r) {
 }
 
 //ADD-ON
-SDL_Surface* Sprite::getSpriteSurface()
-{
+SDL_Surface* Sprite::getSpriteSurface() {
     return spriteSurface;
 }
+SDL_Rect* Sprite::getSpriteClip() {
+	return clip;
+}
 //OPERATOR OVERLOADING
-bool Sprite::operator<(const Sprite &rhs)
-{
+bool Sprite::operator<(const Sprite &rhs) {
     return (this->positon.x < rhs.positon.x);
 }
 
-bool Sprite::operator>(const Sprite &rhs)
-{
+bool Sprite::operator>(const Sprite &rhs) {
     return (this->positon.x > rhs.positon.x);
 }
 

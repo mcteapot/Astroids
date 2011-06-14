@@ -56,6 +56,7 @@ public:
 	
 	//ADD-ONS
 	SDL_Surface* getSpriteSurface();
+	SDL_Rect* getSpriteClip();
 	bool operator<(const Sprite &rhs);
 	bool operator>(const Sprite &rhs);
 

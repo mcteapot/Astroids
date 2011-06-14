@@ -2083,6 +2083,18 @@
 			47DE4BFC13A77F380050ACB5 /* PBXTextBookmark */ = 47DE4BFC13A77F380050ACB5 /* PBXTextBookmark */;
 			47DE4BFD13A77F380050ACB5 /* PBXTextBookmark */ = 47DE4BFD13A77F380050ACB5 /* PBXTextBookmark */;
 			47DE4BFE13A77F380050ACB5 /* PBXTextBookmark */ = 47DE4BFE13A77F380050ACB5 /* PBXTextBookmark */;
+			47DE4BFF13A7C2A00050ACB5 /* PBXTextBookmark */ = 47DE4BFF13A7C2A00050ACB5 /* PBXTextBookmark */;
+			47DE4C0013A7C2A00050ACB5 /* PBXTextBookmark */ = 47DE4C0013A7C2A00050ACB5 /* PBXTextBookmark */;
+			47DE4C0113A7C2A00050ACB5 /* PBXTextBookmark */ = 47DE4C0113A7C2A00050ACB5 /* PBXTextBookmark */;
+			47DE4C0413A7CDAE0050ACB5 /* PBXTextBookmark */ = 47DE4C0413A7CDAE0050ACB5 /* PBXTextBookmark */;
+			47DE4C0513A7CDAE0050ACB5 /* PBXTextBookmark */ = 47DE4C0513A7CDAE0050ACB5 /* PBXTextBookmark */;
+			47DE4C0613A7CDAE0050ACB5 /* PBXTextBookmark */ = 47DE4C0613A7CDAE0050ACB5 /* PBXTextBookmark */;
+			47DE4C0713A7CDAE0050ACB5 /* PBXTextBookmark */ = 47DE4C0713A7CDAE0050ACB5 /* PBXTextBookmark */;
+			47DE4C0813A7CDAE0050ACB5 /* PBXTextBookmark */ = 47DE4C0813A7CDAE0050ACB5 /* PBXTextBookmark */;
+			47DE4C0913A7CDAE0050ACB5 /* PBXTextBookmark */ = 47DE4C0913A7CDAE0050ACB5 /* PBXTextBookmark */;
+			47DE4C0B13A7CDDB0050ACB5 /* PBXTextBookmark */ = 47DE4C0B13A7CDDB0050ACB5 /* PBXTextBookmark */;
+			47DE4C0C13A7CDDB0050ACB5 /* PBXTextBookmark */ = 47DE4C0C13A7CDDB0050ACB5 /* PBXTextBookmark */;
+			47DE4C0D13A7CDDB0050ACB5 /* PBXTextBookmark */ = 47DE4C0D13A7CDDB0050ACB5 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 474643D713939C740061E921 /* Source Control */;
 		userBuildSettings = {
@@ -2167,7 +2179,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1468, 1677}}";
 			sepNavSelRange = "{780, 0}";
-			sepNavVisRange = "{3, 2110}";
+			sepNavVisRange = "{3, 1578}";
 			sepNavWindowFrame = "{{975, 304}, {909, 874}}";
 		};
 	};
@@ -5321,7 +5333,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {815, 1430}}";
 			sepNavSelRange = "{1589, 15}";
-			sepNavVisRange = "{710, 1088}";
+			sepNavVisRange = "{710, 1035}";
 			sepNavWindowFrame = "{{1220, 129}, {874, 961}}";
 		};
 	};
@@ -5868,17 +5880,17 @@
 	};
 	4723881F139C637E003AFC38 /* Sprite.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1025, 1053}}";
-			sepNavSelRange = "{927, 0}";
-			sepNavVisRange = "{123, 1145}";
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 1066}}";
+			sepNavSelRange = "{974, 26}";
+			sepNavVisRange = "{420, 859}";
 			sepNavWindowFrame = "{{942, 265}, {961, 874}}";
 		};
 	};
 	47238820139C637E003AFC38 /* Sprite.cpp */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1025, 1521}}";
-			sepNavSelRange = "{1074, 0}";
-			sepNavVisRange = "{0, 1298}";
+			sepNavSelRange = "{2062, 0}";
+			sepNavVisRange = "{1049, 1066}";
 			sepNavWindowFrame = "{{935, 23}, {961, 1149}}";
 		};
 	};
@@ -6201,7 +6213,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1930, 1118}}";
 			sepNavSelRange = "{1092, 0}";
-			sepNavVisRange = "{159, 1547}";
+			sepNavVisRange = "{462, 1227}";
 			sepNavWindowFrame = "{{1113, 151}, {805, 874}}";
 		};
 	};
@@ -7480,7 +7492,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 20;
-		rLoc = 1087;
+		rLoc = 1115;
 		rType = 0;
 		vrLen = 1105;
 		vrLoc = 0;
@@ -7772,7 +7784,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 0;
-		rLoc = 1134;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 323;
@@ -7852,7 +7864,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -7942,7 +7954,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -7992,7 +8004,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 0;
-		rLoc = 1134;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 734;
 		vrLoc = 322;
@@ -8012,7 +8024,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8022,7 +8034,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 0;
-		rLoc = 1134;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 734;
 		vrLoc = 322;
@@ -8042,7 +8054,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8052,7 +8064,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 0;
-		rLoc = 1134;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 734;
 		vrLoc = 322;
@@ -8072,7 +8084,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8082,7 +8094,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 0;
-		rLoc = 1134;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 734;
 		vrLoc = 322;
@@ -8102,7 +8114,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8112,7 +8124,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 0;
-		rLoc = 1134;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 734;
 		vrLoc = 322;
@@ -8132,7 +8144,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8142,7 +8154,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 0;
-		rLoc = 1134;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 704;
 		vrLoc = 72;
@@ -8172,7 +8184,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8212,7 +8224,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8306,7 +8318,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8346,7 +8358,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8386,7 +8398,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8426,7 +8438,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8466,7 +8478,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8506,7 +8518,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8546,7 +8558,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8586,7 +8598,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8626,7 +8638,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8666,7 +8678,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8706,7 +8718,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8746,7 +8758,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8786,7 +8798,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8826,7 +8838,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8866,7 +8878,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8906,7 +8918,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -8966,7 +8978,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9006,7 +9018,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9046,7 +9058,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9130,7 +9142,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9160,7 +9172,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9227,7 +9239,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9267,7 +9279,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9386,7 +9398,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9426,7 +9438,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9466,7 +9478,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9496,7 +9508,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 782;
 		vrLoc = 323;
@@ -9546,7 +9558,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9586,7 +9598,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9626,7 +9638,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9666,7 +9678,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9746,7 +9758,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9766,7 +9778,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 782;
 		vrLoc = 323;
@@ -9826,7 +9838,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9866,7 +9878,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9906,7 +9918,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9946,7 +9958,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -9986,7 +9998,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -10026,7 +10038,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -10136,7 +10148,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -10226,7 +10238,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -10266,7 +10278,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -10306,7 +10318,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 0;
@@ -10322,7 +10334,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1188, 1144}}";
 			sepNavSelRange = "{745, 0}";
-			sepNavVisRange = "{590, 1166}";
+			sepNavVisRange = "{590, 1150}";
 			sepNavWindowFrame = "{{1112, 54}, {800, 984}}";
 		};
 	};
@@ -10399,7 +10411,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 59";
 		rLen = 26;
-		rLoc = 1108;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 785;
 		vrLoc = 322;
@@ -10479,7 +10491,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -10628,7 +10640,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 921;
 		vrLoc = 0;
@@ -10702,7 +10714,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -10761,7 +10773,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -10841,7 +10853,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -10881,7 +10893,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -10921,7 +10933,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -10961,7 +10973,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -11001,7 +11013,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -11041,7 +11053,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -11121,7 +11133,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -11161,7 +11173,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -11201,7 +11213,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -11241,7 +11253,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -11301,7 +11313,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -11381,7 +11393,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -11461,7 +11473,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -11551,7 +11563,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -11591,7 +11603,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -11691,7 +11703,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -11731,7 +11743,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -11775,7 +11787,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -11875,7 +11887,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 921;
 		vrLoc = 0;
@@ -11925,7 +11937,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 921;
 		vrLoc = 0;
@@ -12015,7 +12027,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 921;
 		vrLoc = 0;
@@ -12085,7 +12097,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 921;
 		vrLoc = 0;
@@ -12135,7 +12147,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 921;
 		vrLoc = 0;
@@ -12185,7 +12197,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 921;
 		vrLoc = 0;
@@ -12249,7 +12261,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 57";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 921;
 		vrLoc = 0;
@@ -12369,7 +12381,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -12429,7 +12441,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -12489,7 +12501,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -12579,7 +12591,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -12639,7 +12651,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -12719,7 +12731,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 967;
 		vrLoc = 0;
@@ -12729,7 +12741,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 967;
 		vrLoc = 0;
@@ -12789,7 +12801,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 967;
 		vrLoc = 0;
@@ -12889,7 +12901,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 967;
 		vrLoc = 0;
@@ -12949,7 +12961,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -13009,7 +13021,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -13069,7 +13081,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -13129,7 +13141,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -13189,7 +13201,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -13249,7 +13261,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -13309,7 +13321,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -13389,7 +13401,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -13449,7 +13461,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -13559,7 +13571,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -13656,7 +13668,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -13726,7 +13738,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -13796,7 +13808,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -13866,7 +13878,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -13936,7 +13948,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -14006,7 +14018,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -14076,7 +14088,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -14146,7 +14158,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 967;
 		vrLoc = 0;
@@ -14216,7 +14228,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 967;
 		vrLoc = 0;
@@ -14286,7 +14298,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 58";
 		rLen = 13;
-		rLoc = 1071;
+		rLoc = 1099;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -14846,7 +14858,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 60";
 		rLen = 0;
-		rLoc = 1044;
+		rLoc = 1072;
 		rType = 0;
 		vrLen = 880;
 		vrLoc = 363;
@@ -14906,7 +14918,7 @@
 		fRef = 47238820139C637E003AFC38 /* Sprite.cpp */;
 		name = "Sprite.cpp: 114";
 		rLen = 0;
-		rLoc = 2060;
+		rLoc = 2112;
 		rType = 0;
 		vrLen = 971;
 		vrLoc = 1092;
@@ -14988,7 +15000,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 60";
 		rLen = 0;
-		rLoc = 1044;
+		rLoc = 1072;
 		rType = 0;
 		vrLen = 827;
 		vrLoc = 441;
@@ -15148,7 +15160,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 66";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 1164;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 440;
@@ -15575,7 +15587,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 61";
 		rLen = 0;
-		rLoc = 1045;
+		rLoc = 1073;
 		rType = 0;
 		vrLen = 848;
 		vrLoc = 420;
@@ -15625,7 +15637,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 61";
 		rLen = 0;
-		rLoc = 1045;
+		rLoc = 1073;
 		rType = 0;
 		vrLen = 848;
 		vrLoc = 420;
@@ -18780,7 +18792,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 61";
 		rLen = 0;
-		rLoc = 1045;
+		rLoc = 1073;
 		rType = 0;
 		vrLen = 1236;
 		vrLoc = 32;
@@ -18910,7 +18922,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 61";
 		rLen = 0;
-		rLoc = 1045;
+		rLoc = 1073;
 		rType = 0;
 		vrLen = 1218;
 		vrLoc = 32;
@@ -19485,7 +19497,7 @@
 		fRef = 47238820139C637E003AFC38 /* Sprite.cpp */;
 		name = "Sprite.cpp: 117";
 		rLen = 0;
-		rLoc = 2063;
+		rLoc = 2115;
 		rType = 0;
 		vrLen = 1335;
 		vrLoc = 732;
@@ -19495,7 +19507,7 @@
 		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
 		name = "Sprite.h: 61";
 		rLen = 0;
-		rLoc = 1045;
+		rLoc = 1073;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 72;
@@ -19565,7 +19577,7 @@
 		fRef = 47238820139C637E003AFC38 /* Sprite.cpp */;
 		name = "Sprite.cpp: 117";
 		rLen = 0;
-		rLoc = 2063;
+		rLoc = 2115;
 		rType = 0;
 		vrLen = 1331;
 		vrLoc = 732;
@@ -21881,6 +21893,126 @@
 		rLoc = 745;
 		rType = 0;
 		vrLen = 1166;
+		vrLoc = 590;
+	};
+	47DE4BFF13A7C2A00050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
+		name = "Astroid.cpp: 24";
+		rLen = 0;
+		rLoc = 780;
+		rType = 0;
+		vrLen = 1578;
+		vrLoc = 3;
+	};
+	47DE4C0013A7C2A00050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
+		name = "Level.h: 96";
+		rLen = 15;
+		rLoc = 1589;
+		rType = 0;
+		vrLen = 1035;
+		vrLoc = 710;
+	};
+	47DE4C0113A7C2A00050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DE444E13A626D20050ACB5 /* Bullet.cpp */;
+		name = "Bullet.cpp: 28";
+		rLen = 0;
+		rLoc = 745;
+		rType = 0;
+		vrLen = 1150;
+		vrLoc = 590;
+	};
+	47DE4C0413A7CDAE0050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
+		name = "Astroid.cpp: 24";
+		rLen = 0;
+		rLoc = 780;
+		rType = 0;
+		vrLen = 1578;
+		vrLoc = 3;
+	};
+	47DE4C0513A7CDAE0050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47D3E1DA139E0F1200A993D7 /* Ship.h */;
+		name = "Ship.h: 39";
+		rLen = 0;
+		rLoc = 1092;
+		rType = 0;
+		vrLen = 1227;
+		vrLoc = 462;
+	};
+	47DE4C0613A7CDAE0050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4723881F139C637E003AFC38 /* Sprite.h */;
+		name = "Sprite.h: 59";
+		rLen = 26;
+		rLoc = 974;
+		rType = 0;
+		vrLen = 859;
+		vrLoc = 420;
+	};
+	47DE4C0713A7CDAE0050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47238820139C637E003AFC38 /* Sprite.cpp */;
+		name = "Sprite.cpp: 111";
+		rLen = 0;
+		rLoc = 2062;
+		rType = 0;
+		vrLen = 1041;
+		vrLoc = 1074;
+	};
+	47DE4C0813A7CDAE0050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
+		name = "Level.h: 96";
+		rLen = 15;
+		rLoc = 1589;
+		rType = 0;
+		vrLen = 1005;
+		vrLoc = 710;
+	};
+	47DE4C0913A7CDAE0050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DE444E13A626D20050ACB5 /* Bullet.cpp */;
+		name = "Bullet.cpp: 28";
+		rLen = 0;
+		rLoc = 745;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 590;
+	};
+	47DE4C0B13A7CDDB0050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47238820139C637E003AFC38 /* Sprite.cpp */;
+		name = "Sprite.cpp: 111";
+		rLen = 0;
+		rLoc = 2062;
+		rType = 0;
+		vrLen = 1066;
+		vrLoc = 1049;
+	};
+	47DE4C0C13A7CDDB0050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
+		name = "Level.h: 96";
+		rLen = 15;
+		rLoc = 1589;
+		rType = 0;
+		vrLen = 1035;
+		vrLoc = 710;
+	};
+	47DE4C0D13A7CDDB0050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DE444E13A626D20050ACB5 /* Bullet.cpp */;
+		name = "Bullet.cpp: 28";
+		rLen = 0;
+		rLoc = 745;
+		rType = 0;
+		vrLen = 1150;
 		vrLoc = 590;
 	};
 	8D1107260486CEB800E47090 /* Astroids */ = {
