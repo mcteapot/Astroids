@@ -25,7 +25,7 @@
 #include "Ship.h"
 #include "Astroid.h"
 #include "Bullet.h"
-
+#include "Collision.h"
 
 
 class Level {

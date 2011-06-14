@@ -2,23 +2,23 @@
 {
 	002F3A2B09D0888800EBEB88 /* SDLMain.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {735, 886}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 968}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 374}";
 		};
 	};
 	002F3A2C09D0888800EBEB88 /* SDLMain.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {887, 5044}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 5083}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{8549, 1648}";
+			sepNavVisRange = "{7137, 2165}";
 		};
 	};
 	002F3A3E09D088BA00EBEB88 /* main.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1314, 1599}}";
-			sepNavSelRange = "{1516, 0}";
-			sepNavVisRange = "{0, 1484}";
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 1417}}";
+			sepNavSelRange = "{786, 4}";
+			sepNavVisRange = "{562, 1483}";
 			sepNavWindowFrame = "{{1188, 3}, {864, 1106}}";
 		};
 	};
@@ -2027,6 +2027,62 @@
 			47DE4B9313A779630050ACB5 /* PBXTextBookmark */ = 47DE4B9313A779630050ACB5 /* PBXTextBookmark */;
 			47DE4B9413A779630050ACB5 /* PBXTextBookmark */ = 47DE4B9413A779630050ACB5 /* PBXTextBookmark */;
 			47DE4B9513A779630050ACB5 /* PBXTextBookmark */ = 47DE4B9513A779630050ACB5 /* PBXTextBookmark */;
+			47DE4B9813A779DB0050ACB5 /* PBXTextBookmark */ = 47DE4B9813A779DB0050ACB5 /* PBXTextBookmark */;
+			47DE4B9913A779DB0050ACB5 /* PBXTextBookmark */ = 47DE4B9913A779DB0050ACB5 /* PBXTextBookmark */;
+			47DE4B9A13A779DB0050ACB5 /* PBXTextBookmark */ = 47DE4B9A13A779DB0050ACB5 /* PBXTextBookmark */;
+			47DE4B9C13A77A080050ACB5 /* PBXTextBookmark */ = 47DE4B9C13A77A080050ACB5 /* PBXTextBookmark */;
+			47DE4B9D13A77A080050ACB5 /* PBXTextBookmark */ = 47DE4B9D13A77A080050ACB5 /* PBXTextBookmark */;
+			47DE4B9E13A77A080050ACB5 /* PBXTextBookmark */ = 47DE4B9E13A77A080050ACB5 /* PBXTextBookmark */;
+			47DE4B9F13A77A080050ACB5 /* PBXTextBookmark */ = 47DE4B9F13A77A080050ACB5 /* PBXTextBookmark */;
+			47DE4BA013A77A080050ACB5 /* PBXTextBookmark */ = 47DE4BA013A77A080050ACB5 /* PBXTextBookmark */;
+			47DE4BA113A77A080050ACB5 /* PBXTextBookmark */ = 47DE4BA113A77A080050ACB5 /* PBXTextBookmark */;
+			47DE4BB713A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BB713A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BB813A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BB813A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BB913A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BB913A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BBA13A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BBA13A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BBB13A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BBB13A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BBC13A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BBC13A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BBD13A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BBD13A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BBE13A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BBE13A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BBF13A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BBF13A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BC013A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BC013A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BC113A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BC113A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BC213A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BC213A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BC313A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BC313A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BC413A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BC413A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BC513A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BC513A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BC613A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BC613A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BC713A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BC713A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BC813A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BC813A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BC913A77D550050ACB5 /* PBXTextBookmark */ = 47DE4BC913A77D550050ACB5 /* PBXTextBookmark */;
+			47DE4BCD13A77D8F0050ACB5 /* PBXTextBookmark */ = 47DE4BCD13A77D8F0050ACB5 /* PBXTextBookmark */;
+			47DE4BCE13A77D8F0050ACB5 /* PBXTextBookmark */ = 47DE4BCE13A77D8F0050ACB5 /* PBXTextBookmark */;
+			47DE4BCF13A77D8F0050ACB5 /* PBXTextBookmark */ = 47DE4BCF13A77D8F0050ACB5 /* PBXTextBookmark */;
+			47DE4BD513A77DB30050ACB5 /* PBXTextBookmark */ = 47DE4BD513A77DB30050ACB5 /* PBXTextBookmark */;
+			47DE4BD613A77DB30050ACB5 /* PBXTextBookmark */ = 47DE4BD613A77DB30050ACB5 /* PBXTextBookmark */;
+			47DE4BD713A77DB30050ACB5 /* PBXTextBookmark */ = 47DE4BD713A77DB30050ACB5 /* PBXTextBookmark */;
+			47DE4BD813A77DB30050ACB5 /* PBXTextBookmark */ = 47DE4BD813A77DB30050ACB5 /* PBXTextBookmark */;
+			47DE4BE013A77E020050ACB5 /* PBXTextBookmark */ = 47DE4BE013A77E020050ACB5 /* PBXTextBookmark */;
+			47DE4BE113A77E020050ACB5 /* PBXTextBookmark */ = 47DE4BE113A77E020050ACB5 /* PBXTextBookmark */;
+			47DE4BE213A77E020050ACB5 /* PBXTextBookmark */ = 47DE4BE213A77E020050ACB5 /* PBXTextBookmark */;
+			47DE4BE313A77E020050ACB5 /* PBXTextBookmark */ = 47DE4BE313A77E020050ACB5 /* PBXTextBookmark */;
+			47DE4BE413A77E020050ACB5 /* PBXTextBookmark */ = 47DE4BE413A77E020050ACB5 /* PBXTextBookmark */;
+			47DE4BE513A77E020050ACB5 /* PBXTextBookmark */ = 47DE4BE513A77E020050ACB5 /* PBXTextBookmark */;
+			47DE4BE913A77E120050ACB5 /* PBXTextBookmark */ = 47DE4BE913A77E120050ACB5 /* PBXTextBookmark */;
+			47DE4BEA13A77E120050ACB5 /* PBXTextBookmark */ = 47DE4BEA13A77E120050ACB5 /* PBXTextBookmark */;
+			47DE4BEB13A77E120050ACB5 /* PBXTextBookmark */ = 47DE4BEB13A77E120050ACB5 /* PBXTextBookmark */;
+			47DE4BEF13A77EC50050ACB5 /* PBXTextBookmark */ = 47DE4BEF13A77EC50050ACB5 /* PBXTextBookmark */;
+			47DE4BF013A77EC50050ACB5 /* PBXTextBookmark */ = 47DE4BF013A77EC50050ACB5 /* PBXTextBookmark */;
+			47DE4BF113A77EC50050ACB5 /* PBXTextBookmark */ = 47DE4BF113A77EC50050ACB5 /* PBXTextBookmark */;
+			47DE4BF313A77EEA0050ACB5 /* PBXTextBookmark */ = 47DE4BF313A77EEA0050ACB5 /* PBXTextBookmark */;
+			47DE4BF413A77EEA0050ACB5 /* PBXTextBookmark */ = 47DE4BF413A77EEA0050ACB5 /* PBXTextBookmark */;
+			47DE4BF513A77EEA0050ACB5 /* PBXTextBookmark */ = 47DE4BF513A77EEA0050ACB5 /* PBXTextBookmark */;
+			47DE4BF813A77F120050ACB5 /* PBXTextBookmark */ = 47DE4BF813A77F120050ACB5 /* PBXTextBookmark */;
+			47DE4BF913A77F120050ACB5 /* PBXTextBookmark */ = 47DE4BF913A77F120050ACB5 /* PBXTextBookmark */;
+			47DE4BFA13A77F120050ACB5 /* PBXTextBookmark */ = 47DE4BFA13A77F120050ACB5 /* PBXTextBookmark */;
+			47DE4BFC13A77F380050ACB5 /* PBXTextBookmark */ = 47DE4BFC13A77F380050ACB5 /* PBXTextBookmark */;
+			47DE4BFD13A77F380050ACB5 /* PBXTextBookmark */ = 47DE4BFD13A77F380050ACB5 /* PBXTextBookmark */;
+			47DE4BFE13A77F380050ACB5 /* PBXTextBookmark */ = 47DE4BFE13A77F380050ACB5 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 474643D713939C740061E921 /* Source Control */;
 		userBuildSettings = {
@@ -2034,7 +2090,7 @@
 	};
 	32CA4F630368D1EE00C91783 /* Astroids_Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {894, 967}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 968}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 175}";
 		};
@@ -2109,9 +2165,9 @@
 	};
 	470A773913A4A1B9007316E8 /* Astroid.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1468, 1755}}";
-			sepNavSelRange = "{3328, 0}";
-			sepNavVisRange = "{1642, 1686}";
+			sepNavIntBoundsRect = "{{0, 0}, {1468, 1677}}";
+			sepNavSelRange = "{780, 0}";
+			sepNavVisRange = "{3, 2110}";
 			sepNavWindowFrame = "{{975, 304}, {909, 874}}";
 		};
 	};
@@ -2263,7 +2319,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 96";
 		rLen = 0;
-		rLoc = 2220;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1385;
 		vrLoc = 428;
@@ -2273,7 +2329,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 154";
 		rLen = 0;
-		rLoc = 4014;
+		rLoc = 4018;
 		rType = 0;
 		vrLen = 1244;
 		vrLoc = 2680;
@@ -2323,7 +2379,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 96";
 		rLen = 0;
-		rLoc = 2220;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1879;
 		vrLoc = 385;
@@ -2343,7 +2399,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 149";
 		rLen = 4;
-		rLoc = 3984;
+		rLoc = 3988;
 		rType = 0;
 		vrLen = 1753;
 		vrLoc = 2002;
@@ -2372,7 +2428,7 @@
 		isa = PBXTextBookmark;
 		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
 		rLen = 0;
-		rLoc = 3328;
+		rLoc = 3441;
 		rType = 0;
 	};
 	470A77C713A4CAFF007316E8 /* PBXTextBookmark */ = {
@@ -2409,7 +2465,7 @@
 		isa = PBXTextBookmark;
 		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
 		rLen = 0;
-		rLoc = 3328;
+		rLoc = 3441;
 		rType = 0;
 	};
 	470A77CF13A4CAFF007316E8 /* PBXTextBookmark */ = {
@@ -2437,7 +2493,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 96";
 		rLen = 0;
-		rLoc = 2220;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1879;
 		vrLoc = 385;
@@ -2657,7 +2713,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 96";
 		rLen = 0;
-		rLoc = 2220;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 673;
@@ -2677,7 +2733,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 96";
 		rLen = 0;
-		rLoc = 2220;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 673;
@@ -2697,7 +2753,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 55";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1471;
 		vrLoc = 758;
@@ -2717,7 +2773,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 55";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1466;
 		vrLoc = 758;
@@ -2737,7 +2793,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 55";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1471;
 		vrLoc = 758;
@@ -2757,7 +2813,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 55";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1474;
 		vrLoc = 758;
@@ -2777,7 +2833,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 55";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1474;
 		vrLoc = 758;
@@ -2831,7 +2887,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 55";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1296;
 		vrLoc = 1241;
@@ -2841,7 +2897,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 103";
 		rLen = 0;
-		rLoc = 2355;
+		rLoc = 1860;
 		rType = 0;
 		vrLen = 1422;
 		vrLoc = 1115;
@@ -2881,7 +2937,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 154";
 		rLen = 0;
-		rLoc = 4014;
+		rLoc = 4018;
 		rType = 0;
 		vrLen = 1287;
 		vrLoc = 2637;
@@ -2911,7 +2967,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 90";
 		rLen = 0;
-		rLoc = 1998;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1424;
 		vrLoc = 1115;
@@ -2921,7 +2977,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 59";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1539;
 		vrLoc = 699;
@@ -2951,7 +3007,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 59";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1539;
 		vrLoc = 699;
@@ -2981,7 +3037,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 59";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1539;
 		vrLoc = 699;
@@ -3011,7 +3067,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 59";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1568;
 		vrLoc = 699;
@@ -3091,7 +3147,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 59";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1377;
 		vrLoc = 408;
@@ -3111,7 +3167,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 59";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1377;
 		vrLoc = 408;
@@ -3131,7 +3187,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 59";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1377;
 		vrLoc = 408;
@@ -3151,7 +3207,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1462;
 		vrLoc = 408;
@@ -3201,7 +3257,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1487;
 		vrLoc = 408;
@@ -3211,7 +3267,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1443;
 		vrLoc = 428;
@@ -3251,7 +3307,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1443;
 		vrLoc = 428;
@@ -3281,7 +3337,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1443;
 		vrLoc = 428;
@@ -3311,7 +3367,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 154";
 		rLen = 0;
-		rLoc = 4014;
+		rLoc = 4018;
 		rType = 0;
 		vrLen = 1430;
 		vrLoc = 1793;
@@ -3321,7 +3377,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 64";
 		rLen = 0;
-		rLoc = 1060;
+		rLoc = 1063;
 		rType = 0;
 		vrLen = 1484;
 		vrLoc = 468;
@@ -3375,7 +3431,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 154";
 		rLen = 0;
-		rLoc = 4014;
+		rLoc = 4018;
 		rType = 0;
 		vrLen = 1387;
 		vrLoc = 1836;
@@ -3795,7 +3851,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 128";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 2055;
@@ -3832,7 +3888,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 138";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1289;
 		vrLoc = 2055;
@@ -3862,7 +3918,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 138";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1344;
 		vrLoc = 2055;
@@ -3942,7 +3998,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 127";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1427;
 		vrLoc = 1746;
@@ -3962,7 +4018,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 134";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1448;
 		vrLoc = 1743;
@@ -3982,7 +4038,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 127";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1450;
 		vrLoc = 1743;
@@ -4002,7 +4058,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 130";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1222;
 		vrLoc = 2111;
@@ -4022,7 +4078,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 130";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1222;
 		vrLoc = 2111;
@@ -4092,7 +4148,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 140";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1314;
 		vrLoc = 2024;
@@ -4112,7 +4168,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 128";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1122;
 		vrLoc = 2145;
@@ -4132,7 +4188,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 128";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1177;
 		vrLoc = 2430;
@@ -4152,7 +4208,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 128";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1177;
 		vrLoc = 2430;
@@ -4202,7 +4258,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 64";
 		rLen = 0;
-		rLoc = 1060;
+		rLoc = 1063;
 		rType = 0;
 		vrLen = 1379;
 		vrLoc = 573;
@@ -4212,7 +4268,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 99";
 		rLen = 0;
-		rLoc = 2220;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1295;
 		vrLoc = 1423;
@@ -4232,7 +4288,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 99";
 		rLen = 0;
-		rLoc = 2220;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1407;
 		vrLoc = 626;
@@ -4252,7 +4308,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 98";
 		rLen = 0;
-		rLoc = 2122;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1298;
 		vrLoc = 1423;
@@ -4272,7 +4328,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 60";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1598;
 		vrLoc = 636;
@@ -4296,7 +4352,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 128";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1177;
 		vrLoc = 2430;
@@ -4316,7 +4372,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 60";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1625;
 		vrLoc = 636;
@@ -4326,7 +4382,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 98";
 		rLen = 0;
-		rLoc = 2122;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1520;
 		vrLoc = 1096;
@@ -4582,7 +4638,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 41";
 		rLen = 0;
-		rLoc = 791;
+		rLoc = 794;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 365;
@@ -4762,7 +4818,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 128";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 925;
 		vrLoc = 811;
@@ -4962,7 +5018,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 128";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 0;
@@ -5076,7 +5132,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 128";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1673;
 		vrLoc = 1966;
@@ -5106,7 +5162,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 128";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1673;
 		vrLoc = 1966;
@@ -5136,7 +5192,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 128";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1673;
 		vrLoc = 1966;
@@ -5166,7 +5222,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 128";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1673;
 		vrLoc = 1966;
@@ -5196,7 +5252,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 128";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1673;
 		vrLoc = 1966;
@@ -5236,7 +5292,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 106";
 		rLen = 0;
-		rLoc = 2211;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1236;
 		vrLoc = 1801;
@@ -5246,7 +5302,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 128";
 		rLen = 0;
-		rLoc = 3654;
+		rLoc = 3658;
 		rType = 0;
 		vrLen = 1673;
 		vrLoc = 1966;
@@ -5264,16 +5320,16 @@
 	470A7ABE13A5CECF007316E8 /* Level.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {815, 1430}}";
-			sepNavSelRange = "{1567, 15}";
-			sepNavVisRange = "{712, 1080}";
+			sepNavSelRange = "{1589, 15}";
+			sepNavVisRange = "{710, 1088}";
 			sepNavWindowFrame = "{{1220, 129}, {874, 961}}";
 		};
 	};
 	470A7ABF13A5CECF007316E8 /* Level.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1097, 3068}}";
-			sepNavSelRange = "{1544, 0}";
-			sepNavVisRange = "{820, 1814}";
+			sepNavIntBoundsRect = "{{0, 0}, {1097, 3380}}";
+			sepNavSelRange = "{2464, 0}";
+			sepNavVisRange = "{0, 1389}";
 			sepNavWindowFrame = "{{1037, 213}, {874, 961}}";
 		};
 	};
@@ -5328,7 +5384,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 171";
 		rLen = 354;
-		rLoc = 4052;
+		rLoc = 4056;
 		rType = 0;
 		vrLen = 1230;
 		vrLoc = 2923;
@@ -5388,7 +5444,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 106";
 		rLen = 0;
-		rLoc = 2211;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1281;
 		vrLoc = 1770;
@@ -5748,7 +5804,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 35";
 		rLen = 0;
-		rLoc = 1770;
+		rLoc = 1792;
 		rType = 0;
 		vrLen = 534;
 		vrLoc = 0;
@@ -5795,7 +5851,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 35";
 		rLen = 19;
-		rLoc = 834;
+		rLoc = 856;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 0;
@@ -5822,7 +5878,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1025, 1521}}";
 			sepNavSelRange = "{1074, 0}";
-			sepNavVisRange = "{663, 1398}";
+			sepNavVisRange = "{0, 1298}";
 			sepNavWindowFrame = "{{935, 23}, {961, 1149}}";
 		};
 	};
@@ -5922,7 +5978,7 @@
 	};
 	4746445B13939F810061E921 /* Inits.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1287, 710}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 968}}";
 			sepNavSelRange = "{150, 0}";
 			sepNavVisRange = "{0, 150}";
 			sepNavWindowFrame = "{{15, 34}, {719, 1139}}";
@@ -6003,7 +6059,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 54";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1555;
 		vrLoc = 785;
@@ -6152,8 +6208,8 @@
 	47D3E1DB139E0F1200A993D7 /* Ship.cpp */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1734, 3237}}";
-			sepNavSelRange = "{2152, 0}";
-			sepNavVisRange = "{1881, 1773}";
+			sepNavSelRange = "{3641, 0}";
+			sepNavVisRange = "{853, 1408}";
 			sepNavWindowFrame = "{{1113, 151}, {805, 874}}";
 		};
 	};
@@ -6186,7 +6242,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 35";
 		rLen = 19;
-		rLoc = 834;
+		rLoc = 856;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 0;
@@ -6206,7 +6262,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 171";
 		rLen = 354;
-		rLoc = 4052;
+		rLoc = 4056;
 		rType = 0;
 		vrLen = 1226;
 		vrLoc = 2927;
@@ -6226,7 +6282,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 40";
 		rLen = 0;
-		rLoc = 1770;
+		rLoc = 1792;
 		rType = 0;
 		vrLen = 573;
 		vrLoc = 0;
@@ -6236,7 +6292,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 40";
 		rLen = 0;
-		rLoc = 1770;
+		rLoc = 1792;
 		rType = 0;
 		vrLen = 573;
 		vrLoc = 0;
@@ -6256,7 +6312,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 40";
 		rLen = 0;
-		rLoc = 1770;
+		rLoc = 1792;
 		rType = 0;
 		vrLen = 573;
 		vrLoc = 0;
@@ -6266,7 +6322,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 41";
 		rLen = 0;
-		rLoc = 1770;
+		rLoc = 1792;
 		rType = 0;
 		vrLen = 591;
 		vrLoc = 0;
@@ -6276,7 +6332,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 30";
 		rLen = 0;
-		rLoc = 528;
+		rLoc = 550;
 		rType = 0;
 		vrLen = 591;
 		vrLoc = 0;
@@ -6286,7 +6342,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 42";
 		rLen = 0;
-		rLoc = 1770;
+		rLoc = 1792;
 		rType = 0;
 		vrLen = 610;
 		vrLoc = 0;
@@ -6306,7 +6362,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 41";
 		rLen = 0;
-		rLoc = 1294;
+		rLoc = 1316;
 		rType = 0;
 		vrLen = 610;
 		vrLoc = 0;
@@ -6330,7 +6386,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 67";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 1746;
@@ -6350,7 +6406,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 38";
 		rLen = 0;
-		rLoc = 1053;
+		rLoc = 1075;
 		rType = 0;
 		vrLen = 831;
 		vrLoc = 163;
@@ -6360,7 +6416,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 40";
 		rLen = 0;
-		rLoc = 1053;
+		rLoc = 1075;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 212;
@@ -6380,7 +6436,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 62";
 		rLen = 0;
-		rLoc = 1770;
+		rLoc = 1792;
 		rType = 0;
 		vrLen = 944;
 		vrLoc = 0;
@@ -6390,7 +6446,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 9;
-		rLoc = 1682;
+		rLoc = 1704;
 		rType = 0;
 		vrLen = 882;
 		vrLoc = 130;
@@ -6400,7 +6456,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 45";
 		rLen = 0;
-		rLoc = 1255;
+		rLoc = 1277;
 		rType = 0;
 		vrLen = 833;
 		vrLoc = 231;
@@ -6420,7 +6476,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 63";
 		rLen = 9;
-		rLoc = 1682;
+		rLoc = 1704;
 		rType = 0;
 		vrLen = 898;
 		vrLoc = 130;
@@ -6430,7 +6486,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 64";
 		rLen = 0;
-		rLoc = 1719;
+		rLoc = 1741;
 		rType = 0;
 		vrLen = 779;
 		vrLoc = 315;
@@ -6440,7 +6496,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 46";
 		rLen = 0;
-		rLoc = 1255;
+		rLoc = 1277;
 		rType = 0;
 		vrLen = 893;
 		vrLoc = 192;
@@ -6470,7 +6526,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 64";
 		rLen = 0;
-		rLoc = 1719;
+		rLoc = 1741;
 		rType = 0;
 		vrLen = 779;
 		vrLoc = 315;
@@ -6509,7 +6565,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 64";
 		rLen = 12;
-		rLoc = 1707;
+		rLoc = 1729;
 		rType = 0;
 		vrLen = 902;
 		vrLoc = 192;
@@ -6552,7 +6608,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 67";
 		rLen = 0;
-		rLoc = 991;
+		rLoc = 994;
 		rType = 0;
 		vrLen = 1262;
 		vrLoc = 1830;
@@ -6562,7 +6618,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 64";
 		rLen = 0;
-		rLoc = 1719;
+		rLoc = 1741;
 		rType = 0;
 		vrLen = 779;
 		vrLoc = 315;
@@ -6616,7 +6672,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 41";
 		rLen = 0;
-		rLoc = 1051;
+		rLoc = 1073;
 		rType = 0;
 		vrLen = 785;
 		vrLoc = 333;
@@ -6626,7 +6682,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 41";
 		rLen = 0;
-		rLoc = 1032;
+		rLoc = 1054;
 		rType = 0;
 		vrLen = 790;
 		vrLoc = 333;
@@ -6636,7 +6692,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 65";
 		rLen = 12;
-		rLoc = 1707;
+		rLoc = 1729;
 		rType = 0;
 		vrLen = 915;
 		vrLoc = 192;
@@ -6666,7 +6722,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 66";
 		rLen = 12;
-		rLoc = 1707;
+		rLoc = 1729;
 		rType = 0;
 		vrLen = 933;
 		vrLoc = 192;
@@ -6686,7 +6742,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 37";
 		rLen = 0;
-		rLoc = 728;
+		rLoc = 750;
 		rType = 0;
 		vrLen = 795;
 		vrLoc = 352;
@@ -6716,7 +6772,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 67";
 		rLen = 12;
-		rLoc = 1707;
+		rLoc = 1729;
 		rType = 0;
 		vrLen = 953;
 		vrLoc = 192;
@@ -6736,7 +6792,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 37";
 		rLen = 0;
-		rLoc = 728;
+		rLoc = 750;
 		rType = 0;
 		vrLen = 790;
 		vrLoc = 373;
@@ -6766,7 +6822,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 37";
 		rLen = 25;
-		rLoc = 597;
+		rLoc = 619;
 		rType = 0;
 		vrLen = 914;
 		vrLoc = 249;
@@ -6796,7 +6852,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 43";
 		rLen = 11;
-		rLoc = 1039;
+		rLoc = 1061;
 		rType = 0;
 		vrLen = 914;
 		vrLoc = 249;
@@ -6816,7 +6872,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 37";
 		rLen = 0;
-		rLoc = 620;
+		rLoc = 642;
 		rType = 0;
 		vrLen = 795;
 		vrLoc = 373;
@@ -6846,7 +6902,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 43";
 		rLen = 11;
-		rLoc = 1039;
+		rLoc = 1061;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 249;
@@ -6876,7 +6932,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 43";
 		rLen = 11;
-		rLoc = 1039;
+		rLoc = 1061;
 		rType = 0;
 		vrLen = 903;
 		vrLoc = 249;
@@ -6906,7 +6962,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 43";
 		rLen = 11;
-		rLoc = 1039;
+		rLoc = 1061;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 249;
@@ -6936,7 +6992,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 43";
 		rLen = 11;
-		rLoc = 1039;
+		rLoc = 1061;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 249;
@@ -6956,7 +7012,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 37";
 		rLen = 0;
-		rLoc = 620;
+		rLoc = 642;
 		rType = 0;
 		vrLen = 742;
 		vrLoc = 0;
@@ -6996,7 +7052,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 43";
 		rLen = 11;
-		rLoc = 1039;
+		rLoc = 1061;
 		rType = 0;
 		vrLen = 903;
 		vrLoc = 249;
@@ -7046,7 +7102,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 43";
 		rLen = 11;
-		rLoc = 1039;
+		rLoc = 1061;
 		rType = 0;
 		vrLen = 903;
 		vrLoc = 249;
@@ -7080,7 +7136,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 56";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 231;
@@ -7090,7 +7146,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 89";
 		rLen = 0;
-		rLoc = 1572;
+		rLoc = 1575;
 		rType = 0;
 		vrLen = 2176;
 		vrLoc = 936;
@@ -7160,7 +7216,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 56";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 231;
@@ -7170,7 +7226,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 89";
 		rLen = 0;
-		rLoc = 1572;
+		rLoc = 1575;
 		rType = 0;
 		vrLen = 2176;
 		vrLoc = 936;
@@ -7190,7 +7246,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 56";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 231;
@@ -7200,7 +7256,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 89";
 		rLen = 0;
-		rLoc = 1572;
+		rLoc = 1575;
 		rType = 0;
 		vrLen = 2176;
 		vrLoc = 936;
@@ -7230,7 +7286,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 56";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 967;
 		vrLoc = 231;
@@ -7240,7 +7296,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 89";
 		rLen = 0;
-		rLoc = 1572;
+		rLoc = 1575;
 		rType = 0;
 		vrLen = 2176;
 		vrLoc = 936;
@@ -7270,7 +7326,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 37";
 		rLen = 0;
-		rLoc = 620;
+		rLoc = 642;
 		rType = 0;
 		vrLen = 743;
 		vrLoc = 0;
@@ -7290,7 +7346,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 56";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 231;
@@ -7300,7 +7356,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 89";
 		rLen = 0;
-		rLoc = 1572;
+		rLoc = 1575;
 		rType = 0;
 		vrLen = 2176;
 		vrLoc = 936;
@@ -7330,7 +7386,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 56";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 231;
@@ -7340,7 +7396,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 89";
 		rLen = 0;
-		rLoc = 1572;
+		rLoc = 1575;
 		rType = 0;
 		vrLen = 2176;
 		vrLoc = 936;
@@ -7374,7 +7430,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 57";
 		rLen = 6;
-		rLoc = 1285;
+		rLoc = 1307;
 		rType = 0;
 		vrLen = 764;
 		vrLoc = 0;
@@ -7404,7 +7460,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 89";
 		rLen = 0;
-		rLoc = 1572;
+		rLoc = 1575;
 		rType = 0;
 		vrLen = 2176;
 		vrLoc = 936;
@@ -7414,7 +7470,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 56";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2213;
 		vrLoc = 630;
@@ -7434,7 +7490,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 56";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 231;
@@ -7444,7 +7500,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 48";
 		rLen = 7;
-		rLoc = 1089;
+		rLoc = 1111;
 		rType = 0;
 		vrLen = 951;
 		vrLoc = 373;
@@ -7503,8 +7559,8 @@
 		isa = PBXTextBookmark;
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 102";
-		rLen = 84;
-		rLoc = 1970;
+		rLen = 0;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 2070;
 		vrLoc = 1118;
@@ -7524,7 +7580,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 49";
 		rLen = 7;
-		rLoc = 1089;
+		rLoc = 1111;
 		rType = 0;
 		vrLen = 969;
 		vrLoc = 357;
@@ -7554,7 +7610,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 100";
 		rLen = 0;
-		rLoc = 1691;
+		rLoc = 1694;
 		rType = 0;
 		vrLen = 2139;
 		vrLoc = 936;
@@ -7574,7 +7630,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 49";
 		rLen = 7;
-		rLoc = 1089;
+		rLoc = 1111;
 		rType = 0;
 		vrLen = 969;
 		vrLoc = 357;
@@ -7604,7 +7660,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 100";
 		rLen = 0;
-		rLoc = 1691;
+		rLoc = 1694;
 		rType = 0;
 		vrLen = 2191;
 		vrLoc = 936;
@@ -7624,7 +7680,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 49";
 		rLen = 7;
-		rLoc = 1089;
+		rLoc = 1111;
 		rType = 0;
 		vrLen = 987;
 		vrLoc = 357;
@@ -7654,7 +7710,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 38";
 		rLen = 0;
-		rLoc = 594;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 943;
 		vrLoc = 212;
@@ -7664,7 +7720,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 100";
 		rLen = 0;
-		rLoc = 1691;
+		rLoc = 1694;
 		rType = 0;
 		vrLen = 2153;
 		vrLoc = 903;
@@ -7756,7 +7812,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 10;
-		rLoc = 1210;
+		rLoc = 1232;
 		rType = 0;
 		vrLen = 777;
 		vrLoc = 623;
@@ -7766,7 +7822,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 0;
-		rLoc = 1255;
+		rLoc = 1277;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 496;
@@ -7806,7 +7862,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 10;
-		rLoc = 1210;
+		rLoc = 1232;
 		rType = 0;
 		vrLen = 736;
 		vrLoc = 735;
@@ -7816,7 +7872,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 171";
 		rLen = 354;
-		rLoc = 4052;
+		rLoc = 4056;
 		rType = 0;
 		vrLen = 911;
 		vrLoc = 3242;
@@ -7906,7 +7962,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 37";
 		rLen = 25;
-		rLoc = 571;
+		rLoc = 593;
 		rType = 0;
 		vrLen = 757;
 		vrLoc = 395;
@@ -8096,7 +8152,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 98";
 		rLen = 0;
-		rLoc = 1661;
+		rLoc = 1664;
 		rType = 0;
 		vrLen = 1049;
 		vrLoc = 2160;
@@ -8126,7 +8182,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 98";
 		rLen = 0;
-		rLoc = 1661;
+		rLoc = 1664;
 		rType = 0;
 		vrLen = 1076;
 		vrLoc = 2160;
@@ -8136,7 +8192,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 157";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1000;
 		vrLoc = 2531;
@@ -8170,7 +8226,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 157";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1089;
 		vrLoc = 32;
@@ -8190,7 +8246,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 106";
 		rLen = 0;
-		rLoc = 1791;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 2160;
@@ -8200,7 +8256,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 37";
 		rLen = 25;
-		rLoc = 571;
+		rLoc = 593;
 		rType = 0;
 		vrLen = 748;
 		vrLoc = 0;
@@ -9014,7 +9070,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 37";
 		rLen = 25;
-		rLoc = 571;
+		rLoc = 593;
 		rType = 0;
 		vrLen = 728;
 		vrLoc = 760;
@@ -9044,7 +9100,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 157";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 956;
 		vrLoc = 1883;
@@ -9054,7 +9110,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 149";
 		rLen = 0;
-		rLoc = 3657;
+		rLoc = 3661;
 		rType = 0;
 		vrLen = 1001;
 		vrLoc = 2127;
@@ -9064,7 +9120,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 157";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1273;
 		vrLoc = 2880;
@@ -9084,7 +9140,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 149";
 		rLen = 0;
-		rLoc = 3657;
+		rLoc = 3661;
 		rType = 0;
 		vrLen = 832;
 		vrLoc = 1318;
@@ -9094,7 +9150,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 157";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1273;
 		vrLoc = 2880;
@@ -9114,7 +9170,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 149";
 		rLen = 0;
-		rLoc = 3657;
+		rLoc = 3661;
 		rType = 0;
 		vrLen = 1010;
 		vrLoc = 0;
@@ -9134,7 +9190,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 37";
 		rLen = 27;
-		rLoc = 570;
+		rLoc = 592;
 		rType = 0;
 		vrLen = 978;
 		vrLoc = 510;
@@ -9161,7 +9217,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 157";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1273;
 		vrLoc = 2880;
@@ -9201,7 +9257,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 157";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1273;
 		vrLoc = 2880;
@@ -9260,7 +9316,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 39";
 		rLen = 15;
-		rLoc = 713;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 752;
 		vrLoc = 304;
@@ -9290,7 +9346,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 106";
 		rLen = 0;
-		rLoc = 1791;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 1926;
@@ -9299,8 +9355,8 @@
 		isa = PBXTextBookmark;
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 107";
-		rLen = 27;
-		rLoc = 1847;
+		rLen = 0;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1186;
 		vrLoc = 1948;
@@ -9320,7 +9376,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 157";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1273;
 		vrLoc = 2880;
@@ -9339,8 +9395,8 @@
 		isa = PBXTextBookmark;
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 107";
-		rLen = 27;
-		rLoc = 1847;
+		rLen = 0;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1149;
 		vrLoc = 2035;
@@ -9360,7 +9416,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 157";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1273;
 		vrLoc = 2880;
@@ -9379,8 +9435,8 @@
 		isa = PBXTextBookmark;
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 107";
-		rLen = 27;
-		rLoc = 1847;
+		rLen = 0;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1149;
 		vrLoc = 2060;
@@ -9400,7 +9456,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 157";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1273;
 		vrLoc = 2880;
@@ -9420,7 +9476,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 113";
 		rLen = 0;
-		rLoc = 2112;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1176;
 		vrLoc = 2060;
@@ -9480,7 +9536,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 157";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1273;
 		vrLoc = 2880;
@@ -9520,7 +9576,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 157";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1273;
 		vrLoc = 2880;
@@ -9560,7 +9616,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 157";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1273;
 		vrLoc = 2880;
@@ -9600,7 +9656,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 157";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1273;
 		vrLoc = 2880;
@@ -9630,7 +9686,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 39";
 		rLen = 15;
-		rLoc = 713;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 779;
 		vrLoc = 250;
@@ -9680,7 +9736,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 160";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1313;
 		vrLoc = 2868;
@@ -9700,7 +9756,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 113";
 		rLen = 0;
-		rLoc = 2112;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 836;
 		vrLoc = 115;
@@ -9730,7 +9786,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 192";
 		rLen = 0;
-		rLoc = 4851;
+		rLoc = 4855;
 		rType = 0;
 		vrLen = 974;
 		vrLoc = 3382;
@@ -9740,7 +9796,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 152";
 		rLen = 0;
-		rLoc = 3582;
+		rLoc = 3584;
 		rType = 0;
 		vrLen = 1009;
 		vrLoc = 3409;
@@ -9760,7 +9816,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 164";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1499;
 		vrLoc = 1504;
@@ -9780,7 +9836,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 196";
 		rLen = 0;
-		rLoc = 4731;
+		rLoc = 4735;
 		rType = 0;
 		vrLen = 962;
 		vrLoc = 3707;
@@ -9800,7 +9856,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 164";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1499;
 		vrLoc = 1504;
@@ -9820,7 +9876,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 96";
 		rLen = 0;
-		rLoc = 2162;
+		rLoc = 2164;
 		rType = 0;
 		vrLen = 1271;
 		vrLoc = 1504;
@@ -9840,7 +9896,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 164";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1509;
 		vrLoc = 1504;
@@ -9860,7 +9916,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 155";
 		rLen = 0;
-		rLoc = 3645;
+		rLoc = 3649;
 		rType = 0;
 		vrLen = 788;
 		vrLoc = 3268;
@@ -9880,7 +9936,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 169";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1509;
 		vrLoc = 1504;
@@ -9900,7 +9956,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 154";
 		rLen = 0;
-		rLoc = 3617;
+		rLoc = 3619;
 		rType = 0;
 		vrLen = 809;
 		vrLoc = 3276;
@@ -9920,7 +9976,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 169";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1509;
 		vrLoc = 1504;
@@ -9940,7 +9996,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 156";
 		rLen = 0;
-		rLoc = 3633;
+		rLoc = 3635;
 		rType = 0;
 		vrLen = 962;
 		vrLoc = 3800;
@@ -9960,7 +10016,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 171";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1480;
 		vrLoc = 1504;
@@ -10000,7 +10056,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 39";
 		rLen = 15;
-		rLoc = 713;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 758;
 		vrLoc = 250;
@@ -10030,7 +10086,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 156";
 		rLen = 0;
-		rLoc = 3633;
+		rLoc = 3635;
 		rType = 0;
 		vrLen = 1018;
 		vrLoc = 3744;
@@ -10050,7 +10106,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 89";
 		rLen = 0;
-		rLoc = 1479;
+		rLoc = 1482;
 		rType = 0;
 		vrLen = 1391;
 		vrLoc = 1394;
@@ -10070,7 +10126,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 171";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1480;
 		vrLoc = 1504;
@@ -10120,7 +10176,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 89";
 		rLen = 0;
-		rLoc = 1479;
+		rLoc = 1482;
 		rType = 0;
 		vrLen = 1445;
 		vrLoc = 1394;
@@ -10160,7 +10216,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 171";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1480;
 		vrLoc = 1504;
@@ -10200,7 +10256,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 171";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1522;
 		vrLoc = 1504;
@@ -10240,7 +10296,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 171";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3870;
 		rType = 0;
 		vrLen = 1480;
 		vrLoc = 1504;
@@ -10258,7 +10314,7 @@
 	47DE444D13A626D20050ACB5 /* Bullet.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1482, 968}}";
-			sepNavSelRange = "{455, 206}";
+			sepNavSelRange = "{205, 149}";
 			sepNavVisRange = "{0, 935}";
 		};
 	};
@@ -10333,7 +10389,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 89";
 		rLen = 0;
-		rLoc = 1479;
+		rLoc = 1482;
 		rType = 0;
 		vrLen = 1472;
 		vrLoc = 1371;
@@ -10373,7 +10429,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 39";
 		rLen = 15;
-		rLoc = 713;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 758;
 		vrLoc = 250;
@@ -10403,7 +10459,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 156";
 		rLen = 0;
-		rLoc = 3633;
+		rLoc = 3635;
 		rType = 0;
 		vrLen = 1047;
 		vrLoc = 3713;
@@ -10413,7 +10469,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 156";
 		rLen = 0;
-		rLoc = 3633;
+		rLoc = 3635;
 		rType = 0;
 		vrLen = 994;
 		vrLoc = 3768;
@@ -10462,7 +10518,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 0;
-		rLoc = 1187;
+		rLoc = 1209;
 		rType = 0;
 		vrLen = 630;
 		vrLoc = 0;
@@ -10472,7 +10528,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 205";
 		rLen = 0;
-		rLoc = 4751;
+		rLoc = 4755;
 		rType = 0;
 		vrLen = 996;
 		vrLoc = 0;
@@ -10502,7 +10558,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 39";
 		rLen = 15;
-		rLoc = 713;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 758;
 		vrLoc = 250;
@@ -10552,7 +10608,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 205";
 		rLen = 0;
-		rLoc = 4751;
+		rLoc = 4755;
 		rType = 0;
 		vrLen = 1277;
 		vrLoc = 0;
@@ -10586,7 +10642,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 206";
 		rLen = 0;
-		rLoc = 4751;
+		rLoc = 4755;
 		rType = 0;
 		vrLen = 1011;
 		vrLoc = 0;
@@ -10606,7 +10662,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 39";
 		rLen = 15;
-		rLoc = 713;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 756;
 		vrLoc = 250;
@@ -10616,7 +10672,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 39";
 		rLen = 15;
-		rLoc = 713;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 756;
 		vrLoc = 250;
@@ -10626,7 +10682,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 223";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1215;
 		vrLoc = 3607;
@@ -10636,7 +10692,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 55";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2190;
 		vrLoc = 772;
@@ -10656,7 +10712,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 48";
 		rLen = 0;
-		rLoc = 1002;
+		rLoc = 1024;
 		rType = 0;
 		vrLen = 756;
 		vrLoc = 250;
@@ -10685,7 +10741,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 222";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 3505;
@@ -10695,7 +10751,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 55";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2190;
 		vrLoc = 772;
@@ -10765,7 +10821,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 222";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 3505;
@@ -10775,7 +10831,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 55";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2190;
 		vrLoc = 772;
@@ -10805,7 +10861,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 222";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 3505;
@@ -10815,7 +10871,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 55";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2190;
 		vrLoc = 772;
@@ -10845,7 +10901,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 222";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 3505;
@@ -10855,7 +10911,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 55";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2190;
 		vrLoc = 772;
@@ -10885,7 +10941,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 222";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 3505;
@@ -10895,7 +10951,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 55";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2190;
 		vrLoc = 772;
@@ -10925,7 +10981,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 222";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 3505;
@@ -10935,7 +10991,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 55";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2190;
 		vrLoc = 772;
@@ -10965,7 +11021,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 222";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 3505;
@@ -10975,7 +11031,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 55";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2190;
 		vrLoc = 772;
@@ -11015,7 +11071,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 48";
 		rLen = 0;
-		rLoc = 1002;
+		rLoc = 1024;
 		rType = 0;
 		vrLen = 756;
 		vrLoc = 250;
@@ -11045,7 +11101,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 222";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 3505;
@@ -11055,7 +11111,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 55";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2190;
 		vrLoc = 772;
@@ -11085,7 +11141,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 222";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 3505;
@@ -11095,7 +11151,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 55";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2190;
 		vrLoc = 772;
@@ -11125,7 +11181,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 222";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 3505;
@@ -11135,7 +11191,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 55";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2190;
 		vrLoc = 772;
@@ -11165,7 +11221,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 222";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 3505;
@@ -11175,7 +11231,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 55";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2190;
 		vrLoc = 772;
@@ -11225,7 +11281,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 222";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 3505;
@@ -11235,7 +11291,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 701;
@@ -11305,7 +11361,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 222";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 3505;
@@ -11315,7 +11371,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 701;
@@ -11335,7 +11391,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 48";
 		rLen = 0;
-		rLoc = 1002;
+		rLoc = 1024;
 		rType = 0;
 		vrLen = 756;
 		vrLoc = 250;
@@ -11385,7 +11441,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 222";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 3505;
@@ -11395,7 +11451,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 701;
@@ -11435,7 +11491,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 49";
 		rLen = 0;
-		rLoc = 912;
+		rLoc = 934;
 		rType = 0;
 		vrLen = 724;
 		vrLoc = 357;
@@ -11475,7 +11531,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 223";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1261;
 		vrLoc = 3526;
@@ -11485,7 +11541,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 701;
@@ -11515,7 +11571,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 223";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1261;
 		vrLoc = 3526;
@@ -11525,7 +11581,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 701;
@@ -11585,7 +11641,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 40";
 		rLen = 20;
-		rLoc = 623;
+		rLoc = 645;
 		rType = 0;
 		vrLen = 861;
 		vrLoc = 0;
@@ -11615,7 +11671,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 230";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1229;
 		vrLoc = 3580;
@@ -11625,7 +11681,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 701;
@@ -11655,7 +11711,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 230";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1229;
 		vrLoc = 3580;
@@ -11665,7 +11721,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 701;
@@ -11689,7 +11745,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 40";
 		rLen = 20;
-		rLoc = 623;
+		rLoc = 645;
 		rType = 0;
 		vrLen = 863;
 		vrLoc = 0;
@@ -11729,7 +11785,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 230";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1229;
 		vrLoc = 3580;
@@ -11739,7 +11795,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 701;
@@ -11759,7 +11815,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 52";
 		rLen = 0;
-		rLoc = 950;
+		rLoc = 972;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 163;
@@ -11799,7 +11855,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 230";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 3580;
@@ -11809,7 +11865,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -11849,7 +11905,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 230";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 3580;
@@ -11859,7 +11915,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -11939,7 +11995,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 235";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 3603;
@@ -11949,7 +12005,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -11979,7 +12035,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 52";
 		rLen = 0;
-		rLoc = 950;
+		rLoc = 972;
 		rType = 0;
 		vrLen = 890;
 		vrLoc = 710;
@@ -12009,7 +12065,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 235";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 3603;
@@ -12019,7 +12075,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -12059,7 +12115,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 235";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 3603;
@@ -12069,7 +12125,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -12109,7 +12165,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 235";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 3603;
@@ -12119,7 +12175,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -12153,7 +12209,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 77";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 612;
@@ -12173,7 +12229,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 236";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1189;
 		vrLoc = 3622;
@@ -12183,7 +12239,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -12273,7 +12329,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 77";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 612;
@@ -12293,7 +12349,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 238";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -12303,7 +12359,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -12333,7 +12389,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 77";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 612;
@@ -12353,7 +12409,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -12363,7 +12419,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -12393,7 +12449,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 77";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 612;
@@ -12413,7 +12469,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -12423,7 +12479,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -12443,7 +12499,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 52";
 		rLen = 0;
-		rLoc = 950;
+		rLoc = 972;
 		rType = 0;
 		vrLen = 861;
 		vrLoc = 436;
@@ -12483,7 +12539,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 77";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 612;
@@ -12503,7 +12559,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -12513,7 +12569,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -12543,7 +12599,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 77";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 612;
@@ -12563,7 +12619,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -12573,7 +12629,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -12633,7 +12689,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 41";
 		rLen = 0;
-		rLoc = 711;
+		rLoc = 733;
 		rType = 0;
 		vrLen = 851;
 		vrLoc = 437;
@@ -12683,7 +12739,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 994;
 		vrLoc = 612;
@@ -12703,7 +12759,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 3636;
@@ -12713,7 +12769,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 701;
@@ -12743,7 +12799,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 994;
 		vrLoc = 612;
@@ -12763,7 +12819,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 3636;
@@ -12773,7 +12829,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 701;
@@ -12813,7 +12869,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 994;
 		vrLoc = 612;
@@ -12823,7 +12879,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 1020;
 		vrLoc = 586;
@@ -12853,7 +12909,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 3636;
@@ -12863,7 +12919,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 701;
@@ -12883,7 +12939,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 1018;
 		vrLoc = 586;
@@ -12913,7 +12969,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -12923,7 +12979,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -12943,7 +12999,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 1018;
 		vrLoc = 586;
@@ -12973,7 +13029,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -12983,7 +13039,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -13003,7 +13059,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 1018;
 		vrLoc = 586;
@@ -13033,7 +13089,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -13043,7 +13099,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -13063,7 +13119,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 1018;
 		vrLoc = 586;
@@ -13093,7 +13149,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -13103,7 +13159,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -13123,7 +13179,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 1018;
 		vrLoc = 586;
@@ -13153,7 +13209,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -13163,7 +13219,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -13183,7 +13239,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 1018;
 		vrLoc = 586;
@@ -13213,7 +13269,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -13223,7 +13279,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -13243,7 +13299,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 1018;
 		vrLoc = 586;
@@ -13273,7 +13329,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -13283,7 +13339,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -13323,7 +13379,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 1018;
 		vrLoc = 586;
@@ -13353,7 +13409,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -13363,7 +13419,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -13383,7 +13439,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 1018;
 		vrLoc = 586;
@@ -13413,7 +13469,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -13423,7 +13479,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -13453,7 +13509,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 752;
@@ -13493,7 +13549,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 1018;
 		vrLoc = 586;
@@ -13523,7 +13579,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -13533,7 +13589,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -13553,7 +13609,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 1020;
 		vrLoc = 586;
@@ -13563,7 +13619,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 503;
@@ -13620,7 +13676,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -13630,7 +13686,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -13650,7 +13706,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 503;
@@ -13690,7 +13746,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -13700,7 +13756,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -13730,7 +13786,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 503;
@@ -13760,7 +13816,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -13770,7 +13826,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -13800,7 +13856,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 503;
@@ -13830,7 +13886,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -13840,7 +13896,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -13870,7 +13926,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 503;
@@ -13900,7 +13956,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -13910,7 +13966,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -13940,7 +13996,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 503;
@@ -13970,7 +14026,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -13980,7 +14036,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -14010,7 +14066,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 503;
@@ -14040,7 +14096,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -14050,7 +14106,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -14080,7 +14136,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 1020;
 		vrLoc = 503;
@@ -14110,7 +14166,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 3636;
@@ -14120,7 +14176,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 701;
@@ -14150,7 +14206,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 1020;
 		vrLoc = 503;
@@ -14180,7 +14236,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 3636;
@@ -14190,7 +14246,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 701;
@@ -14220,7 +14276,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 503;
@@ -14250,7 +14306,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -14260,7 +14316,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -14290,7 +14346,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 8;
-		rLoc = 1446;
+		rLoc = 1468;
 		rType = 0;
 		vrLen = 996;
 		vrLoc = 0;
@@ -14300,7 +14356,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 229";
 		rLen = 0;
-		rLoc = 5036;
+		rLoc = 5040;
 		rType = 0;
 		vrLen = 1520;
 		vrLoc = 3871;
@@ -14350,7 +14406,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -14360,7 +14416,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -14400,7 +14456,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -14410,7 +14466,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -14450,7 +14506,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -14460,7 +14516,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2134;
 		vrLoc = 701;
@@ -14500,7 +14556,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 3636;
@@ -14510,7 +14566,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 701;
@@ -14550,7 +14606,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 3636;
@@ -14560,7 +14616,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 701;
@@ -14600,7 +14656,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 3636;
@@ -14610,7 +14666,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 58";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 701;
@@ -14630,7 +14686,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 52";
 		rLen = 0;
-		rLoc = 928;
+		rLoc = 950;
 		rType = 0;
 		vrLen = 873;
 		vrLoc = 732;
@@ -14660,7 +14716,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -14670,7 +14726,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 52";
 		rLen = 0;
-		rLoc = 928;
+		rLoc = 950;
 		rType = 0;
 		vrLen = 890;
 		vrLoc = 732;
@@ -14730,7 +14786,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -14770,7 +14826,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 3636;
@@ -14840,7 +14896,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 3636;
@@ -14880,7 +14936,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 3636;
@@ -15022,7 +15078,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -15032,7 +15088,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 52";
 		rLen = 0;
-		rLoc = 928;
+		rLoc = 950;
 		rType = 0;
 		vrLen = 874;
 		vrLoc = 732;
@@ -15122,7 +15178,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 3636;
@@ -15162,7 +15218,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -15202,7 +15258,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5311;
+		rLoc = 5315;
 		rType = 0;
 		vrLen = 1393;
 		vrLoc = 4016;
@@ -15232,7 +15288,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -15242,7 +15298,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5311;
+		rLoc = 5315;
 		rType = 0;
 		vrLen = 1393;
 		vrLoc = 4018;
@@ -15272,7 +15328,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -15282,7 +15338,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 52";
 		rLen = 0;
-		rLoc = 928;
+		rLoc = 950;
 		rType = 0;
 		vrLen = 948;
 		vrLoc = 674;
@@ -15362,7 +15418,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 233";
 		rLen = 0;
-		rLoc = 5409;
+		rLoc = 5413;
 		rType = 0;
 		vrLen = 1411;
 		vrLoc = 4002;
@@ -15372,7 +15428,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 221";
 		rLen = 0;
-		rLoc = 4914;
+		rLoc = 4918;
 		rType = 0;
 		vrLen = 1397;
 		vrLoc = 4018;
@@ -15402,7 +15458,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 239";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1182;
 		vrLoc = 3636;
@@ -15422,7 +15478,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 197";
 		rLen = 0;
-		rLoc = 4236;
+		rLoc = 4240;
 		rType = 0;
 		vrLen = 1428;
 		vrLoc = 3987;
@@ -15471,7 +15527,7 @@
 		isa = PBXTextBookmark;
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		rLen = 0;
-		rLoc = 9223372036854775870;
+		rLoc = 9223372036854775874;
 		rType = 0;
 	};
 	47DE47AD13A73FFE0050ACB5 /* PBXTextBookmark */ = {
@@ -15479,7 +15535,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 215";
 		rLen = 0;
-		rLoc = 4809;
+		rLoc = 4813;
 		rType = 0;
 		vrLen = 1471;
 		vrLoc = 3958;
@@ -15509,7 +15565,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 240";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1181;
 		vrLoc = 3636;
@@ -15529,7 +15585,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 215";
 		rLen = 0;
-		rLoc = 4809;
+		rLoc = 4813;
 		rType = 0;
 		vrLen = 1280;
 		vrLoc = 0;
@@ -15559,7 +15615,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 240";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1197;
 		vrLoc = 3636;
@@ -15589,7 +15645,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 206";
 		rLen = 0;
-		rLoc = 4597;
+		rLoc = 4601;
 		rType = 0;
 		vrLen = 1438;
 		vrLoc = 3987;
@@ -15599,7 +15655,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 52";
 		rLen = 0;
-		rLoc = 928;
+		rLoc = 950;
 		rType = 0;
 		vrLen = 933;
 		vrLoc = 672;
@@ -15639,7 +15695,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 213";
 		rLen = 99;
-		rLoc = 4754;
+		rLoc = 4758;
 		rType = 0;
 		vrLen = 1181;
 		vrLoc = 3636;
@@ -15669,7 +15725,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 240";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1181;
 		vrLoc = 3636;
@@ -15689,7 +15745,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 163";
 		rLen = 0;
-		rLoc = 3637;
+		rLoc = 3641;
 		rType = 0;
 		vrLen = 1198;
 		vrLoc = 2800;
@@ -15719,7 +15775,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 240";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5482;
 		rType = 0;
 		vrLen = 1179;
 		vrLoc = 3634;
@@ -15813,7 +15869,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 206";
 		rLen = 0;
-		rLoc = 4597;
+		rLoc = 4601;
 		rType = 0;
 		vrLen = 1442;
 		vrLoc = 3983;
@@ -15823,7 +15879,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 52";
 		rLen = 0;
-		rLoc = 928;
+		rLoc = 950;
 		rType = 0;
 		vrLen = 867;
 		vrLoc = 123;
@@ -15843,7 +15899,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 84";
 		rLen = 0;
-		rLoc = 1651;
+		rLoc = 1654;
 		rType = 0;
 		vrLen = 1354;
 		vrLoc = 1048;
@@ -15853,7 +15909,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 79";
 		rLen = 0;
-		rLoc = 1577;
+		rLoc = 1580;
 		rType = 0;
 		vrLen = 1099;
 		vrLoc = 668;
@@ -15863,7 +15919,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 64";
 		rLen = 34;
-		rLoc = 1135;
+		rLoc = 1157;
 		rType = 0;
 		vrLen = 920;
 		vrLoc = 249;
@@ -15873,7 +15929,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 163";
 		rLen = 0;
-		rLoc = 3637;
+		rLoc = 3641;
 		rType = 0;
 		vrLen = 1192;
 		vrLoc = 3518;
@@ -15903,7 +15959,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 79";
 		rLen = 0;
-		rLoc = 1577;
+		rLoc = 1580;
 		rType = 0;
 		vrLen = 1249;
 		vrLoc = 700;
@@ -15913,7 +15969,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 64";
 		rLen = 34;
-		rLoc = 1135;
+		rLoc = 1157;
 		rType = 0;
 		vrLen = 920;
 		vrLoc = 249;
@@ -15923,7 +15979,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 163";
 		rLen = 0;
-		rLoc = 3637;
+		rLoc = 3641;
 		rType = 0;
 		vrLen = 1192;
 		vrLoc = 3518;
@@ -15953,7 +16009,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 88";
 		rLen = 0;
-		rLoc = 1713;
+		rLoc = 1716;
 		rType = 0;
 		vrLen = 1293;
 		vrLoc = 700;
@@ -15963,7 +16019,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 64";
 		rLen = 34;
-		rLoc = 1135;
+		rLoc = 1157;
 		rType = 0;
 		vrLen = 943;
 		vrLoc = 249;
@@ -15973,7 +16029,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 163";
 		rLen = 0;
-		rLoc = 3637;
+		rLoc = 3641;
 		rType = 0;
 		vrLen = 1195;
 		vrLoc = 3518;
@@ -16003,7 +16059,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 88";
 		rLen = 0;
-		rLoc = 1713;
+		rLoc = 1716;
 		rType = 0;
 		vrLen = 1291;
 		vrLoc = 702;
@@ -16013,7 +16069,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 64";
 		rLen = 34;
-		rLoc = 1135;
+		rLoc = 1157;
 		rType = 0;
 		vrLen = 920;
 		vrLoc = 249;
@@ -16023,7 +16079,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 163";
 		rLen = 0;
-		rLoc = 3637;
+		rLoc = 3641;
 		rType = 0;
 		vrLen = 1192;
 		vrLoc = 3518;
@@ -16053,7 +16109,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 88";
 		rLen = 0;
-		rLoc = 1713;
+		rLoc = 1716;
 		rType = 0;
 		vrLen = 1353;
 		vrLoc = 702;
@@ -16063,7 +16119,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 64";
 		rLen = 34;
-		rLoc = 1135;
+		rLoc = 1157;
 		rType = 0;
 		vrLen = 943;
 		vrLoc = 249;
@@ -16073,7 +16129,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 163";
 		rLen = 0;
-		rLoc = 3637;
+		rLoc = 3641;
 		rType = 0;
 		vrLen = 1195;
 		vrLoc = 3518;
@@ -16103,7 +16159,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 56";
 		rLen = 0;
-		rLoc = 956;
+		rLoc = 959;
 		rType = 0;
 		vrLen = 1293;
 		vrLoc = 1247;
@@ -16113,7 +16169,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 64";
 		rLen = 34;
-		rLoc = 1135;
+		rLoc = 1157;
 		rType = 0;
 		vrLen = 920;
 		vrLoc = 249;
@@ -16123,7 +16179,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 163";
 		rLen = 0;
-		rLoc = 3637;
+		rLoc = 3641;
 		rType = 0;
 		vrLen = 1192;
 		vrLoc = 3518;
@@ -16153,7 +16209,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 56";
 		rLen = 0;
-		rLoc = 956;
+		rLoc = 959;
 		rType = 0;
 		vrLen = 1309;
 		vrLoc = 1231;
@@ -16173,7 +16229,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 102";
 		rLen = 0;
-		rLoc = 2152;
+		rLoc = 2154;
 		rType = 0;
 		vrLen = 1474;
 		vrLoc = 1965;
@@ -16183,7 +16239,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 64";
 		rLen = 34;
-		rLoc = 1135;
+		rLoc = 1157;
 		rType = 0;
 		vrLen = 920;
 		vrLoc = 249;
@@ -16193,7 +16249,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 163";
 		rLen = 0;
-		rLoc = 3637;
+		rLoc = 3641;
 		rType = 0;
 		vrLen = 1194;
 		vrLoc = 3520;
@@ -16310,7 +16366,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 56";
 		rLen = 0;
-		rLoc = 956;
+		rLoc = 959;
 		rType = 0;
 		vrLen = 1318;
 		vrLoc = 1222;
@@ -16340,7 +16396,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 183";
 		rLen = 0;
-		rLoc = 3982;
+		rLoc = 3986;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 875;
@@ -16380,7 +16436,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 52";
 		rLen = 0;
-		rLoc = 908;
+		rLoc = 930;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 436;
@@ -16390,7 +16446,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 52";
 		rLen = 0;
-		rLoc = 908;
+		rLoc = 930;
 		rType = 0;
 		vrLen = 943;
 		vrLoc = 805;
@@ -16454,7 +16510,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 183";
 		rLen = 0;
-		rLoc = 3982;
+		rLoc = 3986;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 875;
@@ -16484,7 +16540,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 52";
 		rLen = 0;
-		rLoc = 908;
+		rLoc = 930;
 		rType = 0;
 		vrLen = 943;
 		vrLoc = 805;
@@ -16514,7 +16570,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 68";
 		rLen = 0;
-		rLoc = 1134;
+		rLoc = 1137;
 		rType = 0;
 		vrLen = 1673;
 		vrLoc = 440;
@@ -16533,7 +16589,7 @@
 		isa = PBXTextBookmark;
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		rLen = 0;
-		rLoc = 9223372036854775855;
+		rLoc = 9223372036854775859;
 		rType = 0;
 	};
 	47DE486B13A7568A0050ACB5 /* PBXTextBookmark */ = {
@@ -16541,7 +16597,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 231";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1446;
 		vrLoc = 3984;
@@ -16585,7 +16641,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 56";
 		rLen = 0;
-		rLoc = 956;
+		rLoc = 959;
 		rType = 0;
 		vrLen = 1413;
 		vrLoc = 992;
@@ -16625,7 +16681,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 183";
 		rLen = 0;
-		rLoc = 3982;
+		rLoc = 3986;
 		rType = 0;
 		vrLen = 1319;
 		vrLoc = 1531;
@@ -16645,7 +16701,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 68";
 		rLen = 0;
-		rLoc = 1131;
+		rLoc = 1153;
 		rType = 0;
 		vrLen = 904;
 		vrLoc = 3;
@@ -16684,7 +16740,7 @@
 		isa = PBXTextBookmark;
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		rLen = 0;
-		rLoc = 9223372036854775791;
+		rLoc = 9223372036854775813;
 		rType = 0;
 	};
 	47DE488613A759A50050ACB5 /* PBXTextBookmark */ = {
@@ -16692,7 +16748,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 58";
 		rLen = 13;
-		rLoc = 986;
+		rLoc = 1008;
 		rType = 0;
 		vrLen = 1165;
 		vrLoc = 572;
@@ -16702,7 +16758,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 58";
 		rLen = 7;
-		rLoc = 977;
+		rLoc = 999;
 		rType = 0;
 		vrLen = 969;
 		vrLoc = 479;
@@ -16712,7 +16768,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 231";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1446;
 		vrLoc = 3984;
@@ -16742,7 +16798,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 58";
 		rLen = 13;
-		rLoc = 986;
+		rLoc = 1008;
 		rType = 0;
 		vrLen = 1165;
 		vrLoc = 572;
@@ -16752,7 +16808,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 58";
 		rLen = 7;
-		rLoc = 977;
+		rLoc = 999;
 		rType = 0;
 		vrLen = 969;
 		vrLoc = 479;
@@ -16762,7 +16818,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 231";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1446;
 		vrLoc = 3984;
@@ -16812,7 +16868,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 36";
 		rLen = 15;
-		rLoc = 524;
+		rLoc = 546;
 		rType = 0;
 		vrLen = 873;
 		vrLoc = 377;
@@ -16842,7 +16898,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 58";
 		rLen = 13;
-		rLoc = 986;
+		rLoc = 1008;
 		rType = 0;
 		vrLen = 1165;
 		vrLoc = 572;
@@ -16852,7 +16908,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 58";
 		rLen = 7;
-		rLoc = 977;
+		rLoc = 999;
 		rType = 0;
 		vrLen = 969;
 		vrLoc = 479;
@@ -16862,7 +16918,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 231";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1446;
 		vrLoc = 3984;
@@ -16892,7 +16948,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 58";
 		rLen = 13;
-		rLoc = 986;
+		rLoc = 1008;
 		rType = 0;
 		vrLen = 1165;
 		vrLoc = 572;
@@ -16902,7 +16958,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 58";
 		rLen = 7;
-		rLoc = 977;
+		rLoc = 999;
 		rType = 0;
 		vrLen = 969;
 		vrLoc = 479;
@@ -16912,7 +16968,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 231";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1446;
 		vrLoc = 3984;
@@ -16962,7 +17018,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 49";
 		rLen = 14;
-		rLoc = 776;
+		rLoc = 798;
 		rType = 0;
 		vrLen = 873;
 		vrLoc = 377;
@@ -16992,7 +17048,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 58";
 		rLen = 13;
-		rLoc = 986;
+		rLoc = 1008;
 		rType = 0;
 		vrLen = 1165;
 		vrLoc = 572;
@@ -17002,7 +17058,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 58";
 		rLen = 7;
-		rLoc = 977;
+		rLoc = 999;
 		rType = 0;
 		vrLen = 969;
 		vrLoc = 479;
@@ -17012,7 +17068,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 231";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1446;
 		vrLoc = 3984;
@@ -17072,7 +17128,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 49";
 		rLen = 14;
-		rLoc = 776;
+		rLoc = 798;
 		rType = 0;
 		vrLen = 873;
 		vrLoc = 377;
@@ -17082,7 +17138,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 45";
 		rLen = 14;
-		rLoc = 694;
+		rLoc = 716;
 		rType = 0;
 		vrLen = 952;
 		vrLoc = 641;
@@ -17092,7 +17148,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 13;
-		rLoc = 986;
+		rLoc = 1008;
 		rType = 0;
 		vrLen = 1191;
 		vrLoc = 572;
@@ -17102,7 +17158,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 7;
-		rLoc = 977;
+		rLoc = 999;
 		rType = 0;
 		vrLen = 1017;
 		vrLoc = 479;
@@ -17112,7 +17168,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 231";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1446;
 		vrLoc = 3984;
@@ -17132,7 +17188,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 45";
 		rLen = 0;
-		rLoc = 708;
+		rLoc = 730;
 		rType = 0;
 		vrLen = 952;
 		vrLoc = 641;
@@ -17142,7 +17198,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 13;
-		rLoc = 986;
+		rLoc = 1008;
 		rType = 0;
 		vrLen = 1191;
 		vrLoc = 572;
@@ -17152,7 +17208,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 7;
-		rLoc = 977;
+		rLoc = 999;
 		rType = 0;
 		vrLen = 1017;
 		vrLoc = 479;
@@ -17162,7 +17218,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 231";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1446;
 		vrLoc = 3984;
@@ -17186,7 +17242,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 45";
 		rLen = 22;
-		rLoc = 689;
+		rLoc = 711;
 		rType = 0;
 		vrLen = 900;
 		vrLoc = 457;
@@ -17226,7 +17282,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 7;
-		rLoc = 977;
+		rLoc = 999;
 		rType = 0;
 		vrLen = 993;
 		vrLoc = 479;
@@ -17236,7 +17292,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 75";
 		rLen = 5;
-		rLoc = 1194;
+		rLoc = 1216;
 		rType = 0;
 		vrLen = 967;
 		vrLoc = 479;
@@ -17256,7 +17312,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 13;
-		rLoc = 986;
+		rLoc = 1008;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 572;
@@ -17266,7 +17322,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 231";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1446;
 		vrLoc = 3984;
@@ -17306,7 +17362,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 56";
 		rLen = 0;
-		rLoc = 956;
+		rLoc = 959;
 		rType = 0;
 		vrLen = 1413;
 		vrLoc = 992;
@@ -17316,7 +17372,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 78";
 		rLen = 0;
-		rLoc = 1516;
+		rLoc = 1519;
 		rType = 0;
 		vrLen = 1395;
 		vrLoc = 1010;
@@ -17326,7 +17382,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 75";
 		rLen = 5;
-		rLoc = 1194;
+		rLoc = 1216;
 		rType = 0;
 		vrLen = 967;
 		vrLoc = 479;
@@ -17346,7 +17402,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 13;
-		rLoc = 986;
+		rLoc = 1008;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 572;
@@ -17356,7 +17412,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 231";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1446;
 		vrLoc = 3984;
@@ -17396,7 +17452,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 78";
 		rLen = 0;
-		rLoc = 1516;
+		rLoc = 1519;
 		rType = 0;
 		vrLen = 1309;
 		vrLoc = 1231;
@@ -17436,7 +17492,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 230";
 		rLen = 0;
-		rLoc = 5032;
+		rLoc = 5036;
 		rType = 0;
 		vrLen = 1422;
 		vrLoc = 4019;
@@ -17446,7 +17502,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 45";
 		rLen = 22;
-		rLoc = 689;
+		rLoc = 711;
 		rType = 0;
 		vrLen = 900;
 		vrLoc = 457;
@@ -17476,7 +17532,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 75";
 		rLen = 5;
-		rLoc = 1194;
+		rLoc = 1216;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 831;
@@ -17496,7 +17552,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 13;
-		rLoc = 986;
+		rLoc = 1008;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 572;
@@ -17506,7 +17562,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1456;
 		vrLoc = 3984;
@@ -17536,7 +17592,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 75";
 		rLen = 5;
-		rLoc = 1194;
+		rLoc = 1216;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 831;
@@ -17556,7 +17612,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 13;
-		rLoc = 986;
+		rLoc = 1008;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 572;
@@ -17566,7 +17622,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1456;
 		vrLoc = 3984;
@@ -17606,7 +17662,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 75";
 		rLen = 5;
-		rLoc = 1194;
+		rLoc = 1216;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 831;
@@ -17626,7 +17682,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 13;
-		rLoc = 986;
+		rLoc = 1008;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 572;
@@ -17636,7 +17692,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1456;
 		vrLoc = 3984;
@@ -17666,7 +17722,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 75";
 		rLen = 5;
-		rLoc = 1194;
+		rLoc = 1216;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 831;
@@ -17686,7 +17742,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 13;
-		rLoc = 986;
+		rLoc = 1008;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 572;
@@ -17696,7 +17752,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1456;
 		vrLoc = 3984;
@@ -17726,7 +17782,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 75";
 		rLen = 5;
-		rLoc = 1194;
+		rLoc = 1216;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 831;
@@ -17746,7 +17802,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 13;
-		rLoc = 986;
+		rLoc = 1008;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 572;
@@ -17756,7 +17812,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1456;
 		vrLoc = 3984;
@@ -17806,7 +17862,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 75";
 		rLen = 5;
-		rLoc = 1194;
+		rLoc = 1216;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 831;
@@ -17826,7 +17882,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 13;
-		rLoc = 986;
+		rLoc = 1008;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 572;
@@ -17836,7 +17892,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1456;
 		vrLoc = 3984;
@@ -17866,7 +17922,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 45";
 		rLen = 22;
-		rLoc = 689;
+		rLoc = 711;
 		rType = 0;
 		vrLen = 877;
 		vrLoc = 929;
@@ -17886,7 +17942,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 75";
 		rLen = 5;
-		rLoc = 1194;
+		rLoc = 1216;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 831;
@@ -17906,7 +17962,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 13;
-		rLoc = 986;
+		rLoc = 1008;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 572;
@@ -17916,7 +17972,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1456;
 		vrLoc = 3984;
@@ -17946,7 +18002,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 75";
 		rLen = 5;
-		rLoc = 1194;
+		rLoc = 1216;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 831;
@@ -17966,7 +18022,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 13;
-		rLoc = 986;
+		rLoc = 1008;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 572;
@@ -17976,7 +18032,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1456;
 		vrLoc = 3984;
@@ -17996,7 +18052,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 939;
 		vrLoc = 684;
@@ -18036,7 +18092,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 75";
 		rLen = 5;
-		rLoc = 1194;
+		rLoc = 1216;
 		rType = 0;
 		vrLen = 983;
 		vrLoc = 831;
@@ -18046,7 +18102,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 59";
 		rLen = 13;
-		rLoc = 986;
+		rLoc = 1008;
 		rType = 0;
 		vrLen = 1188;
 		vrLoc = 572;
@@ -18056,7 +18112,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1457;
 		vrLoc = 3984;
@@ -18076,7 +18132,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 947;
@@ -18116,7 +18172,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1456;
 		vrLoc = 3984;
@@ -18160,7 +18216,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 230";
 		rLen = 0;
-		rLoc = 5032;
+		rLoc = 5036;
 		rType = 0;
 		vrLen = 1424;
 		vrLoc = 4016;
@@ -18180,7 +18236,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 947;
@@ -18210,7 +18266,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1068;
 		vrLoc = 747;
@@ -18220,7 +18276,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1456;
 		vrLoc = 3984;
@@ -18250,7 +18306,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1068;
 		vrLoc = 747;
@@ -18260,7 +18316,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1456;
 		vrLoc = 3984;
@@ -18290,7 +18346,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1068;
 		vrLoc = 747;
@@ -18300,7 +18356,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1456;
 		vrLoc = 3984;
@@ -18364,7 +18420,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1068;
 		vrLoc = 747;
@@ -18374,7 +18430,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1456;
 		vrLoc = 3984;
@@ -18414,7 +18470,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1068;
 		vrLoc = 747;
@@ -18424,7 +18480,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1456;
 		vrLoc = 3984;
@@ -18444,7 +18500,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 230";
 		rLen = 0;
-		rLoc = 5032;
+		rLoc = 5036;
 		rType = 0;
 		vrLen = 1556;
 		vrLoc = 0;
@@ -18484,7 +18540,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1272;
 		vrLoc = 559;
@@ -18524,7 +18580,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1068;
 		vrLoc = 747;
@@ -18534,7 +18590,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1456;
 		vrLoc = 3984;
@@ -18574,7 +18630,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1272;
 		vrLoc = 559;
@@ -18614,7 +18670,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1068;
 		vrLoc = 747;
@@ -18624,7 +18680,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 232";
 		rLen = 0;
-		rLoc = 5085;
+		rLoc = 5089;
 		rType = 0;
 		vrLen = 1456;
 		vrLoc = 3984;
@@ -18674,7 +18730,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1297;
 		vrLoc = 534;
@@ -18684,7 +18740,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1299;
 		vrLoc = 534;
@@ -18744,7 +18800,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 184";
 		rLen = 5;
-		rLoc = 3991;
+		rLoc = 3995;
 		rType = 0;
 		vrLen = 1604;
 		vrLoc = 3229;
@@ -18764,7 +18820,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1274;
 		vrLoc = 559;
@@ -18864,7 +18920,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 80";
 		rLen = 0;
-		rLoc = 1253;
+		rLoc = 1275;
 		rType = 0;
 		vrLen = 1276;
 		vrLoc = 561;
@@ -18934,7 +18990,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 28";
 		rLen = 0;
-		rLoc = 436;
+		rLoc = 458;
 		rType = 0;
 		vrLen = 1193;
 		vrLoc = 164;
@@ -18954,7 +19010,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 28";
 		rLen = 0;
-		rLoc = 436;
+		rLoc = 458;
 		rType = 0;
 		vrLen = 1218;
 		vrLoc = 192;
@@ -18974,7 +19030,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 28";
 		rLen = 0;
-		rLoc = 436;
+		rLoc = 458;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 212;
@@ -18994,7 +19050,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 80";
 		rLen = 0;
-		rLoc = 1253;
+		rLoc = 1275;
 		rType = 0;
 		vrLen = 1250;
 		vrLoc = 249;
@@ -19014,7 +19070,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 80";
 		rLen = 0;
-		rLoc = 1253;
+		rLoc = 1275;
 		rType = 0;
 		vrLen = 1228;
 		vrLoc = 271;
@@ -19034,7 +19090,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 80";
 		rLen = 0;
-		rLoc = 1253;
+		rLoc = 1275;
 		rType = 0;
 		vrLen = 1228;
 		vrLoc = 333;
@@ -19054,7 +19110,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 80";
 		rLen = 0;
-		rLoc = 1253;
+		rLoc = 1275;
 		rType = 0;
 		vrLen = 1262;
 		vrLoc = 334;
@@ -19094,7 +19150,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 80";
 		rLen = 0;
-		rLoc = 1253;
+		rLoc = 1275;
 		rType = 0;
 		vrLen = 1301;
 		vrLoc = 357;
@@ -19104,7 +19160,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 28";
 		rLen = 0;
-		rLoc = 436;
+		rLoc = 458;
 		rType = 0;
 		vrLen = 1229;
 		vrLoc = 212;
@@ -19124,7 +19180,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 28";
 		rLen = 0;
-		rLoc = 436;
+		rLoc = 458;
 		rType = 0;
 		vrLen = 1246;
 		vrLoc = 231;
@@ -19144,7 +19200,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 79";
 		rLen = 0;
-		rLoc = 1253;
+		rLoc = 1275;
 		rType = 0;
 		vrLen = 1258;
 		vrLoc = 250;
@@ -19174,7 +19230,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 78";
 		rLen = 0;
-		rLoc = 1516;
+		rLoc = 1519;
 		rType = 0;
 		vrLen = 1662;
 		vrLoc = 878;
@@ -19184,7 +19240,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 79";
 		rLen = 1;
-		rLoc = 1252;
+		rLoc = 1274;
 		rType = 0;
 		vrLen = 1284;
 		vrLoc = 250;
@@ -19194,7 +19250,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 79";
 		rLen = 1;
-		rLoc = 1252;
+		rLoc = 1274;
 		rType = 0;
 		vrLen = 1232;
 		vrLoc = 271;
@@ -19214,7 +19270,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 79";
 		rLen = 1;
-		rLoc = 1252;
+		rLoc = 1274;
 		rType = 0;
 		vrLen = 1261;
 		vrLoc = 304;
@@ -19234,7 +19290,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 79";
 		rLen = 1;
-		rLoc = 1252;
+		rLoc = 1274;
 		rType = 0;
 		vrLen = 1261;
 		vrLoc = 304;
@@ -19291,7 +19347,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 78";
 		rLen = 0;
-		rLoc = 1516;
+		rLoc = 1519;
 		rType = 0;
 		vrLen = 1484;
 		vrLoc = 0;
@@ -19301,7 +19357,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 79";
 		rLen = 1;
-		rLoc = 1252;
+		rLoc = 1274;
 		rType = 0;
 		vrLen = 1325;
 		vrLoc = 271;
@@ -19419,7 +19475,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 78";
 		rLen = 0;
-		rLoc = 1516;
+		rLoc = 1519;
 		rType = 0;
 		vrLen = 1702;
 		vrLoc = 562;
@@ -19459,7 +19515,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 78";
 		rLen = 0;
-		rLoc = 1516;
+		rLoc = 1519;
 		rType = 0;
 		vrLen = 1662;
 		vrLoc = 878;
@@ -19489,7 +19545,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1283;
 		vrLoc = 538;
@@ -19499,7 +19555,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 184";
 		rLen = 5;
-		rLoc = 3991;
+		rLoc = 3995;
 		rType = 0;
 		vrLen = 1588;
 		vrLoc = 3229;
@@ -19577,7 +19633,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 78";
 		rLen = 0;
-		rLoc = 1516;
+		rLoc = 1519;
 		rType = 0;
 		vrLen = 1664;
 		vrLoc = 876;
@@ -19587,7 +19643,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1276;
 		vrLoc = 561;
@@ -19631,7 +19687,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 97";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1072;
 		vrLoc = 749;
@@ -19671,7 +19727,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 97";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1088;
 		vrLoc = 749;
@@ -19711,7 +19767,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 97";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1072;
 		vrLoc = 749;
@@ -19741,7 +19797,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1276;
 		vrLoc = 561;
@@ -19771,7 +19827,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 206";
 		rLen = 0;
-		rLoc = 4515;
+		rLoc = 4519;
 		rType = 0;
 		vrLen = 1820;
 		vrLoc = 3660;
@@ -19791,7 +19847,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 97";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1072;
 		vrLoc = 749;
@@ -19811,7 +19867,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 206";
 		rLen = 36;
-		rLoc = 4494;
+		rLoc = 4498;
 		rType = 0;
 		vrLen = 1821;
 		vrLoc = 3659;
@@ -19851,7 +19907,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 78";
 		rLen = 0;
-		rLoc = 1516;
+		rLoc = 1519;
 		rType = 0;
 		vrLen = 1662;
 		vrLoc = 878;
@@ -19861,7 +19917,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1276;
 		vrLoc = 561;
@@ -19871,7 +19927,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 28";
 		rLen = 0;
-		rLoc = 436;
+		rLoc = 458;
 		rType = 0;
 		vrLen = 1198;
 		vrLoc = 3;
@@ -19891,7 +19947,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -19921,7 +19977,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 78";
 		rLen = 0;
-		rLoc = 1516;
+		rLoc = 1519;
 		rType = 0;
 		vrLen = 1662;
 		vrLoc = 878;
@@ -19931,7 +19987,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1272;
 		vrLoc = 518;
@@ -19961,7 +20017,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20051,7 +20107,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1272;
 		vrLoc = 518;
@@ -20081,7 +20137,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20111,7 +20167,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20151,7 +20207,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20171,7 +20227,7 @@
 		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
 		name = "Astroid.cpp: 129";
 		rLen = 0;
-		rLoc = 3328;
+		rLoc = 3441;
 		rType = 0;
 		vrLen = 1716;
 		vrLoc = 1521;
@@ -20181,7 +20237,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20211,7 +20267,7 @@
 		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
 		name = "Astroid.cpp: 129";
 		rLen = 0;
-		rLoc = 3328;
+		rLoc = 3441;
 		rType = 0;
 		vrLen = 1769;
 		vrLoc = 1468;
@@ -20231,7 +20287,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 78";
 		rLen = 0;
-		rLoc = 1516;
+		rLoc = 1519;
 		rType = 0;
 		vrLen = 1662;
 		vrLoc = 878;
@@ -20241,7 +20297,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1272;
 		vrLoc = 518;
@@ -20261,7 +20317,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20291,7 +20347,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20321,7 +20377,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20351,7 +20407,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20381,7 +20437,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20411,7 +20467,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20441,7 +20497,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20481,7 +20537,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20511,7 +20567,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20558,7 +20614,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20588,7 +20644,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 78";
 		rLen = 0;
-		rLoc = 1516;
+		rLoc = 1519;
 		rType = 0;
 		vrLen = 1664;
 		vrLoc = 876;
@@ -20598,7 +20654,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 76";
 		rLen = 0;
-		rLoc = 1222;
+		rLoc = 1244;
 		rType = 0;
 		vrLen = 1247;
 		vrLoc = 543;
@@ -20608,7 +20664,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20628,7 +20684,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 76";
 		rLen = 0;
-		rLoc = 1222;
+		rLoc = 1244;
 		rType = 0;
 		vrLen = 1272;
 		vrLoc = 518;
@@ -20658,7 +20714,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20688,7 +20744,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20718,7 +20774,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20748,7 +20804,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20768,7 +20824,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 78";
 		rLen = 0;
-		rLoc = 1516;
+		rLoc = 1519;
 		rType = 0;
 		vrLen = 1484;
 		vrLoc = 0;
@@ -20788,7 +20844,7 @@
 		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
 		name = "Astroid.cpp: 129";
 		rLen = 0;
-		rLoc = 3328;
+		rLoc = 3441;
 		rType = 0;
 		vrLen = 1745;
 		vrLoc = 1492;
@@ -20798,7 +20854,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 76";
 		rLen = 0;
-		rLoc = 1222;
+		rLoc = 1244;
 		rType = 0;
 		vrLen = 1272;
 		vrLoc = 518;
@@ -20828,7 +20884,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20858,7 +20914,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20888,7 +20944,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 712;
@@ -20918,7 +20974,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 76";
 		rLen = 0;
-		rLoc = 1222;
+		rLoc = 1244;
 		rType = 0;
 		vrLen = 1272;
 		vrLoc = 518;
@@ -20928,7 +20984,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 76";
 		rLen = 0;
-		rLoc = 1222;
+		rLoc = 1244;
 		rType = 0;
 		vrLen = 1272;
 		vrLoc = 518;
@@ -20938,7 +20994,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1078;
 		vrLoc = 712;
@@ -20968,7 +21024,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 76";
 		rLen = 0;
-		rLoc = 1222;
+		rLoc = 1244;
 		rType = 0;
 		vrLen = 1272;
 		vrLoc = 518;
@@ -20978,7 +21034,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1249;
 		vrLoc = 543;
@@ -20988,7 +21044,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 712;
@@ -21058,7 +21114,7 @@
 		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
 		name = "main.cpp: 78";
 		rLen = 0;
-		rLoc = 1516;
+		rLoc = 1519;
 		rType = 0;
 		vrLen = 1484;
 		vrLoc = 0;
@@ -21088,7 +21144,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 78";
 		rLen = 0;
-		rLoc = 1251;
+		rLoc = 1273;
 		rType = 0;
 		vrLen = 1274;
 		vrLoc = 518;
@@ -21098,7 +21154,7 @@
 		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
 		name = "Astroid.cpp: 68";
 		rLen = 4;
-		rLoc = 1780;
+		rLoc = 1893;
 		rType = 0;
 		vrLen = 1772;
 		vrLoc = 1468;
@@ -21108,7 +21164,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 206";
 		rLen = 0;
-		rLoc = 4494;
+		rLoc = 4498;
 		rType = 0;
 		vrLen = 1824;
 		vrLoc = 3658;
@@ -21118,7 +21174,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1080;
 		vrLoc = 712;
@@ -21138,7 +21194,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 206";
 		rLen = 0;
-		rLoc = 4494;
+		rLoc = 4498;
 		rType = 0;
 		vrLen = 1825;
 		vrLoc = 3657;
@@ -21148,7 +21204,7 @@
 		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
 		name = "Astroid.cpp: 135";
 		rLen = 0;
-		rLoc = 3328;
+		rLoc = 3441;
 		rType = 0;
 		vrLen = 1639;
 		vrLoc = 1689;
@@ -21158,7 +21214,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 712;
@@ -21178,7 +21234,7 @@
 		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
 		name = "Astroid.cpp: 135";
 		rLen = 0;
-		rLoc = 3328;
+		rLoc = 3441;
 		rType = 0;
 		vrLen = 1686;
 		vrLoc = 1642;
@@ -21188,7 +21244,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 206";
 		rLen = 0;
-		rLoc = 4494;
+		rLoc = 4498;
 		rType = 0;
 		vrLen = 1824;
 		vrLoc = 3657;
@@ -21198,7 +21254,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 102";
 		rLen = 0;
-		rLoc = 2152;
+		rLoc = 2154;
 		rType = 0;
 		vrLen = 1769;
 		vrLoc = 1881;
@@ -21208,7 +21264,7 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 712;
@@ -21228,7 +21284,7 @@
 		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
 		name = "Ship.cpp: 102";
 		rLen = 0;
-		rLoc = 2152;
+		rLoc = 2154;
 		rType = 0;
 		vrLen = 1773;
 		vrLoc = 1881;
@@ -21238,12 +21294,586 @@
 		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
 		name = "Level.h: 96";
 		rLen = 15;
-		rLoc = 1567;
+		rLoc = 1589;
 		rType = 0;
 		vrLen = 1080;
 		vrLoc = 712;
 	};
 	47DE4B9513A779630050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DE444E13A626D20050ACB5 /* Bullet.cpp */;
+		name = "Bullet.cpp: 28";
+		rLen = 0;
+		rLoc = 745;
+		rType = 0;
+		vrLen = 1166;
+		vrLoc = 590;
+	};
+	47DE4B9813A779DB0050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
+		name = "Ship.cpp: 102";
+		rLen = 0;
+		rLoc = 2154;
+		rType = 0;
+		vrLen = 1698;
+		vrLoc = 1956;
+	};
+	47DE4B9913A779DB0050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
+		name = "Level.h: 96";
+		rLen = 15;
+		rLoc = 1589;
+		rType = 0;
+		vrLen = 1064;
+		vrLoc = 712;
+	};
+	47DE4B9A13A779DB0050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DE444E13A626D20050ACB5 /* Bullet.cpp */;
+		name = "Bullet.cpp: 28";
+		rLen = 0;
+		rLoc = 745;
+		rType = 0;
+		vrLen = 1150;
+		vrLoc = 590;
+	};
+	47DE4B9C13A77A080050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A773813A4A1B9007316E8 /* Astroid.h */;
+		name = "Astroid.h: 34";
+		rLen = 0;
+		rLoc = 734;
+		rType = 0;
+		vrLen = 959;
+		vrLoc = 0;
+	};
+	47DE4B9D13A77A080050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47D3E1DA139E0F1200A993D7 /* Ship.h */;
+		name = "Ship.h: 39";
+		rLen = 0;
+		rLoc = 1092;
+		rType = 0;
+		vrLen = 1547;
+		vrLoc = 159;
+	};
+	47DE4B9E13A77A080050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
+		name = "Ship.cpp: 102";
+		rLen = 0;
+		rLoc = 2154;
+		rType = 0;
+		vrLen = 1294;
+		vrLoc = 667;
+	};
+	47DE4B9F13A77A080050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
+		name = "Ship.cpp: 163";
+		rLen = 0;
+		rLoc = 3641;
+		rType = 0;
+		vrLen = 1577;
+		vrLoc = 2607;
+	};
+	47DE4BA013A77A080050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
+		name = "Level.h: 96";
+		rLen = 15;
+		rLoc = 1589;
+		rType = 0;
+		vrLen = 1080;
+		vrLoc = 712;
+	};
+	47DE4BA113A77A080050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DE444E13A626D20050ACB5 /* Bullet.cpp */;
+		name = "Bullet.cpp: 28";
+		rLen = 0;
+		rLoc = 745;
+		rType = 0;
+		vrLen = 1166;
+		vrLoc = 590;
+	};
+	47DE4BAA13A77BF90050ACB5 /* Collision.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 968}}";
+			sepNavSelRange = "{405, 0}";
+			sepNavVisRange = "{0, 497}";
+		};
+	};
+	47DE4BAB13A77BF90050ACB5 /* Collision.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 968}}";
+			sepNavSelRange = "{137, 22}";
+			sepNavVisRange = "{0, 213}";
+		};
+	};
+	47DE4BB713A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47D3E1DA139E0F1200A993D7 /* Ship.h */;
+		name = "Ship.h: 39";
+		rLen = 0;
+		rLoc = 1092;
+		rType = 0;
+		vrLen = 1547;
+		vrLoc = 159;
+	};
+	47DE4BB813A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47D3E1DB139E0F1200A993D7 /* Ship.cpp */;
+		name = "Ship.cpp: 163";
+		rLen = 0;
+		rLoc = 3641;
+		rType = 0;
+		vrLen = 1408;
+		vrLoc = 853;
+	};
+	47DE4BB913A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 002F3A2B09D0888800EBEB88 /* SDLMain.h */;
+		name = "SDLMain.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 374;
+		vrLoc = 0;
+	};
+	47DE4BBA13A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 002F3A2C09D0888800EBEB88 /* SDLMain.m */;
+		name = "SDLMain.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2165;
+		vrLoc = 7137;
+	};
+	47DE4BBB13A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4746445B13939F810061E921 /* Inits.c */;
+		name = "Inits.c: 11";
+		rLen = 0;
+		rLoc = 150;
+		rType = 0;
+		vrLen = 150;
+		vrLoc = 0;
+	};
+	47DE4BBC13A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Astroids_Prefix.pch */;
+		name = "Astroids_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 175;
+		vrLoc = 0;
+	};
+	47DE4BBD13A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
+		name = "main.cpp: 90";
+		rLen = 0;
+		rLoc = 1725;
+		rType = 0;
+		vrLen = 1480;
+		vrLoc = 562;
+	};
+	47DE4BBE13A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DE444E13A626D20050ACB5 /* Bullet.cpp */;
+		name = "Bullet.cpp: 71";
+		rLen = 0;
+		rLoc = 1596;
+		rType = 0;
+		vrLen = 1598;
+		vrLoc = 210;
+	};
+	47DE4BBF13A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DE4BAB13A77BF90050ACB5 /* Collision.cpp */;
+		name = "Collision.cpp: 10";
+		rLen = 22;
+		rLoc = 137;
+		rType = 0;
+		vrLen = 213;
+		vrLoc = 0;
+	};
+	47DE4BC013A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DE444D13A626D20050ACB5 /* Bullet.h */;
+		name = "Bullet.h: 15";
+		rLen = 149;
+		rLoc = 205;
+		rType = 0;
+		vrLen = 935;
+		vrLoc = 0;
+	};
+	47DE4BC113A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47238820139C637E003AFC38 /* Sprite.cpp */;
+		name = "Sprite.cpp: 66";
+		rLen = 0;
+		rLoc = 1074;
+		rType = 0;
+		vrLen = 1298;
+		vrLoc = 0;
+	};
+	47DE4BC213A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A7ABF13A5CECF007316E8 /* Level.cpp */;
+		name = "Level.cpp: 113";
+		rLen = 0;
+		rLoc = 2464;
+		rType = 0;
+		vrLen = 1389;
+		vrLoc = 0;
+	};
+	47DE4BC313A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
+		name = "Level.h: 24";
+		rLen = 78;
+		rLoc = 357;
+		rType = 0;
+		vrLen = 1254;
+		vrLoc = 164;
+	};
+	47DE4BC413A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DE4BAA13A77BF90050ACB5 /* Collision.h */;
+		name = "Collision.h: 25";
+		rLen = 0;
+		rLoc = 405;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	47DE4BC513A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A773813A4A1B9007316E8 /* Astroid.h */;
+		name = "Astroid.h: 34";
+		rLen = 0;
+		rLoc = 734;
+		rType = 0;
+		vrLen = 959;
+		vrLoc = 0;
+	};
+	47DE4BC613A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
+		name = "Astroid.cpp: 135";
+		rLen = 0;
+		rLoc = 3441;
+		rType = 0;
+		vrLen = 1714;
+		vrLoc = 1614;
+	};
+	47DE4BC713A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
+		name = "Astroid.cpp: 23";
+		rLen = 0;
+		rLoc = 798;
+		rType = 0;
+		vrLen = 2054;
+		vrLoc = 32;
+	};
+	47DE4BC813A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
+		name = "Level.h: 96";
+		rLen = 15;
+		rLoc = 1589;
+		rType = 0;
+		vrLen = 1087;
+		vrLoc = 710;
+	};
+	47DE4BC913A77D550050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DE444E13A626D20050ACB5 /* Bullet.cpp */;
+		name = "Bullet.cpp: 28";
+		rLen = 0;
+		rLoc = 745;
+		rType = 0;
+		vrLen = 1150;
+		vrLoc = 590;
+	};
+	47DE4BCD13A77D8F0050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
+		name = "Astroid.cpp: 26";
+		rLen = 0;
+		rLoc = 901;
+		rType = 0;
+		vrLen = 2064;
+		vrLoc = 3;
+	};
+	47DE4BCE13A77D8F0050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
+		name = "Level.h: 96";
+		rLen = 15;
+		rLoc = 1589;
+		rType = 0;
+		vrLen = 1087;
+		vrLoc = 710;
+	};
+	47DE4BCF13A77D8F0050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DE444E13A626D20050ACB5 /* Bullet.cpp */;
+		name = "Bullet.cpp: 28";
+		rLen = 0;
+		rLoc = 745;
+		rType = 0;
+		vrLen = 1150;
+		vrLoc = 590;
+	};
+	47DE4BD513A77DB30050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
+		name = "Astroid.cpp: 26";
+		rLen = 0;
+		rLoc = 901;
+		rType = 0;
+		vrLen = 2131;
+		vrLoc = 32;
+	};
+	47DE4BD613A77DB30050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
+		name = "main.cpp: 47";
+		rLen = 0;
+		rLoc = 790;
+		rType = 0;
+		vrLen = 1454;
+		vrLoc = 591;
+	};
+	47DE4BD713A77DB30050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
+		name = "Level.h: 96";
+		rLen = 15;
+		rLoc = 1589;
+		rType = 0;
+		vrLen = 1087;
+		vrLoc = 710;
+	};
+	47DE4BD813A77DB30050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DE444E13A626D20050ACB5 /* Bullet.cpp */;
+		name = "Bullet.cpp: 28";
+		rLen = 0;
+		rLoc = 745;
+		rType = 0;
+		vrLen = 1150;
+		vrLoc = 590;
+	};
+	47DE4BE013A77E020050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */;
+		name = "main.cpp: 47";
+		rLen = 4;
+		rLoc = 786;
+		rType = 0;
+		vrLen = 1483;
+		vrLoc = 562;
+	};
+	47DE4BE113A77E020050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47D3E1DA139E0F1200A993D7 /* Ship.h */;
+		name = "Ship.h: 39";
+		rLen = 0;
+		rLoc = 1092;
+		rType = 0;
+		vrLen = 1547;
+		vrLoc = 159;
+	};
+	47DE4BE213A77E020050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A773813A4A1B9007316E8 /* Astroid.h */;
+		name = "Astroid.h: 34";
+		rLen = 0;
+		rLoc = 734;
+		rType = 0;
+		vrLen = 959;
+		vrLoc = 0;
+	};
+	47DE4BE313A77E020050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
+		name = "Astroid.cpp: 23";
+		rLen = 0;
+		rLoc = 798;
+		rType = 0;
+		vrLen = 2180;
+		vrLoc = 135;
+	};
+	47DE4BE413A77E020050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
+		name = "Level.h: 96";
+		rLen = 15;
+		rLoc = 1589;
+		rType = 0;
+		vrLen = 1087;
+		vrLoc = 710;
+	};
+	47DE4BE513A77E020050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DE444E13A626D20050ACB5 /* Bullet.cpp */;
+		name = "Bullet.cpp: 28";
+		rLen = 0;
+		rLoc = 745;
+		rType = 0;
+		vrLen = 1150;
+		vrLoc = 590;
+	};
+	47DE4BE913A77E120050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
+		name = "Astroid.cpp: 23";
+		rLen = 0;
+		rLoc = 798;
+		rType = 0;
+		vrLen = 2239;
+		vrLoc = 157;
+	};
+	47DE4BEA13A77E120050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
+		name = "Level.h: 96";
+		rLen = 15;
+		rLoc = 1589;
+		rType = 0;
+		vrLen = 1087;
+		vrLoc = 710;
+	};
+	47DE4BEB13A77E120050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DE444E13A626D20050ACB5 /* Bullet.cpp */;
+		name = "Bullet.cpp: 28";
+		rLen = 0;
+		rLoc = 745;
+		rType = 0;
+		vrLen = 1150;
+		vrLoc = 590;
+	};
+	47DE4BEF13A77EC50050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
+		name = "Astroid.cpp: 24";
+		rLen = 0;
+		rLoc = 781;
+		rType = 0;
+		vrLen = 1851;
+		vrLoc = 564;
+	};
+	47DE4BF013A77EC50050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
+		name = "Level.h: 96";
+		rLen = 15;
+		rLoc = 1589;
+		rType = 0;
+		vrLen = 1087;
+		vrLoc = 710;
+	};
+	47DE4BF113A77EC50050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DE444E13A626D20050ACB5 /* Bullet.cpp */;
+		name = "Bullet.cpp: 28";
+		rLen = 0;
+		rLoc = 745;
+		rType = 0;
+		vrLen = 1150;
+		vrLoc = 590;
+	};
+	47DE4BF313A77EEA0050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
+		name = "Astroid.cpp: 24";
+		rLen = 0;
+		rLoc = 781;
+		rType = 0;
+		vrLen = 1899;
+		vrLoc = 564;
+	};
+	47DE4BF413A77EEA0050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
+		name = "Level.h: 96";
+		rLen = 15;
+		rLoc = 1589;
+		rType = 0;
+		vrLen = 1088;
+		vrLoc = 710;
+	};
+	47DE4BF513A77EEA0050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DE444E13A626D20050ACB5 /* Bullet.cpp */;
+		name = "Bullet.cpp: 28";
+		rLen = 0;
+		rLoc = 745;
+		rType = 0;
+		vrLen = 1166;
+		vrLoc = 590;
+	};
+	47DE4BF813A77F120050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
+		name = "Astroid.cpp: 24";
+		rLen = 0;
+		rLoc = 780;
+		rType = 0;
+		vrLen = 2065;
+		vrLoc = 3;
+	};
+	47DE4BF913A77F120050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
+		name = "Level.h: 96";
+		rLen = 15;
+		rLoc = 1589;
+		rType = 0;
+		vrLen = 1087;
+		vrLoc = 710;
+	};
+	47DE4BFA13A77F120050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DE444E13A626D20050ACB5 /* Bullet.cpp */;
+		name = "Bullet.cpp: 28";
+		rLen = 0;
+		rLoc = 745;
+		rType = 0;
+		vrLen = 1150;
+		vrLoc = 590;
+	};
+	47DE4BFC13A77F380050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A773913A4A1B9007316E8 /* Astroid.cpp */;
+		name = "Astroid.cpp: 24";
+		rLen = 0;
+		rLoc = 780;
+		rType = 0;
+		vrLen = 2110;
+		vrLoc = 3;
+	};
+	47DE4BFD13A77F380050ACB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470A7ABE13A5CECF007316E8 /* Level.h */;
+		name = "Level.h: 96";
+		rLen = 15;
+		rLoc = 1589;
+		rType = 0;
+		vrLen = 1088;
+		vrLoc = 710;
+	};
+	47DE4BFE13A77F380050ACB5 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 47DE444E13A626D20050ACB5 /* Bullet.cpp */;
 		name = "Bullet.cpp: 28";

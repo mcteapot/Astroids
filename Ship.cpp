@@ -99,7 +99,7 @@ void Ship::keyPress(char c, int numR) {
 		if (keystates[ SDLK_DOWN ]) {
 			move( 0, rSurface[(int)(positon.rotation)]);
 			//debug
-			destroy();
+			//destroy();
 		}
 		if (keystates[ SDLK_RIGHT ]) {
 			//std::cout << ",r: " << positon.rotation << std::endl;
@@ -160,7 +160,7 @@ void Ship::keyPress(char c, int numR) {
 	} else {
 		if (keystates[ SDLK_UP ]) {
 			//debug
-			reSet();
+			//reSet();
 		}
 	}
 

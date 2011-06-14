@@ -44,7 +44,7 @@ const int FRAMESPERSECOND = 60;
 //MAIN//
 int main( int argc, char* args[] ) {
 	//Init Rand to clock 
-	srand ( time(0) );	
+	srand ( time(NULL) );	
     //Initialize Window
     initSDLWindow( SCREENWIDTH, SCREENHEIGHT, SCREENBPP );
 	
@@ -88,22 +88,6 @@ int main( int argc, char* args[] ) {
 				delete theLevel;
 			}
 			
-			//std::cout << frame << std::endl;
-			
-			//Apply the message
-			
-			//applySurface( ( SCREENWIDTH - message->w ) / 2, ( ( SCREENHEIGHT + message->h * 2 ) / FRAMESPERSECOND ) * ( frame % FRAMESPERSECOND ) - message->h, message, screen, NULL );
-			//Apply the surface
-			//aShip->keyPress(initSDLEvents(), 1);
-			//aShip->draw();
-			
-			//aSpriteL01->move(1,.6);
-			//aSpriteL01->draw();
-			
-			//aAstroidL01->draw();
-			//aAstroidL02->draw();
-			//aAstroidL03->draw();
-			//aAstroidL04->draw();
 		}//GAME END
 
         //Update the screen

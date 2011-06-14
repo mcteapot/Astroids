@@ -19,11 +19,13 @@ Astroid::Astroid(SDL_Surface *astroidSurface, SDL_Surface *astroidDeathSurface, 
 	hWindow = hWin;
 	
 	float rads = PI / 180;
-	float Speed = .75;
-	
+	//float Speed = .75;
+	float a = .6;
+	float b = .9;
+	float Speed = ((b-a)*((float)rand()/RAND_MAX))+a;
 	//initialize random seed
 	//srand ( time(0) );
-	
+	std::cout << Speed << std::endl;
 	type = rand() % 3;
 	if (create) {
 		positon.rotation = r;

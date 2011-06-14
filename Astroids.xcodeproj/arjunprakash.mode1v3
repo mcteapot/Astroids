@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>47DE4B9413A779630050ACB5</string>
+						<string>47DE4BFD13A77F380050ACB5</string>
 						<key>history</key>
 						<array>
 							<string>47DE4A7E13A770480050ACB5</string>
@@ -256,7 +256,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>47DE4B9513A779630050ACB5</string>
+						<string>47DE4BFE13A77F380050ACB5</string>
 						<key>history</key>
 						<array>
 							<string>47DE46A713A72A510050ACB5</string>
@@ -357,7 +357,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
+									<integer>10</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -400,7 +400,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Ship.cpp</string>
+								<string>Astroid.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -408,16 +408,15 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Ship.cpp</string>
+										<string>Astroid.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>47DE4B9313A779630050ACB5</string>
+										<string>47DE4BFC13A77F380050ACB5</string>
 										<key>history</key>
 										<array>
 											<string>474646C11393BA460061E921</string>
 											<string>474646C21393BA460061E921</string>
-											<string>47D3E352139E22D800A993D7</string>
 											<string>47D3E5F9139F066600A993D7</string>
 											<string>47A23378139FA0A800A7720B</string>
 											<string>47A23379139FA0A800A7720B</string>
@@ -437,7 +436,6 @@
 											<string>470A77AE13A4CAFF007316E8</string>
 											<string>470A77AF13A4CAFF007316E8</string>
 											<string>470A77B313A4CAFF007316E8</string>
-											<string>470A7AE813A5D493007316E8</string>
 											<string>47DE415413A5EEB20050ACB5</string>
 											<string>47DE428613A608FC0050ACB5</string>
 											<string>47DE428713A608FC0050ACB5</string>
@@ -445,7 +443,6 @@
 											<string>47DE447E13A6FCB30050ACB5</string>
 											<string>47DE447F13A6FCB30050ACB5</string>
 											<string>47DE45AE13A711920050ACB5</string>
-											<string>47DE47DC13A747BA0050ACB5</string>
 											<string>47DE47DF13A747BA0050ACB5</string>
 											<string>47DE4A5213A76F1E0050ACB5</string>
 											<string>47DE4A5313A76F1E0050ACB5</string>
@@ -453,18 +450,23 @@
 											<string>47DE4A5F13A76F690050ACB5</string>
 											<string>47DE4A6113A76F690050ACB5</string>
 											<string>47DE4A8613A770790050ACB5</string>
-											<string>47DE4AEF13A774BA0050ACB5</string>
-											<string>47DE4B7713A778CE0050ACB5</string>
-											<string>47DE4B7813A778CE0050ACB5</string>
 											<string>47DE4B7913A778CE0050ACB5</string>
-											<string>47DE4B7A13A778CE0050ACB5</string>
-											<string>47DE4B7B13A778CE0050ACB5</string>
-											<string>47DE4B7C13A778CE0050ACB5</string>
-											<string>47DE4B7D13A778CE0050ACB5</string>
-											<string>47DE4B7E13A778CE0050ACB5</string>
-											<string>47DE4B7F13A778CE0050ACB5</string>
-											<string>47DE4B8D13A7793C0050ACB5</string>
-											<string>47DE4B8E13A7793C0050ACB5</string>
+											<string>47DE4BB813A77D550050ACB5</string>
+											<string>47DE4BB913A77D550050ACB5</string>
+											<string>47DE4BBA13A77D550050ACB5</string>
+											<string>47DE4BBB13A77D550050ACB5</string>
+											<string>47DE4BBC13A77D550050ACB5</string>
+											<string>47DE4BBE13A77D550050ACB5</string>
+											<string>47DE4BBF13A77D550050ACB5</string>
+											<string>47DE4BC013A77D550050ACB5</string>
+											<string>47DE4BC113A77D550050ACB5</string>
+											<string>47DE4BC213A77D550050ACB5</string>
+											<string>47DE4BC313A77D550050ACB5</string>
+											<string>47DE4BC413A77D550050ACB5</string>
+											<string>47DE4BE013A77E020050ACB5</string>
+											<string>47DE4BE113A77E020050ACB5</string>
+											<string>47DE4BE213A77E020050ACB5</string>
+											<string>47DE4BD513A77DB30050ACB5</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
